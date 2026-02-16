@@ -32,11 +32,11 @@ export default function main() {
  
         </div>
         <div className=" relative mx-2.5">
-          <div className="bg-amber-500 h-50 lg:w-80 absolute top-55 left-70"><img src={Img} alt="1" className="w-full h-full" /></div>
-          <div className="bg-blue-600 h-95 lg:w-143 absolute top-85 left-100 z-20"><img src={Img1} alt="1" className="w-full h-full" /></div>
-          <div className="bg-lime-600 h-75 lg:w-md absolute top-160 left-100"><img src={Img2} alt="1" className="w-full h-full" /></div>
-          <div className="bg-orange-500 h-72 lg:w-105 absolute top-45 left-30 z-40"><img src={Img3} alt="1" className="w-full h-full" /></div>
-          <div className="bg-fuchsia-400 h-62 lg:w-95 absolute top-170 left-60"><img src={Img4} alt="1" className="w-full h-full" /></div>
+          <div className="bg-amber-500 h-50 lg:w-80 absolute top-35 left-40"><img src={Img} alt="1" className="w-full h-full" /></div>
+          <div className="bg-blue-600 h-100 lg:w-160 absolute top-60 left-150 z-20"><img src={Img1} alt="1" className="w-full h-full" /></div>
+          <div className="bg-lime-600 h-75 lg:w-md absolute top-10 left-300 z-40"><img src={Img2} alt="1" className="w-full h-full" /></div>
+          <div className="bg-orange-500 h-72 lg:w-105 absolute top-140 left-60 "><img src={Img3} alt="1" className="w-full h-full" /></div>
+          <div className="bg-fuchsia-400 h-62 lg:w-95 absolute top-150 left-340"><img src={Img4} alt="1" className="w-full h-full" /></div>
         </div>
       </div>
     </>
