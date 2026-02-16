@@ -22,9 +22,9 @@ export default function ScrollHorizontal() {
   const x = useTransform(scrollYProgress, [0, 1], [0, -totalDistance]);
 
   return (
-    <div id="example" className="py-20">
+    <div id="example" className="py-20 ">
       <section className="intro-section items-center text-center">
-        <h1 className="impact font-cormorant w-150 text-wrap text-2xl lg:text-6xl">
+        <h1 className="impact font-cormorant w-119 text-wrap text-2xl lg:text-5xl">
           <BlurText
             text="Crafting Timeless   Wedding Stories"
             delay={200}
