@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-audiowide: "Audiowide", sans-serif;
+}
+
+@theme {
+  --font-diplomata: "Diplomata", serif;
+}
+
+@theme {
+  --font-cormorant: "Cormorant Garamond", serif;
+}
+
+@theme {
+  --font-love-light: "Love Light", cursive;
+}
+@keyframes scrollDot {
+  0% { transform: translateY(0); opacity: 0; }
+  40% { opacity: 1; }
+  80% { transform: translateY(20px); opacity: 0; }
+  100% { opacity: 0; }
+}
