@@ -22,9 +22,9 @@ export default function ScrollHorizontal() {
   const x = useTransform(scrollYProgress, [0, 1], [0, -totalDistance]);
 
   return (
-    <div id="example" className="py-20 ">
-      <section className="intro-section items-center text-center">
-        <h1 className="impact font-cormorant w-119 text-wrap text-2xl lg:text-5xl">
+    <div id="example" className="py-10 md:py-20 ">
+      <section className="intro-section h-30 items-center text-center">
+        <h1 className="font-cormorant w-45 md:w-60 lg:w-119 text-wrap text-lg md:text-2xl lg:text-5xl">
           <BlurText
             text="Crafting Timeless   Wedding Stories"
             delay={200}
@@ -41,7 +41,7 @@ export default function ScrollHorizontal() {
             {items.map((item) => (
               <div
                 key={item.id}
-                className="gallery-item h-200 w-150 "
+                className="gallery-item h-180 lg:h-200 w-150 "
                 style={{
                   //   "--item-color": item.color,
                   "--item-image": `url(${item.image})`,
@@ -58,7 +58,7 @@ export default function ScrollHorizontal() {
       </div>
 
       <section className="h-40 w-full flex justify-center items-center ">
-        <p className=" text-3xl text-[#0EA5D9] font-cormorant">
+        <h5 className="w-55 md:w-105 lg:text-3xl text-[#0EA5D9] font-cormorant">
           <BlurText
             text="Over the last decade we've worked with hundreds of happy couples."
             delay={200}
@@ -66,7 +66,7 @@ export default function ScrollHorizontal() {
             direction="top"
             onAnimationComplete={handleAnimationComplete}
           />
-        </p>
+        </h5>
       </section>
 
       <StyleSheet />
@@ -91,7 +91,6 @@ function StyleSheet() {
             }
 
             .intro-section {
-                height: 200px;
                 display: flex;
                 flex-direction: column;
                 justify-content: flex-end;
