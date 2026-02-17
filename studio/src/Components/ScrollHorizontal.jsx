@@ -23,7 +23,7 @@ export default function ScrollHorizontal() {
 
   return (
     <div id="example" className=" hidden lg:flex flex-col py-10 md:py-20 ">
-      <section className="intro-section h-30 items-center text-center">
+      <section className="intro-section items-center text-center">
         <h1 className="font-cormorant w-45 md:w-60 lg:w-119 text-wrap text-lg md:text-2xl lg:text-5xl">
           <BlurText
             text="Crafting Timeless   Wedding Stories"
@@ -35,7 +35,7 @@ export default function ScrollHorizontal() {
         </h1>
       </section>
 
-      <div ref={containerRef} className="scroll-container">
+      <div ref={containerRef} className="scroll-container mt-5 mb-5">
         <div className="sticky-wrapper">
           <motion.div className="gallery" style={{ x }}>
             {items.map((item) => (
@@ -57,7 +57,7 @@ export default function ScrollHorizontal() {
         </div>
       </div>
 
-      <section className="h-40 w-full flex justify-center items-center ">
+      <section className="h-10 mt-10 w-full flex justify-center items-center ">
         <h5 className="w-55 md:w-105 lg:w-200 lg:text-3xl text-[#0EA5D9] font-cormorant">
           <BlurText
             text="Over the last decade we've worked with hundreds of happy couples."

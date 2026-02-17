@@ -6,6 +6,7 @@ import Main from "./Main";
 import { GradualSpacing } from "./GradualSpacing";
 import FlowingMenu from "./FlowingMenu";
 import Swiper from "./Swiper"
+import Videosec from "./Videosec";
 import { ImagesSlider } from "./ImagesSlider";
 import ScrollHorizontal from "./ScrollHorizontal";
 import ScrollIndicator from "./ScrollIndicator";
@@ -40,7 +41,7 @@ export default function Body() {
           <FaWhatsapp className=" text-2xl  xl:text-[28px]"/>
           WhatsApp Us!
         </button>
-        <button className="lg:hidden flex bg-green-500 p-2  text-xl absolute items-center rounded-4xl text-white left-67 md:left-175 top-130 md:top-170">
+        <button className="lg:hidden bg-green-500 p-2  text-xl absolute items-center rounded-4xl text-white left-67 md:left-175 top-130 md:top-130">
           <FaWhatsapp className="text-2xl"/>
         </button>
       </a>
@@ -56,7 +57,7 @@ export default function Body() {
         /> */}
         <div className="relative w-full h-full overflow-hidden touch-pan-y">
           <ImagesSlider images={[Slid1, Slid2, Slid3]} className="h-full">
-            <div className=" relative top-67 lg:top-67 items-center">
+            <div className=" relative top-58 lg:top-67 items-center">
               <h2 className="text-red-600  text-center font-love-light ">
                 {" "}
                 <GradualSpacing
@@ -87,10 +88,12 @@ export default function Body() {
         <ScrollHorizontal />
       </div>
 
-      <div className=" md:hidden ">
+      <div className=" lg:hidden ">
         <Swiper/>
       </div>
-
+          <div>
+            <Videosec/>
+          </div>
       <div className="h-150 relative">
         <FlowingMenu
           items={demoItems}
