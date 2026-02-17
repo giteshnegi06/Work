@@ -59,7 +59,6 @@ export default function Body() {
           <ImagesSlider images={[Slid1, Slid2, Slid3]} className="h-full">
             <div className=" relative top-58 lg:top-67 items-center">
               <h2 className="text-red-600  text-center font-love-light ">
-                {" "}
                 <GradualSpacing
                   text="breaking the traditional mold of"
                   className="md:text-xl lg:text-[40px] tracking-wide md:tracking-wider font-normal"

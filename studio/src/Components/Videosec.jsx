@@ -1,24 +1,20 @@
 import React from 'react'
-import BlurText from "./BlurText";
+import { GradualSpacing } from "./GradualSpacing";
+
 
 export default function Videosec() {
-    const handleAnimationComplete = () => {
-    console.log('Animation completed!');
-  };
     const youtubeVideo = [
+        {href: "/", img: "/", title: ""},
+        {href: "/", img: "/", title: ""},
+        {href: "/", img: "/", title: ""},
         {href: "/", img: "/", title: ""},
     ]
   return (
     <>
     <div className=' flex flex-col bg-[#060010] py-8 px-2.5 md:py-10 lg:py-15  items-center '>
         <section className="intro-section mb-10 lg:mb-20 items-center text-center">
-        <h1 className="font-cormorant text-wrap text-lg md:text-2xl lg:text-4xl">
-          <BlurText
-            text="Love • Emotion • Memories"
-            delay={200}
-            animateBy="words"
-            direction="top"
-            onAnimationComplete={handleAnimationComplete}
+        <h1 className="font-cormorant text-wrap text-lg md:text-2xl lg:text-4xl"><GradualSpacing
+                          text="Love • Emotion • Memories"
           />
         </h1>
       </section>
