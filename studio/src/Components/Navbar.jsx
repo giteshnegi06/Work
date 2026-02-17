@@ -23,9 +23,9 @@ export default function Navbar() {
         <nav className=" h-12 md:h-15 p-1 md:mx-13 lg:mx-10 xl:mx-20 2xl:mx-60 rounded-4xl bg-black/20 shadow-2xl shadow-black text-[18px] font-serif max-sm:w-xs max-md:w-xl max-lg:w-166 max-xl:w-236 max-2xl:w-7xl 2xl:w-360">
           <ul className=" hidden md:flex justify-around h-13 items-center md:text-xl">
             {navBar.map((v, i) => (
-              <li  key={i} className="p-3.5 hover:underline transition ease-in-out duration-300"><a
+              <li  key={i} className="  "><a
                 href={v.href}
-                className=" h-1 text-white hover:text-white font-cormorant  md:text-lg lg:text-xl"
+                className=" h-1 pb-3 px-2 text-white hover:text-white font-cormorant  md:text-lg lg:text-xl transition-discrete ease-in-out duration-80 hover:border-b-4 border-red-500"
               >
                 {v.name}
                 {v.image && (

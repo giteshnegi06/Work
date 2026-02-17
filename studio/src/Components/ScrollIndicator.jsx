@@ -5,7 +5,7 @@ export default function ScrollIndicator({ targetId = "next" }) {
   };
 
   return (
-    <div className="flex justify-center pt-6 md:pt-12">
+    <div className=" hidden lg:flex justify-center pt-6 md:pt-12">
       <a
         href={`#${targetId}`}
         onClick={scrollTo}
