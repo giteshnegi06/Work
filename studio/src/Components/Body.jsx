@@ -5,6 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import Main from "./Main";
 import { GradualSpacing } from "./GradualSpacing";
 import FlowingMenu from "./FlowingMenu";
+import Swiper from "./Swiper"
 import { ImagesSlider } from "./ImagesSlider";
 import ScrollHorizontal from "./ScrollHorizontal";
 import ScrollIndicator from "./ScrollIndicator";
@@ -82,10 +83,13 @@ export default function Body() {
       </div>
       <Main />
 
-      <div className="bg-black">
+      <div className=" bg-black ">
         <ScrollHorizontal />
       </div>
 
+      <div className=" md:hidden ">
+        <Swiper/>
+      </div>
 
       <div className="h-150 relative">
         <FlowingMenu
