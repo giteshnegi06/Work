@@ -1,5 +1,5 @@
 import React from "react";
-import DarkVeil from "./DarkVeil";
+import ScrollStack, { ScrollStackItem } from './ScrollStack'
 import Navbar from "./Navbar";
 import { FaWhatsapp } from "react-icons/fa";
 import Main from "./Main";
@@ -35,26 +35,18 @@ const demoItems = [
 export default function Body() {
   return (
     <>
-    
+
       <a href="#" className=" fixed z-50 flex text-center ">
         <button className=" hidden lg:flex bg-green-500 p-5 xl:py-6  xl:px-5.5 h-5 w-45 xl:w-52 text- xl:text-xl absolute items-center rounded-3xl text-white lg:left-200 xl:left-300 2xl:left-410 top-170 2xl:top-200  gap-2">
-          <FaWhatsapp className=" text-2xl  xl:text-[28px]"/>
+          <FaWhatsapp className=" text-2xl  xl:text-[28px]" />
           WhatsApp Us!
         </button>
         <button className="lg:hidden bg-green-500 p-2  text-xl absolute items-center rounded-4xl text-white left-67 md:left-175 top-130 md:top-130">
-          <FaWhatsapp className="text-2xl"/>
+          <FaWhatsapp className="text-2xl" />
         </button>
       </a>
       <Navbar />
       <div className="h-screen relative w-full ">
-        {/* <DarkVeil
-          hueShift={237}
-          noiseIntensity={0}
-          scanlineIntensity={0}
-          speed={0.5}
-          scanlineFrequency={0.5}
-          warpAmount={0}
-        /> */}
         <div className="relative w-full h-full overflow-hidden touch-pan-y">
           <ImagesSlider images={[Slid1, Slid2, Slid3]} className="h-full">
             <div className=" relative top-58 lg:top-67 items-center">
@@ -88,11 +80,26 @@ export default function Body() {
       </div>
 
       <div className=" lg:hidden ">
-        <Swiper/>
+        <Swiper />
       </div>
-          <div>
-            <Videosec/>
-          </div>
+      <div>
+        <Videosec />
+      </div>
+      <ScrollStack>
+        <ScrollStackItem>
+          <h2>Card 1</h2>
+          <p>This is the first card in the stack</p>
+        </ScrollStackItem>
+        <ScrollStackItem>
+          <h2>Card 2</h2>
+          <p>This is the second card in the stack</p>
+        </ScrollStackItem>
+        <ScrollStackItem>
+          <h2>Card 3</h2>
+          <p>This is the third card in the stack</p>
+        </ScrollStackItem>
+      </ScrollStack>
+
       <div className="h-150 relative">
         <FlowingMenu
           items={demoItems}

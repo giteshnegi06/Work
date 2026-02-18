@@ -1,18 +1,53 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCards } from "swiper/modules";
-import Img from "../Images/042A8040.jpg.jpeg"
+import Imag1 from "../Images/042A3672.JPG.jpeg";
+import Imag2 from "../Images/042A6374.jpg.jpeg";
+import Imag3 from "../Images/042A7740.JPG.jpeg";
+import Imag4 from "../Images/042A7979.jpg.jpeg";
+import Imag5 from "../Images/4554.JPG.jpeg";
+import Imag6 from "../Images/3G4A3223.JPG.jpeg";
 import "swiper/css";
 import "swiper/css/effect-cards";
 import BlurText from "./BlurText";
 
 export default function Swiperimg() {
   const swiper = [
-    {title: "Aryan/Sonu", Img: Img},
-    {title: "/", Img: ""},
-    {title: "/", Img: ""},
-    {title: "/", Img: ""},
-    {title: "/", Img: ""},
-    {title: "/", Img: ""},
+    {
+        id: 1,
+        color: "#ff0088",
+        label: "Night One",
+        image: Imag2,
+      },
+      {
+        id: 2,
+        color: "#dd00ee",
+        label: "Night Two",
+        image: Imag1,
+      },
+      {
+        id: 3,
+        color: "#9911ff",
+        label: "Night Three",
+        image: Imag3,
+      },
+      {
+        id: 4,
+        color: "#0d63f8",
+        label: "Night Four",
+        image: Imag4,
+      },
+      {
+        id: 5,
+        color: "#0cdcf7",
+        label: "Night Five",
+        image: Imag5,
+      },
+      {
+        id: 6,
+        color: "#0cdcf7",
+        label: "Night Six",
+        image: Imag6,
+      },
   ]
   const handleAnimationComplete = () => {
   console.log('Animation completed!');
@@ -39,14 +74,17 @@ export default function Swiperimg() {
         className="w-80 h-120 md:w-90 md:h-130"
       >
         {swiper.map((v,i)=>(
-          <SwiperSlide key={i} className="flex items-center justify-center rounded-xl text-white text-xl font-bold ">{v.Img && (
+          <SwiperSlide key={i} className="flex items-center justify-center rounded-xl text-white text-xl font-bold ">{v.image && (
                   <img
-                    src={v.Img}
+                    src={v.image}
                     alt="logo"
-                    className="h-full w-full p-0"
+                    className="h-120 w-100 p-0"
                   />
                 )}
-          <p className="absolute bottom-4 left-1/2 -translate-x-1/2 font-love-light tracking-widest text-2xl text-red-600">{v.title}</p>
+          <div className="item-content">
+                  <span className="item-number">0{v.id}</span>
+                  <h2>{v.label}</h2>
+                </div>
         </SwiperSlide>
         ))}
       </Swiper>
