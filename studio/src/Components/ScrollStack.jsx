@@ -6,7 +6,7 @@ import ScrollFloat from "./ScrollFloat";
 /* ================= CARD COMPONENT ================= */
 
 export const ScrollStackItem = ({ children }) => (
-  <div className="scroll-stack-card bg-white rounded-2xl shadow-xl p-6 w-screen h-80 md:h-100 lg:h-150 xl:h-180 flex flex-col justify-center">
+  <div className="scroll-stack-card bg-white rounded-4xl shadow-xl p-6 w-screen h-80 md:h-100 lg:h-150 xl:h-160 xl:w-430 flex flex-col justify-center">
     {children}
   </div>
 );
@@ -99,8 +99,9 @@ const ScrollStack = ({ children, onComplete }) => {
   return (
     <section
       ref={sectionRef}
-      className="relative min-h-400 bg-gray-800 flex flex-col items-center py-40 gap-10 "
+      className="relative min-h-300 bg-[#060010] flex flex-col items-center py-40 gap-15 "
     >
+      <span className="sticky top-25 z-20 text-2xl font-cormorant text-white bg-[#060010] mb-2">
         <ScrollFloat
           animationDuration={1}
           ease="back.inOut(2)"
@@ -108,8 +109,10 @@ const ScrollStack = ({ children, onComplete }) => {
           scrollEnd="bottom bottom-=40%"
           stagger={0.08}
         >
-         <p className=" text-2xl font-cormorant text-white ">We Offers </p> 
+          sdsdf
+          We Offers
         </ScrollFloat>
+      </span>
       {children}
     </section>
   );
