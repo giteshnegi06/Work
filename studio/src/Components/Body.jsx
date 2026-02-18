@@ -32,6 +32,29 @@ const demoItems = [
     image: "https://picsum.photos/600/400?random=4",
   },
 ];
+const cardsData = [
+    {
+      title: "Card 1",
+      desc: "This is the first card in the stack",
+      image: Slid3
+    },
+    {
+      title: "Card 2",
+      desc: "This is the second card in the stack",
+      image: Slid3
+    },
+    {
+      title: "Card 3",
+      desc: "This is the third card in the stack",
+      image: Slid3
+    },
+    {
+      title: "Card 4",
+      desc: "This is the fourth card in the stack",
+      image: Slid3
+    },
+  ];
+
 export default function Body() {
   return (
     <>
@@ -85,19 +108,21 @@ export default function Body() {
       <div>
         <Videosec />
       </div>
-      <ScrollStack>
-        <ScrollStackItem>
-          <h2>Card 1</h2>
-          <p>This is the first card in the stack</p>
-        </ScrollStackItem>
-        <ScrollStackItem>
-          <h2>Card 2</h2>
-          <p>This is the second card in the stack</p>
-        </ScrollStackItem>
-        <ScrollStackItem>
-          <h2>Card 3</h2>
-          <p>This is the third card in the stack</p>
-        </ScrollStackItem>
+      
+      <ScrollStack
+        onComplete={() => console.log("✅ Stack animation finished")}
+      >
+        {cardsData.map((v, i) => (
+          <ScrollStackItem key={i}>
+            <div className="top-0 flex flex-row-reverse justify-around">
+              <img src= {v.image} alt="Wedding" className="w-100" />
+              <div>
+                <h2 className="text-2xl font-bold mb-2">{v.title}</h2>
+            <p className="text-gray-600">{v.desc}</p>
+              </div>
+            </div>
+          </ScrollStackItem>
+        ))}
       </ScrollStack>
 
       <div className="h-150 relative">
