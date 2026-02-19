@@ -6,7 +6,7 @@ import ScrollFloat from "./ScrollFloat";
 /* ================= CARD COMPONENT ================= */
 
 export const ScrollStackItem = ({ children }) => (
-  <div className="scroll-stack-card bg-white rounded-4xl shadow-xl p-6 w-screen h-80 md:h-100 lg:h-150 xl:h-160 xl:w-430 flex flex-col justify-center">
+  <div className="scroll-stack-card bg-linear-to-b from-gray-500 via-gray-800 to-black rounded-4xl shadow-xl p-6 w-screen h-80 md:h-100 lg:h-150 xl:h-160 xl:w-430 flex flex-col justify-center">
     {children}
   </div>
 );
@@ -101,16 +101,17 @@ const ScrollStack = ({ children, onComplete }) => {
       ref={sectionRef}
       className="relative h-1000 bg-[#060010] flex flex-col items-center py-40 gap-15 -z-10"
     >
-      <span className="sticky top-25 z-20 text-2xl font-cormorant text-white bg-[#060010] mb-2">
+      <span className="sticky top-25 z-20 text-4xl font-cormorant text-white bg-[#060010] mb-2">
         <ScrollFloat
-          animationDuration={1}
+          animationDuration={2}
           ease="back.inOut(2)"
           scrollStart="center bottom+=50%"
           scrollEnd="bottom bottom-=40%"
-          stagger={0.08}
+          stagger={0.04}
         >
-          sdsdf
-          We Offers
+          {/* <span>Professional </span> */}
+          {/* <span>Wedding Photography & Cinematic Videography Services</span> */}
+          Wedding Photography & Cinematic Videography Services
         </ScrollFloat>
       </span>
       {children}

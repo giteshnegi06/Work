@@ -35,23 +35,23 @@ const demoItems = [
 ];
 const cardsData = [
     {
-      title: "Card 1",
-      desc: "This is the first card in the stack",
+      title: "Wedding Shoot",
+      desc: "Your wedding day deserves nothing less than perfection. At Mehak Photography, we specialize in capturing every emotion — from intimate rituals to grand celebrations — with artistic precision and cinematic style.",
       image: Slid3
     },
     {
-      title: "Card 2",
-      desc: "This is the second card in the stack",
+      title: "Pre-Wedding Shoot",
+      desc: "Tell your love story before the big day with our beautifully planned pre-wedding shoots. We create romantic, fun, and cinematic moments that reflect your unique chemistry.",
       image: Slid3
     },
     {
-      title: "Card 3",
-      desc: "This is the third card in the stack",
+      title: "Destination Wedding",
+      desc: "Planning a wedding away from home? We travel with you to capture your destination wedding in the most breathtaking way. From beaches to palaces, we document every moment with a luxury cinematic touch.",
       image: Slid3
     },
     {
-      title: "Card 4",
-      desc: "This is the fourth card in the stack",
+      title: "Maternity Photoshoot",
+      desc: "Celebrate the beautiful journey of motherhood with our soft, emotional, and artistic maternity photoshoots. We create warm and graceful portraits you will cherish forever.",
       image: Slid3
     },
   ];
@@ -115,11 +115,11 @@ export default function Body() {
       >
         {cardsData.map((v, i) => (
           <ScrollStackItem key={i}>
-            <div className="top-0 flex flex-row-reverse justify-around">
-              <img src= {v.image} alt="Wedding" className="w-100" />
-              <div>
-                <h2 className="text-2xl font-bold mb-2">{v.title}</h2>
-            <p className="text-gray-600">{v.desc}</p>
+            <div className="top-0 flex flex-row-reverse justify-around mx-5 items-center">
+              <img src= {v.image} alt="Wedding" className="w-200 h-130" />
+              <div className="ml-10 ">
+                <h2 className="text-8xl font-love-light mb-2 text-blue-400">{v.title}</h2>
+                <p className=" text-white font-cormorant text-3xl text-balance mt-4">{v.desc}</p>
               </div>
             </div>
           </ScrollStackItem>

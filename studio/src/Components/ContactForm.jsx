@@ -12,15 +12,15 @@ const ContactForm = () => {
 
   return (
     <section className=" py-16 px-4">
-      <div className="max-w-xl mx-auto bg-white rounded-xl shadow-lg p-8">
-        <h2 className="text-3xl font-bold text-center text-gray-800">
+      <div className="max-w-xl mx-auto bg-linear-to-b from-gray-700 via-gray-900 to-black rounded-xl shadow-lg shadow-white/10  p-8">
+        <h2 className="text-3xl font-bold text-center text-white">
           Contact Us
         </h2>
         <p className="text-center text-gray-500 mt-2">
           We’d love to hear from you. Please fill out this form.
         </p>
 
-        <form onSubmit={handleSubmit} className="mt-8 space-y-5 text-black">
+        <form onSubmit={handleSubmit} className="mt-8 space-y-5 ">
           {/* First & Last Name */}
           <div className="flex gap-4">
             <input
@@ -87,7 +87,7 @@ const ContactForm = () => {
           {/* Button */}
           <button
             type="submit"
-            className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
+            className="w-full bg-blue-300 text-white py-3 rounded-lg font-semibold hover:bg-blue-500 transition"
           >
             Send Message
           </button>
