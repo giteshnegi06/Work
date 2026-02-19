@@ -7,6 +7,7 @@ import { GradualSpacing } from "./GradualSpacing";
 import FlowingMenu from "./FlowingMenu";
 import Swiper from "./Swiper"
 import Videosec from "./Videosec";
+import ContactUs from "./ContactUs";
 import { ImagesSlider } from "./ImagesSlider";
 import ScrollHorizontal from "./ScrollHorizontal";
 import ScrollIndicator from "./ScrollIndicator";
@@ -136,6 +137,8 @@ export default function Body() {
           borderColor="#89CFF0"
         />
       </div>
+
+        <ContactUs/>
     </>
   );
 }

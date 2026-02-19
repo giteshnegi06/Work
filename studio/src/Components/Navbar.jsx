@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import Img from "../Images/logo.png";
 import { RxCross2 } from "react-icons/rx";
@@ -11,6 +11,10 @@ export default function Navbar() {
     { href: "/", name: "About" },
     { href: "/", name: "Contact" },
   ];
+  const[open, close]= useState(true)
+  const togglemenu = ()=>{
+    close(!open)
+  }
   const mobileNav = [
     { href: "/", name: "Home" },
     { href: "/", name: "Portfolio" },
@@ -42,11 +46,25 @@ export default function Navbar() {
             <li>
               <img src={Img} alt="Logo" className="h-15 w-auto" />
             </li>
-            <li className="text-white text-[26px] w-7">
-              <a href="#" className=""><CiMenuBurger /></a>
-              <a href="#" className=" hidden "><RxCross2 /> </a>
+            <li className="text-white text-[26px] w-7" onClick={togglemenu}>
+              {
+                open ?<RxCross2 />:<CiMenuBurger />
+              }
             </li>
           </ul>
+          {
+              open &&(
+                <ul className="px-5 pt-2 h-fit w-screen text-white flex flex-col gap-1.5 text-end justify-end duration-300 transition-all">
+                  {
+                    mobileNav.map((v,i)=>(
+                      <li key={i} className="">
+                        <a  href={v.href}>{v.name}</a>
+                      </li>
+                    ))
+                  }
+                </ul>   
+              )
+            }
         </nav>
       </header>
     </>

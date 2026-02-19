@@ -24,18 +24,18 @@ export default function Videosec() {
   ];
 
   return (
-    <div className="relative flex flex-col py-8 px-2.5 md:py-10 lg:py-20 items-center bg-white/10">
+    <div className="relative flex flex-col py-8 px-2.5 md:py-10 lg:py-20 items-center bg-white/10 ">
       
       {/* background */}
       <img
         src={BackImg}
         alt="background img"
-        className="absolute -z-30 top-0 w-full h-full object-cover"
+        className="absolute -z-50 top-0 w-full h-full object-cover"
       />
 
       <section>
         {/* heading */}
-        <section className="intro-section mb-10 lg:mb-20 items-center text-center">
+        <section className="intro-section mb-10 lg:mb-20 items-center text-center ">
           <h1 className="font-cormorant text-wrap text-lg md:text-2xl lg:text-4xl">
             <GradualSpacing text="Love • Emotion • Memories" />
           </h1>

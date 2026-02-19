@@ -99,7 +99,7 @@ const ScrollStack = ({ children, onComplete }) => {
   return (
     <section
       ref={sectionRef}
-      className="relative min-h-300 bg-[#060010] flex flex-col items-center py-40 gap-15 "
+      className="relative h-1000 bg-[#060010] flex flex-col items-center py-40 gap-15 -z-10"
     >
       <span className="sticky top-25 z-20 text-2xl font-cormorant text-white bg-[#060010] mb-2">
         <ScrollFloat
