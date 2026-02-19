@@ -6,7 +6,7 @@ import ScrollFloat from "./ScrollFloat";
 /* ================= CARD COMPONENT ================= */
 
 export const ScrollStackItem = ({ children }) => (
-  <div className="scroll-stack-card bg-linear-to-b from-gray-500 via-gray-800 to-black rounded-4xl shadow-xl p-6 w-screen h-80 md:h-100 lg:h-150 xl:h-160 xl:w-430 flex flex-col justify-center">
+  <div className="scroll-stack-card bg-linear-to-b from-gray-500 via-gray-800 to-black rounded-4xl shadow-xl p-6 w-screen h-100 md:h-80 lg:h-90 xl:h-130 2xl:h-160  2xl:w-430 flex flex-col justify-center">
     {children}
   </div>
 );
@@ -71,7 +71,7 @@ const ScrollStack = ({ children, onComplete }) => {
 
     cardsRef.current.forEach((card, i) => {
       if (i < cardsRef.current.length - 1) {
-        card.style.marginBottom = "120px";
+        card.style.marginBottom = "100px";
       }
       card.style.willChange = "transform";
     });
@@ -99,9 +99,10 @@ const ScrollStack = ({ children, onComplete }) => {
   return (
     <section
       ref={sectionRef}
-      className="relative h-1000 bg-[#060010] flex flex-col items-center py-40 gap-15 -z-10"
+      className="relative h-580 md:h-530 lg:h-600 xl:h-780 2xl:h-980 bg-[#060010] flex flex-col items-center py-15 xl:py-25 -z-10"
     >
-      <span className="sticky top-25 z-20 text-4xl font-cormorant text-white bg-[#060010] mb-2">
+      <div className=" sticky top-1 lg:top-15 xl:top-18 mb-10 lg:mb-20 xl:mb-30">
+        <span className="text-lg md:text-2xl lg:text-4xl font-love-light text-red-600 md:tracking-wide xl:tracking-widest text-balance text-center">
         <ScrollFloat
           animationDuration={2}
           ease="back.inOut(2)"
@@ -109,11 +110,21 @@ const ScrollStack = ({ children, onComplete }) => {
           scrollEnd="bottom bottom-=40%"
           stagger={0.04}
         >
-          {/* <span>Professional </span> */}
-          {/* <span>Wedding Photography & Cinematic Videography Services</span> */}
+          We are Professional
+        </ScrollFloat>
+      </span>
+      <span className=" w-screen text-lg md:text-2xl lg:text-4xl font-cormorant text-white  md:tracking-wide xl:tracking-widest text-balance text-center">
+        <ScrollFloat
+          animationDuration={2}
+          ease="back.inOut(2)"
+          scrollStart="center bottom+=50%"
+          scrollEnd="bottom bottom-=40%"
+          stagger={0.04}
+        >
           Wedding Photography & Cinematic Videography Services
         </ScrollFloat>
       </span>
+      </div>
       {children}
     </section>
   );

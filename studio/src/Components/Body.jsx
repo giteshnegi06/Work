@@ -115,11 +115,11 @@ export default function Body() {
       >
         {cardsData.map((v, i) => (
           <ScrollStackItem key={i}>
-            <div className="top-0 flex flex-row-reverse justify-around mx-5 items-center">
-              <img src= {v.image} alt="Wedding" className="w-200 h-130" />
-              <div className="ml-10 ">
-                <h2 className="text-8xl font-love-light mb-2 text-blue-400">{v.title}</h2>
-                <p className=" text-white font-cormorant text-3xl text-balance mt-4">{v.desc}</p>
+            <div className=" md:flex flex-row-reverse justify-between xl:mx-5 items-center">
+              <img src= {v.image} alt="Wedding" className=" md:mt-0 w-100 md:w-90 lg:w-120 xl:w-160 2xl:w-200 rounded-2xl" />
+              <div className="xl:ml-10 text-center">
+                <h2 className=" mt-3 text-2xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-8xl font-love-light mb-2 text-[#0EA5D9] tracking-wider">{v.title}</h2>
+                <p className=" text-white font-cormorant text-sm md:text-[16px] lg:text-xl xl:text-2xl 2xl:text-3xl text-balance lg:mt-4">{v.desc}</p>
               </div>
             </div>
           </ScrollStackItem>
