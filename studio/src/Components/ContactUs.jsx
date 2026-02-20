@@ -6,7 +6,7 @@ import { RiDoubleQuotesR } from "react-icons/ri";
 export default function ContactUs() {
   return (
     <div className=" h-320 lg:h-230 xl:h-250 bg-black z-50 text-white pt-15 lg:px-10 lg:py-20 xl:px-15 2xl:p-30 items-center">
-      <div className=" flex flex-col mx-5 lg:mx-0 px-5 pt-10 lg:flex-row justify-around bg-white/10 rounded-[65px] shadow-2xl shadow-white/40 items-center">
+      <div className=" flex flex-col mx-5 lg:mx-0 xl:pb-10 px-5 pt-10 lg:flex-row justify-around bg-white/10 rounded-[65px] shadow-2xl shadow-white/40 items-center">
         <div className=" lg:w-150 xl:w-200 flex flex-col justify-center gap-5 items-center ">
           <h1 className=" text-5xl lg:text-6xl font-cormorant text-[#0EA5D9] underline decoration-gray-700">
             About <span className="text-red-500">US</span>

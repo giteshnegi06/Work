@@ -10,10 +10,12 @@ const ContactForm = () => {
     alert("Form submitted! Check console.");
   };
 
+  const [service, setService] = useState("");
+
   return (
-    <section className=" py-16 ">
+    <section className=" py-5 ">
       <div className="max-w-xl mx-auto bg-linear-to-b from-gray-700 via-gray-900 to-black rounded-xl shadow-lg shadow-white/10  p-8">
-        <h2 className="text-3xl font-bold text-center text-white">
+        <h2 className="text-5xl font-cormorant text-center text-white">
           Contact Us
         </h2>
         <p className="text-center text-gray-500 mt-2">
@@ -55,34 +57,69 @@ const ContactForm = () => {
               onChange={(e) => setCountry(e.target.value)}
               className="border rounded-lg px-3 py-2 focus:outline-none"
             >
-              <option value="US">+1 (US)</option>
-              <option value="IN">+91 (IN)</option>
+              <option value="IN" className="text-black">
+                +91 (IN)
+              </option>
+              {/* <option value="US">+1 (US)</option> */}
             </select>
 
             <input
               type="tel"
               name="phone"
-              placeholder={
-                country === "US" ? "(000) 000-0000" : "00000-00000"
-              }
+              placeholder={country === "US" ? "(000) 000-0000" : "00000-00000"}
               className="flex-1 border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
 
+          {/* Service Dropdown */}
+          <select
+            name="service"
+            value={service}
+            onChange={(e) => setService(e.target.value)}
+            required
+            className="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            <option value="" className="text-black">
+              Event Type
+            </option>
+            <option value="wedding" className="text-black">
+              Wedding Photography
+            </option>
+            <option value="prewedding" className="text-black">
+              Pre-Wedding Shoot
+            </option>
+            <option value="event" className="text-black">
+              Destination Wedding Shoot
+            </option>
+            <option value="other" className="text-black">
+              Maternity Photoshoot
+            </option>
+            <option value="other" className="text-black">
+              Other
+            </option>
+          </select>
+
+          {/* Event Date */}
+          <div className="relative">
+
+            <input
+              type="Date"
+              placeholder="Date of Your Event"
+              name="eventDate"
+              min={new Date().toISOString().split("T")[0]}
+              required
+              onFocus={(e) => e.target.showPicker?.()}
+              className="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer"
+            />
+          </div>
           {/* Message */}
           <textarea
             name="message"
-            rows="4"
+            rows="2"
             placeholder="Leave us a message..."
             required
-            className="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
+            className="w-full h-fit border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
           />
-
-          {/* Checkbox */}
-          <label className="flex items-center gap-2 text-sm text-gray-600">
-            <input type="checkbox" required className="accent-blue-600" />
-            I agree to the privacy policy
-          </label>
 
           {/* Button */}
           <button

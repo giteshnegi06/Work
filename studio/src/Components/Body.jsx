@@ -4,10 +4,11 @@ import Navbar from "./Navbar";
 import { FaWhatsapp } from "react-icons/fa";
 import Main from "./Main";
 import { GradualSpacing } from "./GradualSpacing";
-import FlowingMenu from "./FlowingMenu";
 import Swiper from "./Swiper"
 import Videosec from "./Videosec";
 import ContactUs from "./ContactUs";
+import Feedback from "./Feedback";
+import Footer from "./Footer";
 import { ImagesSlider } from "./ImagesSlider";
 import ScrollHorizontal from "./ScrollHorizontal";
 import ScrollIndicator from "./ScrollIndicator";
@@ -126,7 +127,7 @@ export default function Body() {
         ))}
       </ScrollStack>
 
-      <div className="h-150 relative">
+      {/* <div className="h-150 relative">
         <FlowingMenu
           items={demoItems}
           speed={15}
@@ -136,9 +137,11 @@ export default function Body() {
           marqueeTextColor="#060010"
           borderColor="#89CFF0"
         />
-      </div>
+      </div> */}
 
         <ContactUs/>
+        <Feedback/>
+        <Footer/>
     </>
   );
 }
