@@ -1,19 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --font-audiowide: "Audiowide", sans-serif;
-}
-
-@theme {
   --font-diplomata: "Diplomata", serif;
-}
-
-@theme {
-  --font-cormorant: "Cormorant Garamond", serif;
-}
-
-@theme {
+   --font-cormorant: "Cormorant Garamond", serif;
+  --font-quintessential: "Quintessential", serif;
+  --font-handwriting: "Nothing You Could Do", cursive;
   --font-love-light: "Love Light", cursive;
+  --font-birthstone: "Birthstone", cursive;
+  --font-cookie: "Cookie", cursive;
+  --font-dancing: "Dancing Script", cursive;
 }
 @keyframes scrollDot {
   0% { transform: translateY(0); opacity: 0; }

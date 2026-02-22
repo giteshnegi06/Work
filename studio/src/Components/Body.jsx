@@ -16,6 +16,7 @@ import PreWed from "../Images/prewed.jpg";
 import Slid1 from "../Images/042A8072.JPG.jpeg";
 import Slid2 from "../Images/042A7718.JPG.jpeg";
 import Slid3 from "../Images/042A6334.jpg.jpeg";
+
 const demoItems = [
   { link: "#", text: "Pre-Wedding Shoot", image: PreWed },
   {
@@ -62,7 +63,7 @@ export default function Body() {
     <>
 
       <a href="#" className=" fixed z-50 flex text-center ">
-        <button className=" hidden lg:flex bg-green-500 p-5 xl:py-6  xl:px-5.5 h-5 w-45 xl:w-52 text- xl:text-xl absolute items-center rounded-3xl text-white lg:left-200 xl:left-300 2xl:left-410 top-170 2xl:top-200  gap-2">
+        <button className=" hidden lg:flex bg-green-500 p-5 xl:py-6  xl:px-5.5 h-5 w-45 xl:w-52 text- xl:text-xl absolute items-center rounded-3xl text-white lg:left-205 xl:left-300 2xl:left-460 top-190 xl:top-200 2xl:top-230  gap-2">
           <FaWhatsapp className=" text-2xl  xl:text-[28px]" />
           WhatsApp Us!
         </button>
@@ -74,7 +75,7 @@ export default function Body() {
       <div className="h-screen relative w-full ">
         <div className="relative w-full h-full overflow-hidden touch-pan-y">
           <ImagesSlider images={[Slid1, Slid2, Slid3]} className="h-full">
-            <div className=" relative top-58 lg:top-67 items-center">
+            <div className=" relative top-58 lg:top-67 2xl:top-90 items-center">
               <h2 className="text-red-600  text-center font-love-light ">
                 <GradualSpacing
                   text="breaking the traditional mold of"
@@ -119,7 +120,7 @@ export default function Body() {
             <div className=" md:flex flex-row-reverse justify-between xl:mx-5 items-center">
               <img src= {v.image} alt="Wedding" className=" md:mt-0 w-100 md:w-90 lg:w-120 xl:w-160 2xl:w-200 rounded-2xl" />
               <div className="xl:ml-10 text-center">
-                <h2 className=" mt-3 text-2xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-8xl font-love-light mb-2 text-[#0EA5D9] tracking-wider">{v.title}</h2>
+                <h2 className=" mt-3 text-2xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-dancing mb-2 text-[#0EA5D9] tracking-wider">{v.title}</h2>
                 <p className=" text-white font-cormorant text-sm md:text-[16px] lg:text-xl xl:text-2xl 2xl:text-3xl text-balance lg:mt-4">{v.desc}</p>
               </div>
             </div>

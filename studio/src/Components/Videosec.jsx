@@ -47,7 +47,7 @@ export default function Videosec() {
           {youtubeVideo.map((v, i) => (
             <div key={i} className=" mb-8 md:mb-10 lg:mb-20">
               
-              {/* ✅ VIDEO PLAYER */}
+              {/* VIDEO PLAYER */}
               <iframe
                 className="bg-black w-75 h-45 md:w-[320px] md:h-50 lg:w-100 lg:h-60 xl:w-140 xl:h-80 rounded-2xl shadow-xl"
                 src={v.src}

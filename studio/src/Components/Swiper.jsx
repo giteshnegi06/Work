@@ -54,7 +54,7 @@ export default function Swiperimg() {
 };
   return (
     <>
-    <div className="h-fit pt-15 pb-13 items-center bg-gray-900">
+    <div className="h-fit pt-15 pb-13 items-center bg-gray-900 overflow-hidden">
     <section className="intro-section h-10 mb-8 items-center text-center">
         <h1 className="font-cormorant w-45 md:w-60 lg:w-119 text-wrap text-lg md:text-2xl lg:text-5xl">
           <BlurText
@@ -71,14 +71,14 @@ export default function Swiperimg() {
         effect="cards"
         grabCursor={true}
         modules={[EffectCards]}
-        className="w-80 h-120 md:w-90 md:h-130 overflow-hidden"
+          className="w-60 h-90 sm:w-70 sm:h-105 md:w-110 md:h-150 lg:w-105 lg:h-140"
       >
         {swiper.map((v,i)=>(
           <SwiperSlide key={i} className="flex items-center justify-center rounded-xl text-white text-xl font-bold ">{v.image && (
                   <img
                     src={v.image}
                     alt="logo"
-                    className="h-120 w-100 p-0"
+                    className="h-auto w-auto p-0"
                   />
                 )}
           <div className="item-content">

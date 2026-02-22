@@ -13,16 +13,15 @@ const ContactForm = () => {
   const [service, setService] = useState("");
 
   return (
-    <section className=" py-5 ">
-      <div className="max-w-xl mx-auto bg-linear-to-b from-gray-700 via-gray-900 to-black rounded-xl shadow-lg shadow-white/10  p-8">
-        <h2 className="text-5xl font-cormorant text-center text-white">
-          Contact Us
-        </h2>
-        <p className="text-center text-gray-500 mt-2">
-          We’d love to hear from you. Please fill out this form.
-        </p>
-
-        <form onSubmit={handleSubmit} className="mt-8 space-y-5 ">
+    <section className="mt-5">
+      <div className="w-68 md:w-lg mx-auto bg-linear-to-b from-gray-700 via-gray-900 to-black rounded-3xl shadow-lg shadow-white/10 p-5 md:p-8">
+        <div className=" relative">
+          <h2 className="text-4xl md:text-5xl font-cormorant text-center text-white z-30">
+            Contact Us
+          </h2>
+          <h1 className=" absolute text-4xl md:text-6xl font-love-light text-black/50 -top-3 md:-top-5 left-12 md:left-25 tracking-wider">Book Now</h1>
+        </div>
+        <form onSubmit={handleSubmit} className="mt-5 md:mt-8 space-y-5 ">
           {/* First & Last Name */}
           <div className="flex gap-4">
             <input
@@ -51,7 +50,7 @@ const ContactForm = () => {
           />
 
           {/* Phone */}
-          <div className="flex gap-3">
+          <div className="flex gap-3 flex-wrap">
             <select
               value={country}
               onChange={(e) => setCountry(e.target.value)}
@@ -101,7 +100,6 @@ const ContactForm = () => {
 
           {/* Event Date */}
           <div className="relative">
-
             <input
               type="Date"
               placeholder="Date of Your Event"

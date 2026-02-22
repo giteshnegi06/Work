@@ -23,9 +23,9 @@ export default function Navbar() {
   ]
   return (
     <>
-      <header className="absolute top-5 z-50 bg-transparent ">
-        <nav className=" h-12 md:h-15 p-1 md:mx-13 lg:mx-10 xl:mx-20 2xl:mx-60 rounded-4xl bg-black/20 shadow-2xl shadow-black text-[18px] font-serif max-sm:w-xs max-md:w-xl max-lg:w-166 max-xl:w-236 max-2xl:w-7xl 2xl:w-360">
-          <ul className=" hidden md:flex justify-around h-13 items-center md:text-xl">
+      <header className="absolute top-5 2xl:top-10 z-50 bg-transparent ">
+        <nav className=" h-12 md:h-15 p-1 md:mx-2 lg:mx-8 xl:mx-12 2xl:mx-62 rounded-4xl bg-black/20 shadow-2xl shadow-black text-[18px] font-serif w-screen md:w-188 lg:w-240 xl:w-336 2xl:w-[150vh] ">
+          <ul className=" hidden md:flex justify-around h-13 items-center md:text-xl md:mx-3">
             {navBar.map((v, i) => (
               <li key={i} ><a
                 href={v.href}
@@ -54,7 +54,7 @@ export default function Navbar() {
           </ul>
           {
               open &&(
-                <ul className="px-5 pt-2 h-fit w-screen text-white flex flex-col gap-1.5 text-end justify-end duration-300 transition-all">
+                <ul className="md:hidden px-3 pt-2 h-fit w-auto text-white flex flex-col gap-1.5 text-end justify-end duration-300 transition-all">
                   {
                     mobileNav.map((v,i)=>(
                       <li key={i} className="">
