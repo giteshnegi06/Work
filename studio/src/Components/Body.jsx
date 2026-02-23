@@ -1,6 +1,5 @@
 import React from "react";
 import ScrollStack, { ScrollStackItem } from './ScrollStack'
-import Navbar from "./Navbar";
 import { FaWhatsapp } from "react-icons/fa";
 import Main from "./Main";
 import { GradualSpacing } from "./GradualSpacing";
@@ -8,7 +7,6 @@ import Swiper from "./Swiper"
 import Videosec from "./Videosec";
 import ContactUs from "./ContactUs";
 import Feedback from "./Feedback";
-import Footer from "./Footer";
 import { ImagesSlider } from "./ImagesSlider";
 import ScrollHorizontal from "./ScrollHorizontal";
 import ScrollIndicator from "./ScrollIndicator";
@@ -60,7 +58,7 @@ const cardsData = [
 
 export default function Body() {
   return (
-    <>
+<>
 
       <a href="#" className=" fixed z-50 flex text-center ">
         <button className=" hidden lg:flex bg-green-500 p-5 xl:py-6  xl:px-5.5 h-5 w-45 xl:w-52 text- xl:text-xl absolute items-center rounded-3xl text-white lg:left-205 xl:left-300 2xl:left-460 top-190 xl:top-200 2xl:top-230  gap-2">
@@ -71,11 +69,10 @@ export default function Body() {
           <FaWhatsapp className="text-2xl" />
         </button>
       </a>
-      <Navbar />
       <div className="h-screen relative w-full ">
         <div className="relative w-full h-full overflow-hidden touch-pan-y">
           <ImagesSlider images={[Slid1, Slid2, Slid3]} className="h-full">
-            <div className=" relative top-58 lg:top-67 2xl:top-90 items-center">
+            <div className=" relative top-58 lg:top-50 2xl:top-50 items-center">
               <h2 className="text-red-600  text-center font-love-light ">
                 <GradualSpacing
                   text="breaking the traditional mold of"
@@ -118,31 +115,19 @@ export default function Body() {
         {cardsData.map((v, i) => (
           <ScrollStackItem key={i}>
             <div className=" md:flex flex-row-reverse justify-between xl:mx-5 items-center">
-              <img src= {v.image} alt="Wedding" className=" md:mt-0 w-100 md:w-90 lg:w-120 xl:w-160 2xl:w-200 rounded-2xl" />
+              <img src= {v.image} alt="Wedding" className=" md:mt-0 w-100 md:w-90 lg:w-120 xl:w-160 2xl:w-150 rounded-2xl" />
               <div className="xl:ml-10 text-center">
-                <h2 className=" mt-3 text-2xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-dancing mb-2 text-[#0EA5D9] tracking-wider">{v.title}</h2>
-                <p className=" text-white font-cormorant text-sm md:text-[16px] lg:text-xl xl:text-2xl 2xl:text-3xl text-balance lg:mt-4">{v.desc}</p>
+                <h2 className=" mt-3 text-2xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-6xl font-dancing mb-2 text-[#0EA5D9] tracking-wider">{v.title}</h2>
+                <p className=" text-white font-cormorant text-sm md:text-[16px] lg:text-xl xl:text-2xl 2xl:text-2xl text-balance lg:mt-4">{v.desc}</p>
               </div>
             </div>
           </ScrollStackItem>
         ))}
       </ScrollStack>
-
-      {/* <div className="h-150 relative">
-        <FlowingMenu
-          items={demoItems}
-          speed={15}
-          textColor="#fff"
-          bgColor="#060010"
-          marqueeBgColor="#ffffff"
-          marqueeTextColor="#060010"
-          borderColor="#89CFF0"
-        />
-      </div> */}
-
         <ContactUs/>
         <Feedback/>
-        <Footer/>
     </>
+
+    
   );
 }

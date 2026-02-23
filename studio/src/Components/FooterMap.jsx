@@ -5,7 +5,7 @@ import { IoIosMailUnread } from "react-icons/io";
 export default function FooterMap() {
   return (
     <>
-      <div className=" md:flex md:gap-x-2.5 lg:gap-x-20 items-center">
+      <div className=" md:flex md:gap-x-2.5 lg:gap-x-10 items-center">
         <div className="w-70 md:w-100 h-50">
           <h1 className="text-4xl font-cormorant">Contact</h1>
           <ul className=" flex flex-col gap-2.5 mt-5">
