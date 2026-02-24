@@ -25,7 +25,7 @@ export default function Navbar() {
   return (
     <>
       <header className="absolute top-5 2xl:top-10 z-50 bg-transparent ">
-        <nav className=" h-12 md:h-15 p-1 md:mx-2 lg:mx-8 xl:mx-12 2xl:mx-62 rounded-4xl bg-black/20 shadow-2xl shadow-black text-[18px] font-serif w-screen md:w-185 lg:w-240 xl:w-336 2xl:w-350 ">
+        <nav className=" h-12 md:h-15 p-1 md:mx-2 lg:mx-8 xl:mx-12 2xl:mx-40 rounded-4xl bg-black/20 shadow-2xl shadow-black text-[18px] font-serif w-screen md:w-188 lg:w-240 xl:w-306 2xl:w-300 ">
           <ul className=" hidden md:flex justify-around h-13 items-center md:text-xl md:mx-3">
             {navBar.map((v, i) => (
               <li key={i}>
