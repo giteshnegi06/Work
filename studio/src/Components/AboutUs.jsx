@@ -3,9 +3,9 @@ import Img1 from "../Images/3D9A0119.jpeg";
 import ScrollIndicator from "./ScrollIndicator";
 import Sec2Img from "../Images/042A8055.jpg.jpeg";
 import Sec2Img2 from "../Images/345.JPG.jpeg";
-import Sec3Img from "../Images/042A7718.JPG.jpeg"
-import Sec3Img2 from "../Images/042A7953.jpg.jpeg"
-import Sec3Img3 from "../Images/042A8072.jpg.jpeg"
+import Sec3Img from "../Images/042A7718.JPG.jpeg";
+import Sec3Img2 from "../Images/042A7953.jpg.jpeg";
+import Sec3Img3 from "../Images/042A8072.jpg.jpeg";
 
 export default function AboutUs() {
   return (
@@ -36,10 +36,10 @@ export default function AboutUs() {
       </div>
       <div className="bg-[#060010] flex justify-between items-center py-30">
         <div className=" flex -left-2.5">
-          <img src={Sec2Img} alt="" className="h-100 w-fit" />
+          <img src={Sec2Img} alt="" className="h-120 w-170" />
         </div>
-        <div className="w-140 h-fit text-balance text-center space-y-5">
-          <h1 className=" text-5xl text-white font-cormorant">
+        <div className="w-160 h-fit text-balance text-center space-y-5 absolute bg-black/20 p-20 2xl:left-165">
+          <h1 className=" xl:text-5xl text-white font-cormorant">
             Creative and Candid Wedding Photography
           </h1>
           <p className="text-white font-cormorant text-balance">
@@ -55,32 +55,33 @@ export default function AboutUs() {
           <img src={Sec2Img2} alt="" className="w-100 h-150" />
         </div>
       </div>
-      <div className=" relative bg-black flex justify-center h-200">
-        <div className=" absolute w-180 mt-20 left-72">
-          <img src={Sec3Img} alt="" className="w-180 h-90"/>
-          <div className="text-end font-cormorant text-white text-balance space-y-5 mt-8">
-            <h3 className="text-lg tracking-wide text-balance ">
-              For over a decade, we’ve photographed <span className="text-red-500">over 450</span> Indian weddings in
-              the Bay Area, including Hindu, Sikh, Muslim,
-              and Indo-Western fusion ceremonies. We know how to capture every
-              element of a South Asian wedding, including pithi ceremonies,
-              mehndi, sangeet, baarat, nikah, and anything else you’re planning.
-            </h3>
-            <p>
-              Our photographs celebrate the candid, spontaneous moments with
-              family, friends, and each other that you’ll want to remember for
-              years, alongside stylized portraits with an editorial flair.
-            </p>
+      <div className="bg-black flex justify-center  h-200">
+        <div className=" relative w-screen">
+          <div className=" absolute w-180 mt-20 left-72">
+            <img src={Sec3Img} alt="" className="w-180 h-90" />
+            <div className="text-end font-cormorant text-white text-balance space-y-5 mt-8">
+              <h3 className="text-lg tracking-wide text-balance ">
+                For over a decade, we’ve photographed{" "}
+                <span className="text-red-500">over 450</span> Indian weddings
+                in the Bay Area, including Hindu, Sikh, Muslim, and Indo-Western
+                fusion ceremonies. We know how to capture every element of a
+                South Asian wedding, including pithi ceremonies, mehndi,
+                sangeet, baarat, nikah, and anything else you’re planning.
+              </h3>
+              <p>
+                Our photographs celebrate the candid, spontaneous moments with
+                family, friends, and each other that you’ll want to remember for
+                years, alongside stylized portraits with an editorial flair.
+              </p>
+            </div>
+          </div>
+          <div className=" absolute space-y-8 -top-15 2xl:left-260">
+            <img src={Sec3Img3} alt="" className="w-130" />
+            <img src={Sec3Img2} alt="" className="w-100" />
           </div>
         </div>
-        <div className=" absolute space-y-8 -top-15 left-260">
-          <img src={Sec3Img3} alt="" className="w-130"/>
-          <img src={Sec3Img2} alt="" className="w-100"/>
-        </div>
       </div>
-      <div className="bg-[#060010] h-200">
-
-      </div>
+      <div className="bg-[#060010] h-200"></div>
     </>
   );
 }
