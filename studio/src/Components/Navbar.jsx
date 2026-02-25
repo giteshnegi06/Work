@@ -21,7 +21,7 @@ export default function Navbar() {
   const mobileNav = [
     { href: "/", name: "Home" },
     { href: "/", name: "Portfolio" },
-    { href: "/", name: "About" },
+    { href: "/aboutUs", name: "About" },
     { href: "/", name: "Contact" },
   ];
 
