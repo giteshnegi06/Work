@@ -9,6 +9,7 @@
   --font-birthstone: "Birthstone", cursive;
   --font-cookie: "Cookie", cursive;
   --font-dancing: "Dancing Script", cursive;
+  --font-italianno: "Italianno", cursive;
 }
 @keyframes scrollDot {
   0% { transform: translateY(0); opacity: 0; }

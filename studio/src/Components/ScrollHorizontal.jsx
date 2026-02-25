@@ -105,10 +105,10 @@ export default function ScrollHorizontal() {
     <div id="example" className="hidden lg:flex flex-col py-10 md:py-20 ">
       <section className="intro-section items-center text-center">
         {" "}
-        <h1 className="font-cormorant w-45 md:w-60 lg:w-119 text-wrap text-lg md:text-2xl lg:text-5xl">
+        <h1 className="font-cormorant w-45 md:w-60 lg:w-119 xl:w-120 text-wrap text-lg md:text-2xl lg:text-5xl">
           {" "}
           <BlurText
-            text="Crafting Timeless Wedding Stories"
+            text="Crafting Timeless   Wedding Stories"
             delay={200}
             animateBy="words"
             direction="top"

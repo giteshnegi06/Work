@@ -22,7 +22,7 @@ export default function main() {
               onAnimationComplete={handleAnimationComplete}
             />
           </h3>
-          <h1 className="w-fit md:w-109 text-2xl md:text-4xl lg:text-5xl font-cormorant text-wrap left-5 items-center ">
+          <h1 className="w-fit md:w-109 text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-italianno text-wrap left-5 items-center ">
             <BlurText
               text="South Asian, Fusion & Destination Weddings"
               delay={100}
