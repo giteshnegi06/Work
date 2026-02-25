@@ -10,7 +10,7 @@ import Feedback from "./Feedback";
 import { ImagesSlider } from "./ImagesSlider";
 import ScrollHorizontal from "./ScrollHorizontal";
 import ScrollIndicator from "./ScrollIndicator";
-import Slid1 from "../Images/042A8072.JPG.jpeg";
+import Slid1 from "../Images/042A8072.jpeg";
 import Slid2 from "../Images/042A7718.JPG.jpeg";
 import Slid3 from "../Images/042A6334.jpg.jpeg";
 
