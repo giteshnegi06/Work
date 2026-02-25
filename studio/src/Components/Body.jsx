@@ -47,7 +47,7 @@ export default function Body() {
           <FaWhatsapp className=" text-2xl  xl:text-[28px]" />
           WhatsApp Us!
         </button>
-        <button className="lg:hidden bg-green-500 p-2  text-xl absolute items-center rounded-4xl text-white left-67 md:left-175 top-130 md:top-130">
+        <button className="lg:hidden bg-green-500 p-2  text-xl absolute items-center rounded-4xl text-white left-93 md:left-175 top-130 md:top-130">
           <FaWhatsapp className="text-2xl" />
         </button>
       </a>
