@@ -5,10 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss()],
-  resolve: {
-    dedupe: ['react', 'react-dom'] // This helps with duplicate React issues
-  },
-  optimizeDeps: {
-    include: ['react-helmet-async'] // Pre-bundle this dependency
-  }
+
 })
