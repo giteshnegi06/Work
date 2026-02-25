@@ -45,7 +45,7 @@ export default function Videosec() {
         <div className="w-screen 2xl:w-430 flex flex-wrap justify-center items-center gap-y-3 md:gap-x-10 lg:gap-x-40 xl:gap-x-60">
 
           {youtubeVideo.map((v, i) => (
-            <div key={i} className=" mb-8 md:mb-10 lg:mb-20">
+            <div key={i} className=" mb-8 md:mb-10 lg:mb-20 ">
               
               {/* VIDEO PLAYER */}
               <iframe
