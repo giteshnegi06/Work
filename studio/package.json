@@ -1,11 +1,14 @@
 {
-  "name": "your-project",
+  "name": "your-project-name",
   "version": "1.0.0",
-  "type": "module",
+  "description": "",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "react": "18.3.1",
@@ -22,4 +25,5 @@
       "react-dom": "19.2.4"
     }
   }
+  
 }
