@@ -5,7 +5,7 @@ import Sec2Img from "../Images/042A8055.jpg.jpeg";
 import Sec2Img2 from "../Images/345.JPG.jpeg";
 import Sec3Img from "../Images/042A7718.JPG.jpeg";
 import Sec3Img2 from "../Images/042A7953.jpg.jpeg";
-import Sec3Img3 from "../Images/042A8072.jpg.jpeg";
+import Sec3Img3 from "../Images/042A8072.jpeg";
 
 export default function AboutUs() {
   return (

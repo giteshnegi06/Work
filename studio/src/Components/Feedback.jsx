@@ -1,5 +1,5 @@
 import React from "react";
-import FeedbackBG from "../Images/042A8072.jpg.jpeg";
+import FeedbackBG from "../Images/042A8072.jpeg";
 import TestimonialSlider from "./TestimonialSlider";
 
 export default function Feedback() {
