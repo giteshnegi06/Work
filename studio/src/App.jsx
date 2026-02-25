@@ -9,11 +9,11 @@ export default function App() {
     <>
       <BrowserRouter>
         <Navbar />
-        {/* <Routes>
+        <Routes>
           <Route path="/" element={<Body/>}/>
           <Route path="/aboutUs" element={<AboutUs/>}/>
         </Routes>
-        <Footer /> */}
+        <Footer />
       </BrowserRouter>
     </>
   );
