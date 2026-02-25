@@ -14,7 +14,7 @@ const ContactForm = () => {
 
   return (
     <section className="mt-5">
-      <div className="w-68 md:w-lg mx-auto bg-linear-to-b from-gray-700 via-gray-900 to-black rounded-3xl shadow-lg shadow-white/10 p-5 md:p-8">
+      <div className="w-78 md:w-lg mx-auto bg-linear-to-b from-gray-700 via-gray-900 to-black rounded-3xl shadow-lg shadow-white/10 p-5 md:p-8">
         <div className=" relative">
           <h2 className="text-4xl md:text-5xl font-cormorant text-center text-white z-30">
             Contact Us
