@@ -33,7 +33,7 @@ export default function main() {
             />
           </h1>
         </div>
-        <div className=" hidden relative mx-2.5">
+        <div className=" relative mx-2.5">
           <div className="bg-amber-500 h-50 lg:w-80 absolute top-35 left-40">
             <img src={Img} alt="1" className="w-full h-full" />
           </div>
