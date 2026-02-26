@@ -34,32 +34,34 @@ export default function AboutUs() {
           </div>
         </section>
       </div>
-      <div className="bg-[#060010] absolute flex justify-between items-center py-15 px-2 lg:py-30">
+      <div className="bg-[#060010] relative h-100  flex justify-between items-center  px-2 lg:py-30 ">
         <div className="z-50">
           <img
             src={Sec2Img}
             alt=""
-            className="relative w-75 xl:h-120 xl:w-170 top-80"
+            className=" absolute w-55 xl:h-120 xl:w-170 top-130"
           />
         </div>
-        <div className="w-75 h-fit text-balance text-center space-y-5 absolute bg-black/20 px-2 py-8 lg:p-20 2xl:left-165">
-          <h1 className="text-2xl xl:text-5xl text-white font-dancing tracking-wide">
-            Creative and Candid Wedding Photography
-          </h1>
-          <p className="text-white font-cormorant text-balance">
-            Mahak Photography is a Bay Area Indian wedding photography studio
-            that breaks from the traditional, heavily posed style of Indian
-            wedding photography. Instead, we focus on documenting the real, raw,
-            authentic, and emotional moments—from the quiet getting ready
-            moments before your ceremony to letting it loose fun moments on the
-            dance floor
-          </p>
+        <div className="w-screen flex ">
+          <div className="w-90 xl:w-175 text-balance text-center space-y-5 absolute bg-black/20 p-8 lg:p-20 2xl:left-180 ">
+            <h1 className="text-2xl xl:text-5xl text-white font-dancing tracking-wide">
+              Creative and Candid Wedding Photography
+            </h1>
+            <p className="text-white font-cormorant text-balance">
+              Mahak Photography is a Bay Area Indian wedding photography studio
+              that breaks from the traditional, heavily posed style of Indian
+              wedding photography. Instead, we focus on documenting the real,
+              raw, authentic, and emotional moments—from the quiet getting ready
+              moments before your ceremony to letting it loose fun moments on
+              the dance floor
+            </p>
+          </div>
         </div>
-        <div className="z-10">
+        <div className=" ">
           <img
             src={Sec2Img2}
             alt=""
-            className=" relative w-55 xl:w-100 xl:h-150 top-75 "
+            className=" relative w-45 xl:w-100 xl:h-150 top-85 left-0"
           />
         </div>
       </div>
@@ -89,7 +91,7 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-      <div className="bg-[#060010] h-200"></div>
+      <div className=" hidden bg-[#060010] h-200"></div>
     </>
   );
 }
