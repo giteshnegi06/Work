@@ -13,7 +13,7 @@ export default function main() {
     <>
       <div className=" h-150 md:h-300 bg-[#060010] text-white py-10  lg:py-25  px-2.5 md:px-10 items-center ">
         <div className="flex justify-center flex-col h-25 items-center">
-          <h3 className=" font-love-light tracking-widest text-2xl lg:text-3xl text-[#0EA5D9]">
+          <h3 className=" font-cormorant text-lg lg:text-3xl text-[#0EA5D9]">
             <BlurText
               text="specializing in"
               delay={500}
@@ -22,7 +22,7 @@ export default function main() {
               onAnimationComplete={handleAnimationComplete}
             />
           </h3>
-          <h1 className="w-fit md:w-109 text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-italianno text-wrap left-5 items-center ">
+          <h1 className="w-60 md:w-90 lg:w-110 xl:w-130 text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-italianno text-wrap left-5 items-center tracking-wider">
             <BlurText
               text="South Asian, Fusion & Destination Weddings"
               delay={100}
@@ -33,7 +33,7 @@ export default function main() {
             />
           </h1>
         </div>
-        <div className=" relative mx-2.5">
+        <div className="hidden lg:flex relative mx-2.5">
           <div className="bg-amber-500 h-50 lg:w-80 absolute top-35 left-40">
             <img src={Img} alt="1" className="w-full h-full" />
           </div>

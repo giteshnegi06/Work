@@ -34,12 +34,16 @@ export default function AboutUs() {
           </div>
         </section>
       </div>
-      <div className="bg-[#060010] flex justify-between items-center py-30">
-        <div className=" flex -left-2.5">
-          <img src={Sec2Img} alt="" className="h-120 w-170" />
+      <div className="bg-[#060010] absolute flex justify-between items-center py-15 px-2 lg:py-30">
+        <div className="z-50">
+          <img
+            src={Sec2Img}
+            alt=""
+            className="relative w-75 xl:h-120 xl:w-170 top-80"
+          />
         </div>
-        <div className="w-160 h-fit text-balance text-center space-y-5 absolute bg-black/20 p-20 2xl:left-165">
-          <h1 className=" xl:text-5xl text-white font-cormorant">
+        <div className="w-75 h-fit text-balance text-center space-y-5 absolute bg-black/20 px-2 py-8 lg:p-20 2xl:left-165">
+          <h1 className="text-2xl xl:text-5xl text-white font-dancing tracking-wide">
             Creative and Candid Wedding Photography
           </h1>
           <p className="text-white font-cormorant text-balance">
@@ -51,11 +55,15 @@ export default function AboutUs() {
             dance floor
           </p>
         </div>
-        <div>
-          <img src={Sec2Img2} alt="" className="w-100 h-150" />
+        <div className="z-10">
+          <img
+            src={Sec2Img2}
+            alt=""
+            className=" relative w-55 xl:w-100 xl:h-150 top-75 "
+          />
         </div>
       </div>
-      <div className="bg-black flex justify-center  h-200">
+      <div className="hidden bg-black lg:flex justify-center  h-200">
         <div className=" relative w-screen">
           <div className=" absolute w-180 mt-20 left-72">
             <img src={Sec3Img} alt="" className="w-180 h-90" />

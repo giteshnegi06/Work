@@ -9,7 +9,7 @@ export default function Navbar() {
     { href: "/", name: "Home", type: "text" },
     { href: "/", name: "Portfolio", type: "text" },
     { href: "/", image: Img, type: "image" }, // Added type property
-    { href: "/aboutUs", name: "About", type: "text" },
+    { href: "/aboutUs", name: "About Us", type: "text" },
     { href: "/", name: "Contact", type: "text" },
   ];
   
@@ -21,7 +21,7 @@ export default function Navbar() {
   const mobileNav = [
     { href: "/", name: "Home" },
     { href: "/", name: "Portfolio" },
-    { href: "/aboutUs", name: "About" },
+    { href: "/aboutUs", name: "About Us" },
     { href: "/", name: "Contact" },
   ];
 
