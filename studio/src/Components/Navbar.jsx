@@ -39,8 +39,8 @@ export default function Navbar() {
                     <Link to={v.href}>
                       <img
                         src={v.image}
-                        alt="logo"
-                        className="h-30 w-auto p-0 hover:border-none border-black"
+                        alt="Mahak Studio Logo"
+                        className="h-38 w-auto p-0 hover:border-none border-black"
                       />
                     </Link>
                   ) : (
@@ -59,7 +59,7 @@ export default function Navbar() {
             {/* Mobile Menu Header */}
             <ul className="md:hidden h-10 flex justify-between items-center mx-3">
               <li>
-                <img src={Img} alt="Logo" className="h-15 w-auto" />
+                <img src={Img} alt="Mahak Studio Logo" className="h-20 w-auto" />
               </li>
               <li className="text-white text-[26px] w-7" onClick={toggleMenu}>
                 {isOpen ? <RxCross2 /> : <CiMenuBurger />}
