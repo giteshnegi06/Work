@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   const navBar = [
     { href: "/", name: "Home", type: "text" },
-    { href: "/", name: "Portfolio", type: "text" },
+    { href: "/portfolio", name: "Portfolio", type: "text" },
     { href: "/", image: Img, type: "image" }, // Added type property
     { href: "/aboutUs", name: "About Us", type: "text" },
     { href: "/", name: "Contact", type: "text" },
@@ -20,7 +20,7 @@ export default function Navbar() {
   
   const mobileNav = [
     { href: "/", name: "Home" },
-    { href: "/", name: "Portfolio" },
+    { href: "/portfolio", name: "Portfolio" },
     { href: "/aboutUs", name: "About Us" },
     { href: "/", name: "Contact" },
   ];

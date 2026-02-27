@@ -5,13 +5,15 @@ import Img1 from "../Images/3.jpg";
 import Img2 from "../Images/7.jpg";
 import Img3 from "../Images/13.jpg";
 import Img4 from "../Images/45.jpg";
+import { Link } from "react-router-dom";
+
 const handleAnimationComplete = () => {
   console.log("Animation completed!");
 };
 export default function main() {
   return (
     <>
-      <div className=" h-150 md:h-300 bg-[#060010] text-white py-10  lg:py-25  px-2.5 md:px-10 items-center ">
+      <div className=" h-220 md:h-300 bg-[#060010] text-white py-10  lg:py-25  px-2.5 md:px-10 items-center ">
         <div className="flex justify-center flex-col h-25 items-center">
           <h3 className=" font-cormorant text-lg lg:text-3xl text-[#0EA5D9]">
             <BlurText
@@ -33,23 +35,27 @@ export default function main() {
             />
           </h1>
         </div>
-        <div className="hidden lg:flex relative mx-2.5">
-          <div className="bg-amber-500 h-50 lg:w-80 absolute top-35 left-40">
+        <div className="flex relative mx-2.5">
+          <div className="bg-amber-500 h-50  lg:w-80 absolute top-3 xl:top-35 xl:left-40 z-30">
             <img src={Img} alt="1" className="w-full h-full" />
           </div>
-          <div className="bg-blue-600 h-110 lg:w-180 absolute top-60 left-145 z-20">
+          <div className="bg-blue-600 h-60 lg:w-180 absolute top-42 xl:top-60 right-0 xl:left-145 z-20">
             <img src={Img1} alt="1" className="w-full h-full" />
           </div>
-          <div className="bg-lime-600 h-75 lg:w-md absolute top-10 left-300 z-40">
+          <div className="hidden lg:flex bg-lime-600 h-75 lg:w-md absolute xl:top-10 xl:left-300 z-40">
             <img src={Img2} alt="1" className="w-full h-full" />
           </div>
-          <div className="bg-orange-500 h-72 lg:w-105 absolute top-140 left-60 ">
+          <div className=" hidden lg:flex bg-orange-500 h-72 lg:w-105 absolute xl:top-140 xl:left-60 ">
             <img src={Img3} alt="1" className="w-full h-full" />
           </div>
-          <div className="bg-fuchsia-400 h-62 lg:w-95 absolute top-150 left-340">
+          <div className=" bg-fuchsia-400 h-60 lg:w-95 absolute top-95 xl:top-150 xl:left-340">
             <img src={Img4} alt="1" className="w-full h-full" />
           </div>
-        </div>
+          <Link to="/portfolio" className="md:hidden text-white absolute top-165 flex left-28">
+          <button className="border p-4 rounded-2xl font-cormorant">VIEW PORTFOLIO</button>
+        </Link>
+     </div>
+        
       </div>
     </>
   );
