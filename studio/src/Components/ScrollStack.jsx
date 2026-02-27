@@ -6,7 +6,7 @@ import ScrollFloat from "./ScrollFloat";
 /* ================= CARD COMPONENT ================= */
 
 export const ScrollStackItem = ({ children }) => (
-  <div className="scroll-stack-card bg-linear-to-b from-gray-500 via-gray-800 to-black rounded-4xl shadow-xl p-6 w-screen h-100 md:h-80 lg:h-90 xl:h-130 2xl:h-120  2xl:w-350 flex flex-col justify-center">
+  <div className="scroll-stack-card bg-linear-to-b from-gray-600 via-gray-800 to-black rounded-4xl shadow-xl p-5 w-screen h-120 md:h-80 lg:h-90 xl:h-130 2xl:h-120  2xl:w-350 flex flex-col justify-center align-middle">
     {children}
   </div>
 );

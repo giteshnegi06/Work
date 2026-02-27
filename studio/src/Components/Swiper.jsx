@@ -71,14 +71,14 @@ export default function Swiperimg() {
         effect="cards"
         grabCursor={true}
         modules={[EffectCards]}
-          className="w-60 h-90 sm:w-70 sm:h-105 md:w-110 md:h-150 lg:w-105 lg:h-140"
+          className="w-85 h-120 md:w-120 md:h-160 "
       >
         {swiper.map((v,i)=>(
           <SwiperSlide key={i} className="flex items-center justify-center rounded-xl text-white text-xl font-bold ">{v.image && (
                   <img
                     src={v.image}
                     alt="logo"
-                    className="h-auto w-auto p-0"
+                    className="h-auto w-auto p-0 "
                   />
                 )}
           <div className="item-content">

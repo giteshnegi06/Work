@@ -108,9 +108,9 @@ export default function Body() {
               <img
                 src={v.image}
                 alt="Wedding"
-                className=" md:mt-0 w-100 md:w-90 lg:w-120 xl:w-160 2xl:w-150 rounded-2xl"
+                className=" md:mt-0 w-screen md:w-90 lg:w-120 xl:w-160 2xl:w-150 rounded-2xl"
               />
-              <div className="xl:ml-10 text-center">
+              <div className="xl:ml-10 text-center sm-mt-2">
                 <h2 className=" mt-3 text-2xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-6xl font-dancing mb-2 text-[#0EA5D9] tracking-wider">
                   {v.title}
                 </h2>

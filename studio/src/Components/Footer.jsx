@@ -1,12 +1,13 @@
 import React from "react";
 import FooterMap from "./FooterMap";
 import FollowUs from "./FollowUs";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   const link = [
     { href: "/", name: "Home" },
-    { href: "/", name: "Portfolio" },
-    { href: "/", name: "About Us" },
+    { href: "/portfolio", name: "Portfolio" },
+    { href: "/aboutUs", name: "About Us" },
     { href: "/", name: "Contact" },
   ];
   return (
@@ -18,9 +19,9 @@ export default function Footer() {
             <h1 className="text-5xl mb-3 font-cormorant">Links</h1>
             <ul className="flex flex-col">
               {link.map((v, i) => (
-                <a key={i} href={v.href} className="hover:underline">
+                <Link key={i} to={v.href} className="hover:underline">
                   {v.name}
-                </a>
+                </Link>
               ))}
             </ul>
           </div>
