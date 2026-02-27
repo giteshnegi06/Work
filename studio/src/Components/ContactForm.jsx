@@ -107,7 +107,7 @@ const ContactForm = () => {
               min={new Date().toISOString().split("T")[0]}
               required
               onFocus={(e) => e.target.showPicker?.()}
-              className="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer"
+              className=" border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer"
             />
           </div>
           {/* Message */}
