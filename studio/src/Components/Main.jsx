@@ -54,7 +54,7 @@ export default function main() {
             </div>
             <Link
               to="/portfolio"
-              className="md:hidden text-white absolute top-165 flex left-28"
+              className="md:hidden text-white absolute top-165 flex justify-center w-full"
             >
               <button className="border p-4 rounded-2xl font-cormorant">
                 VIEW PORTFOLIO
