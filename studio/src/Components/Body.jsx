@@ -40,19 +40,25 @@ const cardsData = [
 export default function Body() {
   return (
     <>
-      <a
-        href="https://wa.me/919255195704"
-        aria-label="Chat with Mahak Studio on WhatsApp"
-        className=" sticky z-50 flex text-center "
-      >
-        <button className="flex bg-green-500 p-5 xl:py-6  xl:px-5.5 h-5 w-45 xl:w-52 text- xl:text-xl absolute items-center rounded-3xl text-white left-205 xl:left-250 2xl:left-400 top-190 xl:top-200 2xl:top-200  gap-2 hover:bg-green-700">
-          <FaWhatsapp className=" text-2xl  xl:text-[28px]" />
-          WhatsApp Us!
-        </button>
-        <button className="lg:hidden bg-green-500 p-2  text-xl absolute items-center rounded-4xl text-white left-82 md:left-175 top-148 md:top-130">
-          <FaWhatsapp className="text-[26px]" />
-        </button>
-      </a>
+      <div className="fixed bottom-6 right-5 z-50">
+  <a
+    href="https://wa.me/919255195704"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat with Mahak Studio on WhatsApp"
+  >
+    {/* Desktop Button */}
+    <div className="hidden lg:flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-5 py-3 rounded-full shadow-lg transition duration-300">
+      <FaWhatsapp className="text-2xl" />
+      <span className="text-lg font-medium">WhatsApp Us!</span>
+    </div>
+
+    {/* Mobile Floating Icon */}
+    <div className="flex lg:hidden items-center justify-center bg-green-500 hover:bg-green-600 text-white p-2 rounded-full shadow-lg transition duration-300">
+      <FaWhatsapp className="text-3xl" />
+    </div>
+  </a>
+</div>
       <div className="h-screen relative w-full ">
         <div className="relative w-full h-full overflow-hidden touch-pan-y">
           <ImagesSlider images={[Slid1, Slid2, Slid3]} className="h-full">

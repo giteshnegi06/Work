@@ -11,6 +11,7 @@ const ContactForm = () => {
   };
 
   const [service, setService] = useState("");
+  const [otherService, setOtherService] = useState("");
 
   return (
     <section className="mt-5">
@@ -19,7 +20,9 @@ const ContactForm = () => {
           <h2 className="text-4xl md:text-5xl font-cormorant text-center text-white z-30">
             Contact Us
           </h2>
-          <h1 className=" absolute text-4xl md:text-6xl font-love-light text-black/50 -top-3 md:-top-5 left-12 md:left-25 tracking-wider">Book Now</h1>
+          <h1 className=" absolute text-4xl md:text-6xl font-love-light text-[#0EA5D9]/60 -top-3 md:-top-5 left-12 md:left-25 tracking-wider">
+            Book Now
+          </h1>
         </div>
         <form onSubmit={handleSubmit} className="mt-5 md:mt-8 space-y-5 ">
           {/* First & Last Name */}
@@ -78,36 +81,46 @@ const ContactForm = () => {
             required
             className="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
-            <option value="" className="text-black">
-              Event Type
-            </option>
-            <option value="wedding" className="text-black">
-              Wedding Photography
-            </option>
-            <option value="prewedding" className="text-black">
-              Pre-Wedding Shoot
-            </option>
-            <option value="event" className="text-black">
-              Destination Wedding Shoot
-            </option>
-            <option value="other" className="text-black">
-              Maternity Photoshoot
-            </option>
-            <option value="other" className="text-black">
-              Other
-            </option>
+            <option value="" className="text-black">Event Type</option>
+            <option value="wedding" className="text-black">Wedding Photography</option>
+            <option value="prewedding" className="text-black">Pre-Wedding Shoot</option>
+            <option value="destination" className="text-black">Destination Wedding Shoot</option>
+            <option value="maternity" className="text-black">Maternity Photoshoot</option>
+            <option value="other" className="text-black">Other</option>
           </select>
+
+          {service === "other" && (
+            <div className="mt-2">
+              <input
+                type="text"
+                placeholder="Please specify your event type"
+                value={otherService}
+                onChange={(e) => setOtherService(e.target.value)}
+                className="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+          )}
 
           {/* Event Date */}
           <div className="relative">
             <input
-              type="Date"
+              type="text"
               placeholder="Date of Your Event"
               name="eventDate"
-              min={new Date().toISOString().split("T")[0]}
               required
-              onFocus={(e) => e.target.showPicker?.()}
-              className=" border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer"
+              min={new Date().toISOString().split("T")[0]}
+              onFocus={(e) => {
+                e.target.type = "date";
+                setTimeout(() => {
+                  e.target.showPicker?.();
+                }, 0);
+              }}
+              onBlur={(e) => {
+                if (!e.target.value) {
+                  e.target.type = "text";
+                }
+              }}
+              className="border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer"
             />
           </div>
           {/* Message */}
@@ -122,7 +135,7 @@ const ContactForm = () => {
           {/* Button */}
           <button
             type="submit"
-            className="w-full bg-blue-300 text-white py-3 rounded-lg font-semibold hover:bg-blue-500 transition"
+            className="w-full bg-blue-300 text-black hover:text-white py-3 rounded-lg font-cormorant hover:bg-blue-500 transition text-2xl"
           >
             Send Message
           </button>
