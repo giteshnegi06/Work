@@ -81,12 +81,24 @@ const ContactForm = () => {
             required
             className="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
-            <option value="" className="text-black">Event Type</option>
-            <option value="wedding" className="text-black">Wedding Photography</option>
-            <option value="prewedding" className="text-black">Pre-Wedding Shoot</option>
-            <option value="destination" className="text-black">Destination Wedding Shoot</option>
-            <option value="maternity" className="text-black">Maternity Photoshoot</option>
-            <option value="other" className="text-black">Other</option>
+            <option value="" className="text-black">
+              Event Type
+            </option>
+            <option value="wedding" className="text-black">
+              Wedding Photography
+            </option>
+            <option value="prewedding" className="text-black">
+              Pre-Wedding Shoot
+            </option>
+            <option value="destination" className="text-black">
+              Destination Wedding Shoot
+            </option>
+            <option value="maternity" className="text-black">
+              Maternity Photoshoot
+            </option>
+            <option value="other" className="text-black">
+              Other
+            </option>
           </select>
 
           {service === "other" && (
@@ -102,25 +114,19 @@ const ContactForm = () => {
           )}
 
           {/* Event Date */}
-          <div className="relative">
+          <div className="relative w-full">
             <input
-              type="text"
-              placeholder="Date of Your Event"
+              type="date"
               name="eventDate"
               required
               min={new Date().toISOString().split("T")[0]}
               onFocus={(e) => {
-                e.target.type = "date";
-                setTimeout(() => {
-                  e.target.showPicker?.();
-                }, 0);
+                e.target.showPicker?.();
               }}
-              onBlur={(e) => {
-                if (!e.target.value) {
-                  e.target.type = "text";
-                }
+              onClick={(e) => {
+                e.target.showPicker?.();
               }}
-              className="border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer"
+              className="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer"
             />
           </div>
           {/* Message */}
