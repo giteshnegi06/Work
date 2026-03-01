@@ -2,38 +2,33 @@ import React from "react";
 import ScrollStack, { ScrollStackItem } from "./ScrollStack";
 import { FaWhatsapp } from "react-icons/fa";
 import Main from "./Main";
-import { GradualSpacing } from "./GradualSpacing";
 import Swiper from "./Swiper";
 import Videosec from "./Videosec";
 import ContactUs from "./ContactUs";
 import Feedback from "./Feedback";
-import { ImagesSlider } from "./ImagesSlider";
+import FadeSlids from "./HeroSlider";
 import ScrollHorizontal from "./ScrollHorizontal";
-import ScrollIndicator from "./ScrollIndicator";
-import Slid1 from "../Images/042A8072.jpeg";
-
-import Slid3 from "../Images/042A6334.jpg.jpeg";
 
 const cardsData = [
   {
     title: "Wedding Shoot",
     desc: "Your wedding day deserves nothing less than perfection. At Mehak Photography, we specialize in capturing every emotion — from intimate rituals to grand celebrations — with artistic precision and cinematic style.",
-    image: Slid3,
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377623/0N6A4728_l47b9u.jpg",
   },
   {
     title: "Pre-Wedding Shoot",
     desc: "Tell your love story before the big day with our beautifully planned pre-wedding shoots. We create romantic, fun, and cinematic moments that reflect your unique chemistry.",
-    image: Slid3,
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378513/106_d4ywyt.jpg",
   },
   {
     title: "Destination Wedding",
     desc: "Planning a wedding away from home? We travel with you to capture your destination wedding in the most breathtaking way. From beaches to palaces, we document every moment with a luxury cinematic touch.",
-    image: Slid3,
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772388347/_DSC5025_utsuw6.jpg",
   },
   {
     title: "Maternity Photoshoot",
     desc: "Celebrate the beautiful journey of motherhood with our soft, emotional, and artistic maternity photoshoots. We create warm and graceful portraits you will cherish forever.",
-    image: Slid3,
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378506/57_ucfjbv.jpg",
   },
 ];
 
@@ -59,40 +54,7 @@ export default function Body() {
           </div>
         </a>
       </div>
-      <div className="h-screen relative w-full ">
-        <div className="relative w-full h-full overflow-hidden touch-pan-y">
-          <ImagesSlider
-            images={[
-              "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772374035/042A8072_tk04fr.jpg",
-              "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772373833/042A7718.JPG_oota2j.jpg",
-              "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772373825/042A6334.jpg_yem8ct.jpg",
-            ]}
-            className="h-full"
-          >
-            <div className=" relative top-58 lg:top-50 2xl:top-50 items-center">
-              <h3 className="text-red-600  text-center font-love-light ">
-                <GradualSpacing
-                  text="breaking the traditional mold of"
-                  className="md:text-xl lg:text-[40px] tracking-wide md:tracking-wider font-normal"
-                />
-              </h3>
-              <h1 className="text-white text-2xl md:text-4xl  xl:text-7xl font-cormorant text-center">
-                <GradualSpacing
-                  text="INDIAN WEDDING"
-                  className="text-2xl md:text-4xl lg:text-7xl font-normal"
-                />
-              </h1>
-              <h2 className="text-white text-2xl md:text-4xl  xl:text-7xl font-cormorant text-center">
-                <GradualSpacing
-                  text="PHOTOGRAPHY"
-                  className="text-2xl md:text-4xl lg:text-7xl font-normal"
-                />
-              </h2>
-              <ScrollIndicator targetId="next-section" />
-            </div>
-          </ImagesSlider>
-        </div>
-      </div>
+      <FadeSlids />
       <Main />
 
       <div className=" bg-black ">
@@ -114,7 +76,7 @@ export default function Body() {
             <div className=" md:flex flex-row-reverse justify-between xl:mx-5 items-center">
               <img
                 src={v.image}
-                alt="Wedding"
+                alt="By Mahak Studio"
                 className=" md:mt-0 w-screen md:w-90 lg:w-120 xl:w-160 2xl:w-150 rounded-2xl"
               />
               <div className="xl:ml-10 text-center sm-mt-2">

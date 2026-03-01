@@ -3,9 +3,9 @@ import TestimonialSlider from "./TestimonialSlider";
 
 export default function Feedback() {
   return (
-    <section className="relative h-180 w-full overflow-hidden">
+    <section className="relative h-200 w-full overflow-hidden">
       <img
-        src={"https://res.cloudinary.com/dbtlo70e5/image/upload/v1772374035/042A8072_tk04fr.jpg"}
+        src={"https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378546/18_sjzg0s.jpg"}
         alt="Background"
         className="absolute inset-0 w-full h-full object-cover -z-20"
       />

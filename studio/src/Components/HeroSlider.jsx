@@ -1,0 +1,85 @@
+import React from "react";
+import { Fade } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
+import { GradualSpacing } from "./GradualSpacing";
+import ScrollIndicator from "./ScrollIndicator";
+// 🔥 Background Slider Component
+const FadeSlides = () => {
+  const images = [
+    "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772374035/042A8072_tk04fr.jpg",
+    "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377770/042A9135_owfjnv.jpg",
+    "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772373833/042A7718.JPG_oota2j.jpg",
+    "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772373825/042A6334.jpg_yem8ct.jpg",
+    "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377767/042A9099_ignjp8.jpg",
+    "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377688/3D9A0278_pzpnwv.jpg",
+    "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378549/17_eyehdm.jpg",
+    "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772383945/042A6520_bh0qk6.jpg",
+    "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378508/104_spnmte.jpg",
+    "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378531/11_cqwgys.jpg",
+    "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377764/042A9114_tfewhg.jpg"
+  ];
+
+  return (
+    <div className="absolute inset-0 z-0">
+      <Fade
+        duration={3500}
+        transitionDuration={1000}
+        arrows={false}
+        pauseOnHover={false}
+        indicators={true}
+      >
+        {images.map((img, index) => (
+          <div key={index} className="w-full h-screen">
+            <img
+              src={img}
+              alt={`Mahak Studio Wedding Slide ${index + 1}`}
+              loading={index === 0 ? "eager" : "lazy"}
+              className="w-full h-full object-cover"
+            />
+          </div>
+        ))}
+      </Fade>
+
+      {/* 🔥 Dark cinematic overlay */}
+      <div className="absolute inset-0 bg-black/30" />
+    </div>
+  );
+};
+
+// 🔥 Hero Section
+const HeroSlider = () => {
+  return (
+    <section className="h-screen relative w-full overflow-hidden">
+      {/* Background */}
+      <FadeSlides />
+
+      {/* Foreground Content */}
+      <div className="relative z-20 h-full flex flex-col items-center justify-center text-center px-4 top-58 lg:top-50 2xl:top-80 ">
+        <h3 className="text-red-600 font-love-light">
+          <GradualSpacing
+            text="breaking the traditional mold of"
+            className="md:text-xl lg:text-3xl tracking-wide md:tracking-wider font-normal"
+          />
+        </h3>
+
+        <h1 className="text-white text-2xl md:text-4xl xl:text-5xl font-cormorant">
+          <GradualSpacing
+            text="INDIAN WEDDING"
+            className="text-2xl md:text-4xl lg:text-5xl font-normal"
+          />
+        </h1>
+
+        <h2 className="text-white text-2xl md:text-4xl xl:text-5xl font-cormorant">
+          <GradualSpacing
+            text="PHOTOGRAPHY"
+            className="text-2xl md:text-4xl lg:text-5xl font-normal"
+          />
+        </h2>
+
+        <ScrollIndicator targetId="next-section" />
+      </div>
+    </section>
+  );
+};
+
+export default HeroSlider;

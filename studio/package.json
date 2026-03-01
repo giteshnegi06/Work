@@ -25,6 +25,7 @@
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.13.1",
     "react-scroll": "^1.9.3",
+    "react-slideshow-image": "^4.4.0",
     "swiper": "^12.1.2",
     "tailwind-merge": "^3.5.0"
   },

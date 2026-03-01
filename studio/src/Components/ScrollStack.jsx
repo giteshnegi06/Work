@@ -103,27 +103,27 @@ const ScrollStack = ({ children, onComplete }) => {
     >
       <div className=" sticky top-1 lg:top-15 xl:top-18 mb-10 lg:mb-20 xl:mb-30">
         <span className="text-lg md:text-2xl lg:text-4xl font-love-light text-red-600 md:tracking-wide xl:tracking-widest text-balance text-center">
-        <ScrollFloat
-          animationDuration={2}
-          ease="back.inOut(2)"
-          scrollStart="center bottom+=50%"
-          scrollEnd="bottom bottom-=40%"
-          stagger={0.04}
-        >
-          We are Professional
-        </ScrollFloat>
-      </span>
-      <span className=" w-screen text-lg md:text-2xl lg:text-4xl font-cormorant text-white  md:tracking-wide xl:tracking-widest text-balance text-center">
-        <ScrollFloat
-          animationDuration={2}
-          ease="back.inOut(2)"
-          scrollStart="center bottom+=50%"
-          scrollEnd="bottom bottom-=40%"
-          stagger={0.04}
-        >
-          Wedding Photography & Cinematic Videography Services
-        </ScrollFloat>
-      </span>
+          <ScrollFloat
+            animationDuration={2}
+            ease="back.inOut(2)"
+            scrollStart="center bottom+=50%"
+            scrollEnd="bottom bottom-=40%"
+            stagger={0.04}
+          >
+            We are Professional
+          </ScrollFloat>
+        </span>
+        <span className=" w-screen text-lg md:text-2xl lg:text-4xl font-cormorant text-white  md:tracking-wide xl:tracking-widest text-balance text-center">
+          <ScrollFloat
+            animationDuration={2}
+            ease="back.inOut(2)"
+            scrollStart="center bottom+=50%"
+            scrollEnd="bottom bottom-=40%"
+            stagger={0.04}
+          >
+            Wedding Photography & Cinematic Videography Services
+          </ScrollFloat>
+        </span>
       </div>
       {children}
     </section>
