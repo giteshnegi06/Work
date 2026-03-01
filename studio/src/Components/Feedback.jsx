@@ -1,12 +1,11 @@
 import React from "react";
-import FeedbackBG from "../Images/042A8072.jpeg";
 import TestimonialSlider from "./TestimonialSlider";
 
 export default function Feedback() {
   return (
     <section className="relative h-180 w-full overflow-hidden">
       <img
-        src={FeedbackBG}
+        src={"https://res.cloudinary.com/dbtlo70e5/image/upload/v1772374035/042A8072_tk04fr.jpg"}
         alt="Background"
         className="absolute inset-0 w-full h-full object-cover -z-20"
       />

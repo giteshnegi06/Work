@@ -11,7 +11,7 @@ import { ImagesSlider } from "./ImagesSlider";
 import ScrollHorizontal from "./ScrollHorizontal";
 import ScrollIndicator from "./ScrollIndicator";
 import Slid1 from "../Images/042A8072.jpeg";
-import Slid2 from "../Images/042A7718.JPG.jpeg";
+
 import Slid3 from "../Images/042A6334.jpg.jpeg";
 
 const cardsData = [
@@ -41,27 +41,34 @@ export default function Body() {
   return (
     <>
       <div className="fixed bottom-6 right-5 z-50">
-  <a
-    href="https://wa.me/919255195704"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="Chat with Mahak Studio on WhatsApp"
-  >
-    {/* Desktop Button */}
-    <div className="hidden lg:flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-5 py-3 rounded-full shadow-lg transition duration-300">
-      <FaWhatsapp className="text-2xl" />
-      <span className="text-lg font-medium">WhatsApp Us!</span>
-    </div>
+        <a
+          href="https://wa.me/919255195704"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Chat with Mahak Studio on WhatsApp"
+        >
+          {/* Desktop Button */}
+          <div className="hidden lg:flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-5 py-3 rounded-full shadow-lg transition duration-300">
+            <FaWhatsapp className="text-2xl" />
+            <span className="text-lg font-medium">WhatsApp Us!</span>
+          </div>
 
-    {/* Mobile Floating Icon */}
-    <div className="flex lg:hidden items-center justify-center bg-green-500 hover:bg-green-600 text-white p-2 rounded-full shadow-lg transition duration-300">
-      <FaWhatsapp className="text-3xl" />
-    </div>
-  </a>
-</div>
+          {/* Mobile Floating Icon */}
+          <div className="flex lg:hidden items-center justify-center bg-green-500 hover:bg-green-600 text-white p-2 rounded-full shadow-lg transition duration-300">
+            <FaWhatsapp className="text-3xl" />
+          </div>
+        </a>
+      </div>
       <div className="h-screen relative w-full ">
         <div className="relative w-full h-full overflow-hidden touch-pan-y">
-          <ImagesSlider images={[Slid1, Slid2, Slid3]} className="h-full">
+          <ImagesSlider
+            images={[
+              "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772374035/042A8072_tk04fr.jpg",
+              "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772373833/042A7718.JPG_oota2j.jpg",
+              "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772373825/042A6334.jpg_yem8ct.jpg",
+            ]}
+            className="h-full"
+          >
             <div className=" relative top-58 lg:top-50 2xl:top-50 items-center">
               <h3 className="text-red-600  text-center font-love-light ">
                 <GradualSpacing

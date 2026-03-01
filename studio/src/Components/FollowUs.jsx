@@ -1,12 +1,12 @@
 import { FaInstagram, FaFacebookF, FaYoutube } from "react-icons/fa";
-import Logo from "../Images/logo.png";
+
 
 export default function FollowUs() {
   return (
     <>
       <div className="relative">
         <div className=" ">
-        <img src={Logo} alt="" className="h-60" />
+        <img src={"https://res.cloudinary.com/dbtlo70e5/image/upload/v1772374686/logo_d2is9d.png"} alt="" className="h-60" />
       </div>
 
       <div className=" absolute flex items-center gap-4 top-48 left-10">

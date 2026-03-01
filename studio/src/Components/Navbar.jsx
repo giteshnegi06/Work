@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
-import Img from "../Images/logo.png";
 import { RxCross2 } from "react-icons/rx";
 import { Link } from "react-router-dom";
 
@@ -8,7 +7,7 @@ export default function Navbar() {
   const navBar = [
     { href: "/", name: "Home", type: "text" },
     { href: "/portfolio", name: "Portfolio", type: "text" },
-    { href: "/", image: Img, type: "image" }, // Added type property
+    { href: "/", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772374686/logo_d2is9d.png", type: "image" }, // Added type property
     { href: "/aboutUs", name: "About Us", type: "text" },
     { href: "/", name: "Contact", type: "text" },
   ];
@@ -59,7 +58,7 @@ export default function Navbar() {
             {/* Mobile Menu Header */}
             <ul className="md:hidden h-10 flex justify-between items-center mx-3">
               <li>
-                <img src={Img} alt="Mahak Studio Logo" className="h-20 w-auto" />
+                <img src={"https://res.cloudinary.com/dbtlo70e5/image/upload/v1772374686/logo_d2is9d.png"} alt="Mahak Studio Logo" className="h-20 w-auto" />
               </li>
               <li className="text-white text-[26px] w-7" onClick={toggleMenu}>
                 {isOpen ? <RxCross2 /> : <CiMenuBurger />}

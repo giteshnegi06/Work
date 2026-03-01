@@ -1,12 +1,6 @@
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef, useState, useEffect } from "react";
 import BlurText from "./BlurText";
-import Imag1 from "../Images/042A3672.JPG.jpeg";
-import Imag2 from "../Images/042A6374.jpg.jpeg";
-import Imag3 from "../Images/042A7740.JPG.jpeg";
-import Imag4 from "../Images/042A7979.jpg.jpeg";
-import Imag5 from "../Images/4554.JPG.jpeg";
-import Imag6 from "../Images/3G4A3223.JPG.jpeg";
 
 const handleAnimationComplete = () => {
   console.log("Animation completed!");
@@ -20,37 +14,37 @@ const items = [
     id: 1,
     color: "#ff0088",
     label: "Night One",
-    image: Imag2,
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772374694/042A6374.jpg_wpcgc7.jpg",
   },
   {
     id: 2,
     color: "#dd00ee",
     label: "Night Two",
-    image: Imag1,
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772374699/042A3672.JPG_ojp1tn.jpg",
   },
   {
     id: 3,
     color: "#9911ff",
     label: "Night Three",
-    image: Imag3,
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772375061/042A7740.JPG_swbal4.jpg",
   },
   {
     id: 4,
     color: "#0d63f8",
     label: "Night Four",
-    image: Imag4,
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772375134/042A7979.jpg_hbhpkj.jpg",
   },
   {
     id: 5,
     color: "#0cdcf7",
     label: "Night Five",
-    image: Imag5,
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772374697/4554.JPG_asjoa9.jpg",
   },
   {
     id: 6,
     color: "#0cdcf7",
     label: "Night Six",
-    image: Imag6,
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772375218/3G4A3223.JPG_cmkfd7.jpg",
   },
 ];
 
