@@ -20,7 +20,7 @@ const ContactForm = () => {
           <h2 className="text-4xl md:text-5xl font-cormorant text-center text-white z-30">
             Contact Us
           </h2>
-          <h1 className=" absolute text-4xl md:text-6xl font-love-light text-[#0EA5D9]/60 -top-3 md:-top-5 left-12 md:left-25 tracking-wider">
+          <h1 className=" absolute text-4xl md:text-6xl font-love-light text-[#0EA5D9]/60 -top-3 md:-top-5 left-16 md:left-25 tracking-wider">
             Book Now
           </h1>
         </div>
