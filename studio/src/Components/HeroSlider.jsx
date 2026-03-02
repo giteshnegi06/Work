@@ -6,13 +6,14 @@ import ScrollIndicator from "./ScrollIndicator";
 // 🔥 Background Slider Component
 const FadeSlides = () => {
   const images = [
-    "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378549/17_eyehdm.jpg",
+    "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772467648/DSC02608.jpg_dkhvks.jpg",
     "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377712/042A2443_qnkwor.jpg",
     "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772374035/042A8072_tk04fr.jpg",
     "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377770/042A9135_owfjnv.jpg",
-    "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772373833/042A7718.JPG_oota2j.jpg",
+    "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378549/17_eyehdm.jpg",
     "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772373825/042A6334.jpg_yem8ct.jpg",
     "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377767/042A9099_ignjp8.jpg",
+    "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772373833/042A7718.JPG_oota2j.jpg",
     "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378508/104_spnmte.jpg",
     "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378531/11_cqwgys.jpg",
     "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772467654/DSC02585.jpg_dfzdvk.jpg"
