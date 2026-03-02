@@ -12,15 +12,15 @@ export default function AboutUs() {
   return (
     <>
       <div className="bg-[#060010] h-fit top-0 flex justify-center items-center">
-        <section className=" relative flex flex-col justify-center items-center mx-2 2xl:px-8 h-fit">
+        <section className=" relative flex flex-col justify-center items-center md:mx-2 2xl:px-8 h-fit">
           <img
             src={
               "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772388347/_DSC5025_utsuw6.jpg"
             }
             alt=""
-            className=" h-100  md:h-150 md:w-182 lg:h-150 lg:w-245 xl:h-215 xl:w-350 2xl:h-215 2xl:w-screen md:my-5 lg:m-5 2xl:my-8 2xl:mx-0 "
+            className=" h-90  md:h-150 md:w-182 lg:h-150 lg:w-245 xl:h-215 xl:w-350 2xl:h-215 2xl:w-screen md:my-5 lg:m-5 2xl:my-8 2xl:mx-0 "
           />
-          <div className=" absolute flex flex-col bottom-8 lg:bottom-25 text-balance text-center items-center 2xl:w-250">
+          <div className=" absolute flex flex-col bottom-5 lg:bottom-25 text-balance text-center items-center 2xl:w-250">
             <h3 className="text-[#0EA5D9] font-italianno lowercase  md:text-2xl text-center 2xl:text-5xl tracking-wide">
               Bay Area Indian wedding photographer
             </h3>
@@ -45,7 +45,7 @@ export default function AboutUs() {
           </div>
         </section>
       </div>
-      <div className="bg-[#060010] relative h-180 md:h-150 lg:h-200  flex justify-center items-center  px-2 lg:py-30 overflow-hidden">
+      <div className="bg-[#060010] relative h-210 md:h-158 lg:h-220  flex justify-center items-center  px-2 lg:py-30 overflow-hidden">
         <div className=" absolute -right-8  md:left-0 top-72 md:top-44 ">
           <img
             src={
@@ -70,7 +70,7 @@ export default function AboutUs() {
             </p>
           </div>
         </div>
-        4<div className="absolute -left-3 md:left-auto md:right-0 top-100 md:top-32">
+        <div className="absolute -left-3 md:left-auto md:right-0 top-[48%] md:top-32">
           <img
             src={
               "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377733/042A6077_cgmise.jpg"
@@ -80,33 +80,54 @@ export default function AboutUs() {
           />
         </div>
       </div>
-      {/* <div className="hidden bg-black lg:flex justify-center  h-200">
-        <div className=" relative w-screen">
-          <div className=" absolute w-180 mt-20 left-72">
-            <img src={Sec3Img} alt="" className="w-180 h-90" />
-            <div className="text-end font-cormorant text-white text-balance space-y-5 mt-8">
-              <h3 className="text-lg tracking-wide text-balance ">
-                For over a decade, we’ve photographed{" "}
-                <span className="text-red-500">over 450</span> Indian weddings
-                in the Bay Area, including Hindu, Sikh, Muslim, and Indo-Western
-                fusion ceremonies. We know how to capture every element of a
-                South Asian wedding, including pithi ceremonies, mehndi,
-                sangeet, baarat, nikah, and anything else you’re planning.
-              </h3>
-              <p>
-                Our photographs celebrate the candid, spontaneous moments with
-                family, friends, and each other that you’ll want to remember for
-                years, alongside stylized portraits with an editorial flair.
-              </p>
-            </div>
+      <div className=" bg-black ">
+        <div className="relative flex justify-center items-center h-180 md:h-145 lg:h-174 xl:h-200  max-w-9xl mx-auto ">
+          <div className="absolute flex items-center text-center space-y-5 left-0 xl:left-40 2xl:left-90 top-10 md:top-20 xl:top-30 2xl:top-26 z-10">
+            <img
+              src={
+                "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377776/042A9226_efnyro.jpg"
+              }
+              alt="by Mahak Studio"
+              className="w-70 md:w-92.5 lg:w-132 xl:w-135 2xl:w-145"
+            />
           </div>
-          <div className=" absolute space-y-8 -top-15 2xl:left-260">
-            <img src={Sec3Img3} alt="" className="w-130" />
-            <img src={Sec3Img2} alt="" className="w-100" />
+          <div className="absolute  md:w-92 lg:w-132 xl:w-145 text-xs lg:text-sm xl:text-[16px] text-center md:text-end  font-cormorant text-white text-balance space-y-5 left-0 xl:left-30 2xl:left-90 md:top-auto md:bottom-18 lg:bottom-25">
+            <h3 className="tracking-wide text-balance ">
+              For over a decade, we’ve photographed{" "}
+              <span className="text-red-500">over 450</span> Indian weddings in
+              the Bay Area, including Hindu, Sikh, Muslim, and Indo-Western
+              fusion ceremonies. We know how to capture every element of a South
+              Asian wedding, including pithi ceremonies, mehndi, sangeet,
+              baarat, nikah, and anything else you’re planning.
+            </h3>
+            <p>
+              Our photographs celebrate the candid, spontaneous moments with
+              family, friends, and each other that you’ll want to remember for
+              years, alongside stylized portraits with an editorial flair.
+            </p>
+          </div>
+
+          <div className="absolute -top-20 right-0 lg:-right-2 xl:right-40 2xl:right-85">
+            <img
+              src={
+                "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377783/042A9279_deit1k.jpg"
+              }
+              alt=""
+              className="w-60 md:w-92.5 lg:w-120 xl:w-140"
+            />
+          </div>
+          <div className="absolute -bottom-30 right-0 md:right-7 lg:right-28 xl:right-80 2xl:right-125">
+            <img
+              src={
+                "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377752/042A9043_x7wewg.jpg"
+              }
+              alt=""
+              className=" w-60 md:w-85 lg:w-90 xl:w-100"
+            />
           </div>
         </div>
       </div>
-      <div className=" hidden bg-[#060010] h-200"></div> */}
+      <div className="bg-amber-200 h-200"></div>
     </>
   );
 }
