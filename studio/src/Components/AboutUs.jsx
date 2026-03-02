@@ -75,7 +75,7 @@ export default function AboutUs() {
         </div>
       </div>
       <div className=" bg-black ">
-        <div className="relative flex justify-center items-center h-180 md:h-145 lg:h-174 xl:h-200  max-w-9xl mx-auto ">
+        <div className="relative flex justify-center items-center h-180 md:h-145 lg:h-174 xl:h-200  max-w-470 mx-auto ">
           <div className="absolute flex items-center text-center space-y-5 left-0 xl:left-40 2xl:left-90 top-10 md:top-20 xl:top-30 2xl:top-26 z-10">
             <img
               src={
@@ -110,7 +110,7 @@ export default function AboutUs() {
               className="w-60 md:w-92.5 lg:w-118 xl:w-140"
             />
           </div>
-          <div className="absolute -bottom-30 xl:-bottom-39 right-0 md:right-7 lg:right-28 xl:right-75 2xl:right-120">
+          <div className="absolute -bottom-30 xl:-bottom-41 right-0 md:right-7 lg:right-28 xl:right-75 2xl:right-120">
             <img
               src={
                 "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378531/15_huwtd5.jpg"
@@ -121,7 +121,7 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-      <div className="bg-[#060010] h-480 md:h-260 lg:h-250 flex justify-center items-center">
+      <div className="bg-[#060010] h-480 md:h-260 lg:h-270 flex justify-center items-center">
         <div className="w-7xl mx-auto h-420 md:h-230 lg:h-220 bg-black/30 flex flex-col justify-center gap-y-15">
           <div className=" mx-5 lg:mx-20 text-white flex flex-col md:flex-row items-center md:gap-x-5 lg:gap-x-10 gap-y-5">
             <img
@@ -133,7 +133,7 @@ export default function AboutUs() {
               <h1 className="text-2xl md:text-3xl font-cormorant">
                 Founder’s Note — Satish Khurana
               </h1>
-              <div className=" space-y-3 font-cormorant tracking-wide text-sm lg:text-[16px]">
+              <div className=" space-y-3 font-cormorant tracking-wide text-sm lg:text-lg">
                 <p>
                   Satish Khurana, Managing Director of Mahak Studio, began his
                   journey in wedding photography in 1995 after completing his
@@ -165,10 +165,10 @@ export default function AboutUs() {
               className="w-60 rounded-2xl "
             />
             <div className=" space-y-5 text-center md:text-right">
-              <h1 className="text-2xl font-cormorant">
+              <h1 className="text-2xl md:text-3xl font-cormorant">
                 Co-Founder’s Note — Sandeep Khurana
               </h1>
-              <div className=" space-y-3 font-cormorant tracking-wide text-sm lg:text-[16px]">
+              <div className=" space-y-3 font-cormorant tracking-wide text-sm lg:text-lg">
                 <p>
                   Sandeep Khurana, brother of Satish Khurana, joined Mahak
                   Studio in 2013 after completing his Bachelor’s in Commerce.
