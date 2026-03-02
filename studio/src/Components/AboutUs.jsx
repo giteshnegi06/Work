@@ -107,13 +107,13 @@ export default function AboutUs() {
             </p>
           </div>
 
-          <div className="absolute -top-20 right-0 lg:-right-2 xl:right-40 2xl:right-85">
+          <div className="absolute -top-20 right-0 xl:right-40 2xl:right-85 ">
             <img
               src={
                 "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377783/042A9279_deit1k.jpg"
               }
               alt=""
-              className="w-60 md:w-92.5 lg:w-120 xl:w-140"
+              className="w-60 md:w-92.5 lg:w-118 xl:w-140"
             />
           </div>
           <div className="absolute -bottom-30 right-0 md:right-7 lg:right-28 xl:right-80 2xl:right-125">
