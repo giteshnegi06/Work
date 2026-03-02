@@ -1,6 +1,6 @@
 import React from "react";
 import { GradualSpacing } from "./GradualSpacing";
-import BackImg from "../Images/042A6334.jpg.jpeg";
+
 
 export default function Videosec() {
   // ✅ use embed URLs (IMPORTANT)
@@ -28,7 +28,7 @@ export default function Videosec() {
       
       {/* background */}
       <img
-        src={BackImg}
+        src={"https://res.cloudinary.com/dbtlo70e5/image/upload/v1772373825/042A6334.jpg_yem8ct.jpg"}
         alt="background img"
         className="absolute -z-50 top-0 w-full h-full object-cover"
       />

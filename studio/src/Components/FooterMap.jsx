@@ -9,16 +9,21 @@ export default function FooterMap() {
         <div className="w-68 md:w-100 h-50">
           <h1 className="text-4xl font-cormorant">Contact</h1>
           <ul className=" flex flex-col gap-2.5 mt-5">
-            <a href="#" className="flex items-center gap-2">
-              <FaPhoneAlt />
-              +91 92551 95704
-            </a>
-            <a href="#" className="text-balance flex items-center gap-2">
+            <p className="flex gap-2">
+              <a href="tel:+919255195704" className="flex items-center gap-2">
+                <FaPhoneAlt />
+                +91 92551 95704,
+              </a>
+              <a href="tel:+919996076362" className="flex items-center gap-2">
+                +91 99960 76362
+              </a>
+            </p>
+            <a href="/" className="text-balance flex items-center gap-2">
               <IoLocation className="text-4xl" />
               Main, Phusgarh Rd, behind SEC-6, Rajivpuram, Vikas Nagar, Karnal,
               Phusgarh Part, Haryana 132001
             </a>
-            <a href="#" className="flex items-center gap-2">
+            <a href="mailto:mahakstudio2000@gmail.com" className="flex items-center gap-2">
               <IoIosMailUnread className="text-2xl" type="email" />
               mahakstudio2000@gmail.com
             </a>
