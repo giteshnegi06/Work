@@ -20,10 +20,10 @@ export default function ContactUs() {
 
     <p>
       <span className="text-[#0EA5D9]">Established in 2000, </span>
-      CandidShutters started as a{" "}
+      CandidShutters started as a
       <span className="text-red-500">
         premium boutique wedding photography and films venture
-      </span>{" "}
+      </span>
       aiming to tell folk tales of love of the modern-day new age couple.
     </p>
 
@@ -33,9 +33,9 @@ export default function ContactUs() {
     </p>
 
     <p>
-      We have learned, experienced and grown over the last{" "}
+      We have learned, experienced and grown over the last
       <span className="text-red-500">twenty five years, </span>
-      having covered{" "}
+      having covered
       <span className="text-[#0EA5D9]">
         over 1000 multi-cultural wedding celebrations across the globe.
       </span>
@@ -45,7 +45,7 @@ export default function ContactUs() {
     <RiDoubleQuotesR className="absolute -right-8 md:right-18 lg:right-6 xl:-right-8 bottom-6 lg:bottom-7 xl:bottom-8 text-4xl text-gray-400" />
   </div>
 </div>  
-        <div className=" ">
+        <div>
           <ContactForm />
         </div>
       </div>
