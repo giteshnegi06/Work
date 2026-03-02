@@ -5,7 +5,7 @@ import { GradualSpacing } from "./GradualSpacing";
 export default function AboutUs() {
   return (
     <>
-      <div className="bg-[#060010] h-fit top-0 flex justify-center items-center">
+      <div className="bg-black h-fit top-0 flex justify-center items-center">
         <section className=" relative flex flex-col justify-center items-center md:mx-2 2xl:px-8 h-fit">
           <img
             src={
