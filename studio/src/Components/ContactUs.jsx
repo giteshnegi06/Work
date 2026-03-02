@@ -42,7 +42,7 @@ export default function ContactUs() {
     </p>
 
     {/* Closing Quote */}
-    <RiDoubleQuotesR className="absolute right-20 lg:right-6 xl:-right-8 bottom-6 lg:bottom-7 xl:bottom-8 text-4xl text-gray-400" />
+    <RiDoubleQuotesR className="absolute -right-8 md:right-18 lg:right-6 xl:-right-8 bottom-6 lg:bottom-7 xl:bottom-8 text-4xl text-gray-400" />
   </div>
 </div>  
         <div className=" ">

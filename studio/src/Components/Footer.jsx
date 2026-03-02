@@ -35,13 +35,16 @@ export default function Footer() {
             <span className=" hidden md:flex">, All Rights Reserved.</span>{" "}
           </h3>
           <span className="items-center">
-            Made With &#x2764; by <a
-          href="https://wa.me/918894143680"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Chat with Mahak Studio on WhatsApp"
-          className="font-semibold"
-        >web.loomic</a>
+            Made With &#x2764; by{" "}
+            <a
+              href="https://wa.me/918894143680"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Chat with Mahak Studio on WhatsApp"
+              className="font-semibold"
+            >
+              web.loomic
+            </a>
           </span>
         </div>
       </div>
