@@ -121,19 +121,19 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-      <div className="bg-[#060010] h-250 flex justify-center items-center">
-        <div className="w-7xl mx-auto h-220 bg-black/30 flex flex-col justify-center gap-y-15">
-          <div className=" mx-20 text-white flex items-center gap-x-10">
+      <div className="bg-[#060010] h-480 md:h-260 lg:h-250 flex justify-center items-center">
+        <div className="w-7xl mx-auto h-420 md:h-230 lg:h-220 bg-black/30 flex flex-col justify-center gap-y-15">
+          <div className=" mx-5 lg:mx-20 text-white flex flex-col md:flex-row items-center md:gap-x-5 lg:gap-x-10 gap-y-5">
             <img
               src="https://res.cloudinary.com/dbtlo70e5/image/upload/v1772443109/WhatsApp_Image_2026-02-26_at_8.22.48_PM_q5yqwq.jpg"
               alt="SATISH KHURANA MD OF MAHAK PHOTOGRAPHY"
               className="w-60 rounded-2xl"
             />
-            <div className=" space-y-5">
-              <h1 className="text-3xl font-cormorant">
+            <div className=" space-y-5 text-center md:text-start">
+              <h1 className="text-2xl md:text-3xl font-cormorant">
                 Founder’s Note — Satish Khurana
               </h1>
-              <div className=" space-y-3 font-cormorant tracking-wide">
+              <div className=" space-y-3 font-cormorant tracking-wide text-sm lg:text-[16px]">
                 <p>
                   Satish Khurana, Managing Director of Mahak Studio, began his
                   journey in wedding photography in 1995 after completing his
@@ -158,17 +158,17 @@ export default function AboutUs() {
               </div>
             </div>
           </div>
-          <div className="mx-20 flex text-white flex-row-reverse items-center gap-x-10">
+          <div className=" mx-5 lg:mx-20  flex flex-col   text-white md:flex-row-reverse items-center md:gap-x-5 lg:gap-x-10 gap-y-5">
             <img
               src="https://res.cloudinary.com/dbtlo70e5/image/upload/v1772443109/WhatsApp_Image_2026-02-26_at_8.22.48_PM_q5yqwq.jpg"
               alt="SATISH KHURANA MD OF MAHAK PHOTOGRAPHY"
               className="w-60 rounded-2xl "
             />
-            <div className=" space-y-5 text-right">
+            <div className=" space-y-5 text-center md:text-right">
               <h1 className="text-2xl font-cormorant">
-                About — Sandeep Khurana
+                Co-Founder’s Note — Sandeep Khurana
               </h1>
-              <div className=" space-y-3 font-cormorant tracking-wide">
+              <div className=" space-y-3 font-cormorant tracking-wide text-sm lg:text-[16px]">
                 <p>
                   Sandeep Khurana, brother of Satish Khurana, joined Mahak
                   Studio in 2013 after completing his Bachelor’s in Commerce.
