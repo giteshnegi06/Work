@@ -28,7 +28,7 @@ const cardsData = [
   {
     title: "Maternity Photoshoot",
     desc: "Celebrate the beautiful journey of motherhood with our soft, emotional, and artistic maternity photoshoots. We create warm and graceful portraits you will cherish forever.",
-    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378506/57_ucfjbv.jpg",
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772467604/042A6063.JPG_xdsxqa.jpg",
   },
 ];
 
