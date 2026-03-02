@@ -95,7 +95,7 @@ export default function AboutUs() {
             <h3 className="tracking-wide text-balance ">
               For over a decade, we’ve photographed{" "}
               <span className="text-red-500">over 450</span> Indian weddings in
-              the Bay Area, including Hindu, Sikh, Muslim, and Indo-Western
+              India, including Hindu, Sikh, Muslim, and Indo-Western
               fusion ceremonies. We know how to capture every element of a South
               Asian wedding, including pithi ceremonies, mehndi, sangeet,
               baarat, nikah, and anything else you’re planning.
