@@ -2,12 +2,6 @@ import React from "react";
 import ScrollIndicator from "./ScrollIndicator";
 import { GradualSpacing } from "./GradualSpacing";
 
-import Sec2Img from "../Images/042A8055.jpg.jpeg";
-import Sec2Img2 from "../Images/345.JPG.jpeg";
-import Sec3Img from "../Images/042A7718.JPG.jpeg";
-import Sec3Img2 from "../Images/042A7953.jpg.jpeg";
-import Sec3Img3 from "../Images/042A8072.jpeg";
-
 export default function AboutUs() {
   return (
     <>
@@ -61,10 +55,10 @@ export default function AboutUs() {
               Creative and Candid Wedding Photography
             </h1>
             <p className="text-white font-cormorant text-balance w-75 lg:w-110 text-center tracking-wide text-xs lg:text-lg ">
-              Mahak Photography is a Bay Area Indian wedding photography studio
-              that breaks from the traditional, heavily posed style of Indian
-              wedding photography. Instead, we focus on documenting the real,
-              raw, authentic, and emotional moments—from the quiet getting ready
+              Mahak Photography is a Indian wedding photography studio that
+              breaks from the traditional, heavily posed style of Indian wedding
+              photography. Instead, we focus on documenting the real, raw,
+              authentic, and emotional moments—from the quiet getting ready
               moments before your ceremony to letting it loose fun moments on
               the dance floor
             </p>
@@ -85,7 +79,7 @@ export default function AboutUs() {
           <div className="absolute flex items-center text-center space-y-5 left-0 xl:left-40 2xl:left-90 top-10 md:top-20 xl:top-30 2xl:top-26 z-10">
             <img
               src={
-                "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377776/042A9226_efnyro.jpg"
+                "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378482/41_wc8nyy.jpg"
               }
               alt="by Mahak Studio"
               className="w-70 md:w-92.5 lg:w-132 xl:w-135 2xl:w-145"
@@ -95,10 +89,10 @@ export default function AboutUs() {
             <h3 className="tracking-wide text-balance ">
               For over a decade, we’ve photographed{" "}
               <span className="text-red-500">over 450</span> Indian weddings in
-              India, including Hindu, Sikh, Muslim, and Indo-Western
-              fusion ceremonies. We know how to capture every element of a South
-              Asian wedding, including pithi ceremonies, mehndi, sangeet,
-              baarat, nikah, and anything else you’re planning.
+              India, including Hindu, Sikh, Muslim, and Indo-Western fusion
+              ceremonies. We know how to capture every element of a South Asian
+              wedding, including pithi ceremonies, mehndi, sangeet, baarat,
+              nikah, and anything else you’re planning.
             </h3>
             <p>
               Our photographs celebrate the candid, spontaneous moments with
@@ -116,18 +110,86 @@ export default function AboutUs() {
               className="w-60 md:w-92.5 lg:w-118 xl:w-140"
             />
           </div>
-          <div className="absolute -bottom-30 right-0 md:right-7 lg:right-28 xl:right-80 2xl:right-125">
+          <div className="absolute -bottom-30 xl:-bottom-39 right-0 md:right-7 lg:right-28 xl:right-75 2xl:right-120">
             <img
               src={
-                "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377752/042A9043_x7wewg.jpg"
+                "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378531/15_huwtd5.jpg"
               }
               alt=""
-              className=" w-60 md:w-85 lg:w-90 xl:w-100"
+              className=" w-60 md:w-85 lg:w-90 xl:w-105 xl:h-160"
             />
           </div>
         </div>
       </div>
-      <div className="bg-amber-200 h-200"></div>
+      <div className="bg-[#060010] h-250 flex justify-center items-center">
+        <div className="w-7xl mx-auto h-220 bg-black/30 flex flex-col justify-center gap-y-15">
+          <div className=" mx-20 text-white flex items-center gap-x-10">
+            <img
+              src="https://res.cloudinary.com/dbtlo70e5/image/upload/v1772443109/WhatsApp_Image_2026-02-26_at_8.22.48_PM_q5yqwq.jpg"
+              alt="SATISH KHURANA MD OF MAHAK PHOTOGRAPHY"
+              className="w-60 rounded-2xl"
+            />
+            <div className=" space-y-5">
+              <h1 className="text-3xl font-cormorant">
+                Founder’s Note — Satish Khurana
+              </h1>
+              <div className=" space-y-3 font-cormorant tracking-wide">
+                <p>
+                  Satish Khurana, Managing Director of Mahak Studio, began his
+                  journey in wedding photography in 1995 after completing his
+                  matriculation. What started as a personal challenge soon
+                  became a lifelong passion for creating timeless wedding
+                  memories.
+                </p>
+                <p>
+                  With decades of experience, he has remained committed to
+                  delivering excellence in image capturing, luxury presentation,
+                  and cinematic wedding storytelling. In an industry where many
+                  promise but few deliver, Mahak Studio focuses on what truly
+                  lasts — beautifully crafted wedding albums that preserve
+                  emotions forever.
+                </p>
+                <p>
+                  Under his leadership, Mahak Studio has grown into a trusted
+                  name for wedding photography in Haryana, Punjab, Delhi NCR,
+                  and across India, known for blending creativity, technology,
+                  and heartfelt storytelling.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="mx-20 flex text-white flex-row-reverse items-center gap-x-10">
+            <img
+              src="https://res.cloudinary.com/dbtlo70e5/image/upload/v1772443109/WhatsApp_Image_2026-02-26_at_8.22.48_PM_q5yqwq.jpg"
+              alt="SATISH KHURANA MD OF MAHAK PHOTOGRAPHY"
+              className="w-60 rounded-2xl "
+            />
+            <div className=" space-y-5 text-right">
+              <h1 className="text-2xl font-cormorant">
+                About — Sandeep Khurana
+              </h1>
+              <div className=" space-y-3 font-cormorant tracking-wide">
+                <p>
+                  Sandeep Khurana, brother of Satish Khurana, joined Mahak
+                  Studio in 2013 after completing his Bachelor’s in Commerce.
+                  Since then, he has been dedicated to delivering premium
+                  wedding photography and cinematic wedding films in Haryana,
+                  Punjab, and Delhi NCR.
+                </p>
+                <p>
+                  Focused on high-quality image capturing, luxury album
+                  presentation, and modern cinematic storytelling, Sandeep
+                  ensures every wedding project reflects creativity and lasting
+                  emotional value. His commitment to quality continues to
+                  strengthen Mahak Studio’s reputation as a trusted wedding
+                  photography company in Karnal, Panipat, Kurukshetra, and
+                  across India.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
