@@ -43,7 +43,7 @@ export default function main() {
             <div className="bg-blue-600 h-50 md:h-70 xl:h-90 2xl:h-110 lg:w-120 xl:w-150 2xl:w-185 absolute top-56 md:top-50 xl:top-60 right-0 md:-right-2 lg:-left-50 xl:-left-50 2xl:-left-80 z-20">
               <img src={"https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377781/042A9203_qgnkjz.jpg"} alt="Wedding Image by Mahak Studio" className="w-full h-full" />
             </div>
-            <div className="hidden lg:flex bg-lime-600 h-65 xl:h-75 2xl:h-85 w-95 xl:w-110 2xl:w-130 absolute right-5 -top-15 xl:-top-5 lg:left-30 xl:left-60 2xl:left-78 z-40">
+            <div className="hidden lg:flex bg-lime-600 h-65 xl:h-75 2xl:h-85 w-95 xl:w-110 2xl:w-130 absolute right-5 -top-8 xl:-top-5 lg:left-30 xl:left-60 2xl:left-78 z-40">
               <img src={"https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377719/042A6049_hyhovu.jpg"} alt="Brid Image by Mahak Studio" className="w-full h-full" />
             </div>
             <div className="  bg-orange-500 h-50 md:h-60 lg:h-50 xl:h-60 2xl:h-75 w-fit md:w-80 xl:w-100 2xl:w-120 absolute top-109 md:top-105 lg:top-125 xl:top-160 2xl:top-180 lg:left-30 xl:left-50 2xl:left-60 ">
