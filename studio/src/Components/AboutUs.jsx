@@ -1,6 +1,7 @@
 import React from "react";
-import Img1 from "../Images/3D9A0119.jpeg";
 import ScrollIndicator from "./ScrollIndicator";
+import { GradualSpacing } from "./GradualSpacing";
+
 import Sec2Img from "../Images/042A8055.jpg.jpeg";
 import Sec2Img2 from "../Images/345.JPG.jpeg";
 import Sec3Img from "../Images/042A7718.JPG.jpeg";
@@ -11,30 +12,40 @@ export default function AboutUs() {
   return (
     <>
       <div className="bg-[#060010] h-fit top-0 flex justify-center">
-        <section className=" relative flex flex-col 2xl:px-8 h-fit">
+        <section className=" relative flex flex-col justify-center items-center mx-2 2xl:px-8 h-fit">
           <img
-            src={Img1}
+            src={"https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377638/0P0A9170_sjbm4z.jpg"}
             alt=""
-            className=" h-100 md:h-150 md:w-182 lg:h-150 lg:w-245 xl:h-215 xl:w-350 2xl:h-215 2xl:w-screen md:my-5 lg:m-5 2xl:my-8 2xl:mx-0 "
+            className=" h-100 w-75 md:h-150 md:w-182 lg:h-150 lg:w-245 xl:h-215 xl:w-350 2xl:h-215 2xl:w-screen md:my-5 lg:m-5 2xl:my-8 2xl:mx-0 "
           />
-          <div className=" absolute top-65 md:top-120 md:left-8 lg:top-105 lg:left-12 xl:top-165 2xl:top-140 2xl:left-12 text-balance md:w-150 lg:w-230 xl:w-300 2xl:w-7xl ">
-            <h3 className="text-red-500 font-cormorant uppercase text-xs md:text-lg text-center md:text-start">
+          <div className=" absolute flex flex-col bottom-25 text-balance text-center items-center 2xl:w-250">
+            <h3 className="text-[#0EA5D9] font-italianno lowercase text-xs md:text-lg text-center 2xl:text-5xl tracking-wide">
               Bay Area Indian wedding photographer
             </h3>
-            <h1 className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-cormorant uppercase text-balance text-center md:text-start">
-              Capturing natural moments of joy & celebration
+       
+            <h1 className="text-white text-xl md:text-4xl lg:text-5xl xl:text-6xl font-cormorant uppercase text-balance text-center md:text-start ">
+              <GradualSpacing
+               text="Capturing natural moments"
+            className="text-2xl md:text-4xl lg:text-5xl font-normal"
+              />
+              <GradualSpacing
+               text="of joy & celebration"
+            className="text-2xl md:text-4xl lg:text-5xl font-normal"
+              />
+             
+               
             </h1>
           </div>
           <div>
             <div className="flex justify-center">
-              <div className="absolute top-170">
+              <div className="absolute flex flex-col items-center text-center bottom-10 rounded-2xl shadow-xl">
                 <ScrollIndicator />
               </div>
             </div>
           </div>
         </section>
       </div>
-      <div className="bg-[#060010] relative h-100  flex justify-between items-center  px-2 lg:py-30 ">
+      {/* <div className="bg-[#060010] relative h-100  flex justify-between items-center  px-2 lg:py-30 ">
         <div className="z-50">
           <img
             src={Sec2Img}
@@ -91,7 +102,7 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-      <div className=" hidden bg-[#060010] h-200"></div>
+      <div className=" hidden bg-[#060010] h-200"></div> */}
     </>
   );
 }

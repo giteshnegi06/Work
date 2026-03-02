@@ -1,10 +1,5 @@
 import React from "react";
 import BlurText from "./BlurText";
-import Img from "../Images/12.jpg";
-import Img1 from "../Images/3.jpg";
-import Img2 from "../Images/7.jpg";
-import Img3 from "../Images/13.jpg";
-import Img4 from "../Images/45.jpg";
 import { Link } from "react-router-dom";
 
 const handleAnimationComplete = () => {

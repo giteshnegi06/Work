@@ -13,7 +13,7 @@ const testimonials = [
     name: "Neha Sharma",
     role: "Pre-Wedding Shoot",
     text: "The team made us so comfortable during the shoot. The photos look straight out of a movie!",
-    rating: 5,
+    rating: 4,
   },
   {
     name: "Kunal Verma",
@@ -55,7 +55,7 @@ export default function TestimonialSlider() {
               className="bg-white/20 rounded-2xl shadow-xl p-5 sm:p-6 md:p-8 text-center mx-6 sm:mx-10 md:mx-0"
             >
               {/* Stars */}
-              {/* <div className="flex justify-center mb-3 sm:mb-4">
+              <div className="flex justify-center mb-3 sm:mb-4">
                 {Array.from({ length: testimonials[index].rating }).map(
                   (_, i) => (
                     <Star
@@ -64,7 +64,7 @@ export default function TestimonialSlider() {
                     />
                   ),
                 )}
-              </div> */}
+              </div>
 
               {/* Text */}
               <p className="text-white text-base sm:text-lg leading-relaxed mb-5 sm:mb-6">
