@@ -65,7 +65,7 @@ export default function PortfolioVideos() {
         <div className="w-screen 2xl:w-430 flex flex-wrap justify-center items-center gap-y-1 md:gap-x-10 lg:gap-x-20 xl:gap-x-20">
 
           {youtubeVideo.map((v, i) => (
-            <div key={i} className={`mb-8 md:mb-10 lg:mb-20 ${i > 1 ? "hidden md:block" : ""}`}>
+            <div key={i} className={`mb-8 md:mb-10 lg:mb-20 ${i > 4 ? "hidden md:block" : ""}`}>
               
               {/* VIDEO PLAYER */}
               <iframe
