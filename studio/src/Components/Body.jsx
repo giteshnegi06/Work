@@ -66,14 +66,14 @@ export default function Body() {
       >
         {cardsData.map((v, i) => (
           <ScrollStackItem key={i}>
-            <div className=" md:flex flex-row-reverse justify-between xl:mx-5 items-center overflow-hidden">
+            <div className="flex flex-col md:flex md:flex-row-reverse justify-between items-center gap-auto  xl:mx-5 overflow-hidden">
               <img
                 src={v.image}
                 alt="By Mahak Studio"
-                className=" md:mt-0 w-screen md:w-90 lg:w-120 xl:w-160 2xl:w-150   rounded-2xl"
+                className="w-full md:w-90 lg:w-120 xl:w-130 2xl:w-150 rounded-2xl"
               />
-              <div className="xl:ml-10 text-center sm-mt-2">
-                <h2 className=" mt-3 text-2xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-6xl font-dancing mb-2 text-[#0EA5D9] tracking-wider">
+              <div className="xl:ml-10 text-center">
+                <h2 className=" mt-2 text-2xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-6xl font-dancing mb-2 text-[#0EA5D9] tracking-wider">
                   {v.title}
                 </h2>
                 <p className=" text-white font-cormorant text-sm md:text-[16px] lg:text-xl xl:text-2xl 2xl:text-2xl text-balance lg:mt-4">
