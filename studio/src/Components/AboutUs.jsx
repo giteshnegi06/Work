@@ -14,7 +14,7 @@ export default function AboutUs() {
               "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772388347/_DSC5025_utsuw6.jpg"
             }
             alt=""
-            className=" h-90  md:h-150 md:w-182 lg:h-150 lg:w-245 xl:h-215 xl:w-350 2xl:h-215 2xl:w-screen md:my-5 lg:m-5 2xl:my-8 2xl:mx-0 "
+            className=" h-90  md:h-150 md:w-182 lg:h-150 lg:w-245 xl:h-215 xl:w-350 2xl:h-215 2xl:w-screen md:my-5 lg:m-5 2xl:my-8 2xl:mx-0 object-cover"
           />
           <div className=" absolute flex flex-col bottom-5 lg:bottom-25 text-balance text-center items-center 2xl:w-250">
             <h3 className="text-[#0EA5D9] font-italianno lowercase  md:text-2xl text-center 2xl:text-5xl tracking-wide">
