@@ -87,7 +87,7 @@ export default function AboutUs() {
               className="w-70 md:w-92.5 lg:w-132 xl:w-135 2xl:w-145"
             />
           </div>
-          <div className="absolute  md:w-92 lg:w-132 xl:w-145 text-xs lg:text-sm xl:text-[16px] text-center md:text-end  font-cormorant text-white text-balance space-y-5 left-0 xl:left-30 2xl:left-90 md:top-auto md:bottom-18 lg:bottom-25">
+          <div className="absolute w-80  md:w-92 lg:w-132 xl:w-145 text-xs lg:text-sm xl:text-[16px] text-center md:text-end  font-cormorant text-white text-balance space-y-5 md:left-0 xl:left-30 2xl:left-90 md:top-auto md:bottom-18 lg:bottom-25">
             <h3 className="tracking-wide text-balance ">
               For over a decade, we’ve photographed{" "}
               <span className="text-red-500">over 450</span> Indian weddings in
