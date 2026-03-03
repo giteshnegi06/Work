@@ -8,6 +8,7 @@ import ContactUs from "./ContactUs";
 import Feedback from "./Feedback";
 import FadeSlids from "./HeroSlider";
 import ScrollHorizontal from "./ScrollHorizontal";
+import PhotoGallery from "./PhotoGallery";
 
 const cardsData = [
   {
@@ -32,13 +33,13 @@ const cardsData = [
   },
   {
     title: "Baby Photoshoot",
-    desc: "Celebrate the beautiful journey of motherhood with our soft, emotional, and artistic maternity photoshoots. We create warm and graceful portraits you will cherish forever.",
-    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772467604/042A6063.JPG_xdsxqa.jpg",
+    desc: "Tiny toes, gentle smiles, and pure love — we specialize in baby photoshoots and newborn photography that beautifully capture your little one’s earliest moments. From dreamy newborn portraits to joyful milestone sessions, we create timeless images your family will cherish forever.",
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772467629/042A5928.JPG_gvajuv.jpg",
   },
   {
     title: "Passport & Visa Photoshoot",
-    desc: "Celebrate the beautiful journey of motherhood with our soft, emotional, and artistic maternity photoshoots. We create warm and graceful portraits you will cherish forever.",
-    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772467604/042A6063.JPG_xdsxqa.jpg",
+    desc: "We also provide professional passport and visa photos for USA, Canada, Australia, and other countries. Our photos follow official embassy guidelines with correct size and biometric standards, ensuring smooth and hassle-free approval.",
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772544886/Passport_Visa_h7f1db.png",
   },
 ];
 
@@ -47,7 +48,7 @@ export default function Body() {
     <>
       <Whatsaap />
       <FadeSlids />
-      <Main />
+      <PhotoGallery />
 
       <div className=" bg-black ">
         <ScrollHorizontal />
@@ -65,11 +66,11 @@ export default function Body() {
       >
         {cardsData.map((v, i) => (
           <ScrollStackItem key={i}>
-            <div className=" md:flex flex-row-reverse justify-between xl:mx-5 items-center">
+            <div className=" md:flex flex-row-reverse justify-between xl:mx-5 items-center overflow-hidden">
               <img
                 src={v.image}
                 alt="By Mahak Studio"
-                className=" md:mt-0 w-screen md:w-90 lg:w-120 xl:w-160 2xl:w-150 rounded-2xl"
+                className=" md:mt-0 w-screen md:w-90 lg:w-120 xl:w-160 2xl:w-150   rounded-2xl"
               />
               <div className="xl:ml-10 text-center sm-mt-2">
                 <h2 className=" mt-3 text-2xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-6xl font-dancing mb-2 text-[#0EA5D9] tracking-wider">
