@@ -37,7 +37,7 @@ export default function Footer() {
         </div>
         <div className="mt-10 pt-1 mx-0 w-68 md:w-150 lg:w-210 xl:w-300 border-t flex flex-wrap justify-center md:justify-between ">
           <h3 className="md:flex">
-            &#x00A9; 2026 Mehak Photography{" "}
+            &#x00A9; 2026 Mahak Studio
             <span className=" hidden md:flex">, All Rights Reserved.</span>{" "}
           </h3>
           <span className="items-center">

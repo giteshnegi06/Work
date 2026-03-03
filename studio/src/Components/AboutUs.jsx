@@ -1,10 +1,12 @@
 import React from "react";
 import ScrollIndicator from "./ScrollIndicator";
 import { GradualSpacing } from "./GradualSpacing";
+import Whatsaap from "./Whatsaap";
 
 export default function AboutUs() {
   return (
     <>
+      <Whatsaap />
       <div className="bg-black h-fit top-0 flex justify-center items-center">
         <section className=" relative flex flex-col justify-center items-center md:mx-2 2xl:px-8 h-fit">
           <img

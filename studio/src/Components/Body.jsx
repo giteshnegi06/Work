@@ -1,6 +1,6 @@
 import React from "react";
 import ScrollStack, { ScrollStackItem } from "./ScrollStack";
-import { FaWhatsapp } from "react-icons/fa";
+import Whatsaap from "./Whatsaap";
 import Main from "./Main";
 import Swiper from "./Swiper";
 import Videosec from "./Videosec";
@@ -30,30 +30,22 @@ const cardsData = [
     desc: "Celebrate the beautiful journey of motherhood with our soft, emotional, and artistic maternity photoshoots. We create warm and graceful portraits you will cherish forever.",
     image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772467604/042A6063.JPG_xdsxqa.jpg",
   },
+  {
+    title: "Baby Photoshoot",
+    desc: "Celebrate the beautiful journey of motherhood with our soft, emotional, and artistic maternity photoshoots. We create warm and graceful portraits you will cherish forever.",
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772467604/042A6063.JPG_xdsxqa.jpg",
+  },
+  {
+    title: "Passport & Visa Photoshoot",
+    desc: "Celebrate the beautiful journey of motherhood with our soft, emotional, and artistic maternity photoshoots. We create warm and graceful portraits you will cherish forever.",
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772467604/042A6063.JPG_xdsxqa.jpg",
+  },
 ];
 
 export default function Body() {
   return (
     <>
-      <div className="fixed bottom-6 right-5 z-50">
-        <a
-          href="https://wa.me/919255195704"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Chat with Mahak Studio on WhatsApp"
-        >
-          {/* Desktop Button */}
-          <div className="hidden lg:flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-5 py-3 rounded-full shadow-lg transition duration-300">
-            <FaWhatsapp className="text-2xl" />
-            <span className="text-lg font-medium">WhatsApp Us!</span>
-          </div>
-
-          {/* Mobile Floating Icon */}
-          <div className="flex lg:hidden items-center justify-center bg-green-500 hover:bg-green-600 text-white p-2 rounded-full shadow-lg transition duration-300">
-            <FaWhatsapp className="text-3xl" />
-          </div>
-        </a>
-      </div>
+      <Whatsaap />
       <FadeSlids />
       <Main />
 

@@ -59,6 +59,27 @@ const items = [
     image:
       "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378529/10_mfzw64.jpg",
   },
+  {
+    id: 8,
+    color: "#0cdcf7",
+    label: "Night Eight",
+    image:
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772467645/042A0184.JPG_dmszvp.jpg",
+  },
+  {
+    id: 9,
+    color: "#0cdcf7",
+    label: "Night Nine",
+    image:
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772388604/6_firr0o.jpg",
+  },
+  {
+    id:10,
+    color: "#0cdcf7",
+    label: "Night Ten",
+    image:
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378477/48_zbvvgx.jpg",
+  },
 ];
 
 // Responsive dimensions
