@@ -22,23 +22,23 @@ export default function PortfolioVideos() {
       title: "Cinematic Film",
     },
     {
-      src: "https://www.youtube.com/embed/DYv_nGW__Co",
+      src: "https://www.youtube.com/embed/aJXj9tgO55I",
       title: "Wedding Highlight",
     },
     {
-      src: "https://www.youtube.com/embed/fpjWRVXhyPk",
+      src: "https://www.youtube.com/embed/Hpd4ocA5c9A",
       title: "Pre Wedding",
     },
     {
-      src: "https://www.youtube.com/embed/0452CPZPyT8",
+      src: "https://www.youtube.com/embed/S0WdbLuDGeA",
       title: "Cinematic Film",
     },
     {
-      src: "https://www.youtube.com/embed/DYv_nGW__Co",
+      src: "https://www.youtube.com/embed/jE7RCnGcYMU",
       title: "Wedding Highlight",
     },
     {
-      src: "https://www.youtube.com/embed/fpjWRVXhyPk",
+      src: "https://www.youtube.com/embed/ERsEV8V-O9Q",
       title: "Pre Wedding",
     },
   ];
