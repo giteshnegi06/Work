@@ -53,11 +53,11 @@ export default function Videosec() {
         <div className="w-screen 2xl:w-430 flex flex-wrap justify-center items-center gap-y-1 md:gap-x-10 lg:gap-x-20 xl:gap-x-20">
 
           {youtubeVideo.map((v, i) => (
-            <div key={i} className={`mb-8 md:mb-10 lg:mb-20 ${i > 5 ? "hidden lg:block" : ""}`}>
+            <div key={i} className={`mb-8 md:mb-10 lg:mb-20 ${i > 1 ? "hidden md:block" : ""}`}>
               
               {/* VIDEO PLAYER */}
               <iframe
-                className="bg-black w-75 h-42 md:w-[320px] md:h-50 lg:w-100 lg:h-60 xl:w-120 xl:h-65 rounded-2xl shadow-xl"
+                className="bg-black w-75 h-42 md:w-55 md:h-34 lg:w-65 lg:h-38 xl:w-90 xl:h-52 2xl:w-110 2xl:h-61 rounded-2xl shadow-xl"
                 src={v.src}
                 title={v.title}
                 frameBorder="1"

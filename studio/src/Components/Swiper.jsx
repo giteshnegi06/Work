@@ -74,7 +74,7 @@ export default function Swiperimg() {
           className="w-78 h-120 md:w-120 md:h-160 overflow-hidden rounded-2xl shadow-xl"
         >
           {swiper.map((v, i) => (
-            <SwiperSlide key={i} className="flex items-center justify-center rounded-xl text-white text-xl font-bold ">{v.image && (
+            <SwiperSlide key={i} className="flex items-center justify-center rounded-xl text-white text-xl font-bold overflow-hidden ">{v.image && (
               <img
                 src={v.image}
                 alt="logo"

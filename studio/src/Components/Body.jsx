@@ -1,7 +1,6 @@
 import React from "react";
 import ScrollStack, { ScrollStackItem } from "./ScrollStack";
 import Whatsaap from "./Whatsaap";
-import Main from "./Main";
 import Swiper from "./Swiper";
 import Videosec from "./Videosec";
 import ContactUs from "./ContactUs";

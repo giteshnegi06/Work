@@ -34,7 +34,7 @@ const FadeSlides = () => {
               src={img}
               alt={`Mahak Studio Wedding Slide ${index + 1}`}
               loading={index === 0 ? "eager" : "lazy"}
-              className="w-full h-full object-cover"
+              className= " h-90 md:h-130 lg:w-full lg:h-full object-cover"
             />
           </div>
         ))}
@@ -49,12 +49,12 @@ const FadeSlides = () => {
 // 🔥 Hero Section
 const HeroSlider = () => {
   return (
-    <section className="h-screen relative w-full overflow-hidden">
+    <section className=" h-90 md:h-screen relative w-full overflow-hidden">
       {/* Background */}
       <FadeSlides />
 
       {/* Foreground Content */}
-      <div className="relative z-20 h-full flex flex-col items-center justify-center text-center px-4 top-58 lg:top-50 2xl:top-80 ">
+      <div className="relative z-20 h-full flex flex-col items-center justify-center text-center px-4 top-35 md:top-48 lg:top-50 2xl:top-80 ">
         <h3 className="text-red-600 font-love-light">
           <GradualSpacing
             text="breaking the traditional mold of"
