@@ -101,7 +101,7 @@ const PhotoGallery = () => {
     }, []);
 
     return (
-        <div className="min-h-screen bg-[#060010] px-4 py-20">
+        <div className="min-h-screen bg-[#060010] px-4 py-20 overflow-hidden">
             <div className="max-w-7xl mx-auto">
 
                 {/* HEADER */}
