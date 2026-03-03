@@ -5,8 +5,8 @@ import { IoIosMailUnread } from "react-icons/io";
 export default function FooterMap() {
   return (
     <>
-      <div className=" md:flex md:gap-x-2.5 lg:gap-x-10 items-center">
-        <div className="w-68 md:w-100 h-50">
+      <div className="flex flex-col md:flex-row md:gap-x-2.5 lg:gap-x-10 items-center">
+        <div className="w-75 md:w-100 h-50 text-center md:text-start">
           <h1 className="text-4xl font-cormorant">Contact</h1>
           <ul className=" flex flex-col gap-2.5 mt-5">
             <p className="flex gap-2">
@@ -29,7 +29,7 @@ export default function FooterMap() {
             </a>
           </ul>
         </div>
-        <div className="w-65 h-70 rounded-2xl overflow-hidden shadow-lg shadow-black/40">
+        <div className="w-65 h-70 rounded-2xl overflow-hidden shadow-lg shadow-black/40 mt-3 md:mt-0 ">
           <iframe
             title="Mahak Digital Studio Location"
             src="https://maps.google.com/maps?q=29.6792995,77.016679&z=19&output=embed"
