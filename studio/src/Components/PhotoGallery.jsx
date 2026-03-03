@@ -105,7 +105,7 @@ const PhotoGallery = () => {
             <div className="max-w-7xl mx-auto">
 
                 {/* HEADER */}
-                <div className="text-center mb-14 flex flex-col items-center">
+                <div className="text-center mb-8 flex flex-col items-center">
                     <h3 className="text-[#0EA5D9] text-lg md:text-2xl mb-3 font-serif">
                         <BlurText
                             text="Specializing in"
