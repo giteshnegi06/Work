@@ -1,27 +1,25 @@
 import React, { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { RxCross2 } from "react-icons/rx";
-import { Link } from "react-router-dom";
-
+import { Link as RouterLink } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 export default function Navbar() {
   const navBar = [
     { href: "/", name: "Home", type: "text" },
     { href: "/portfolio", name: "Portfolio", type: "text" },
     { href: "/", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772374686/logo_d2is9d.png", type: "image" }, // Added type property
     { href: "/aboutUs", name: "About Us", type: "text" },
-    { href: "/", name: "Contact", type: "text" },
   ];
-  
+
   const [isOpen, setIsOpen] = useState(false); // Better variable name
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-  
+
   const mobileNav = [
     { href: "/", name: "Home" },
     { href: "/portfolio", name: "Portfolio" },
     { href: "/aboutUs", name: "About Us" },
-    { href: "/", name: "Contact" },
   ];
 
   return (
@@ -35,24 +33,34 @@ export default function Navbar() {
                 <li key={i}>
                   {v.type === "image" ? (
                     // Render only image for the logo item
-                    <Link to={v.href}>
+                    <RouterLink to={v.href}>
                       <img
                         src={v.image}
                         alt="Mahak Studio Logo"
                         className="h-38 w-auto p-0 hover:border-none border-black"
                       />
-                    </Link>
+                    </RouterLink>
                   ) : (
                     // Render text for other items
-                    <Link
+                    <RouterLink
                       to={v.href}
                       className="h-1 pb-3 px-2 text-white hover:text-white font-cormorant md:text-lg lg:text-xl transition-discrete ease-in-out duration-80 hover:border-b-4 border-red-500"
                     >
                       {v.name}
-                    </Link>
+                    </RouterLink>
                   )}
                 </li>
               ))}
+              <li>
+                <ScrollLink
+                  to="section1"
+                  smooth={true}
+                  duration={500}
+                  className="h-1 pb-3 px-2 text-white hover:text-white font-cormorant md:text-lg lg:text-xl transition-discrete ease-in-out duration-80 hover:border-b-4 border-red-500"
+                >
+                  Contact
+                </ScrollLink>
+              </li>
             </ul>
 
             {/* Mobile Menu Header */}
@@ -70,11 +78,16 @@ export default function Navbar() {
               <ul className="md:hidden px-3 pt-2 h-fit w-auto text-white flex flex-col gap-1.5 text-end justify-end duration-300 transition-all">
                 {mobileNav.map((v, i) => (
                   <li key={i}>
-                    <Link to={v.href} onClick={toggleMenu}>
+                    <RouterLink to={v.href} onClick={toggleMenu}>
                       {v.name}
-                    </Link>
+                    </RouterLink>
                   </li>
                 ))}
+                <li>
+                  <ScrollLink to="section1" smooth={true} duration={500} onClick={toggleMenu}>
+                    Contact
+                  </ScrollLink>
+                </li>
               </ul>
             )}
           </nav>
