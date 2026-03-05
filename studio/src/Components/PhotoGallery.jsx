@@ -11,7 +11,7 @@ const imageNames = [
     "56_mkldqe.jpg",
     "042A9046_a3pdyt.jpg",
     "042A2347_evgfjq.jpg",
-    "13_efgdel.jpg",
+    "DSC02532.jpg_yjethv.jpg",
     "IMG_4060.JPG_jndi6o.jpg",
     "3D9A0324_arxn2g.jpg",
     "3D9A0093_phaviv.jpg",

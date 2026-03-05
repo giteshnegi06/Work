@@ -159,7 +159,7 @@ export default function ScrollHorizontal() {
                 className="gallery-item h-500"
                 style={{
                   width: `${dimensions.itemWidth * 1.2}px`,
-                  height: `${dimensions.itemWidth * 1.5}px`, // Maintain aspect ratio
+                  height: `${dimensions.itemWidth * 1.6}px`, // Maintain aspect ratio
                   backgroundImage: `url(${item.image})`,
                   marginRight:
                     index < items.length - 1 ? `${dimensions.gap}px` : "0", // No gap after last item
@@ -169,7 +169,7 @@ export default function ScrollHorizontal() {
                   className="item-content"
                   style={{ "--item-color": item.color }}
                 >
-                  <span className="item-number">0{item.id}</span>
+                  <span className="item-number">{item.id}</span>
                   <h2>{item.label}</h2>
                 </div>
               </div>
