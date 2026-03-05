@@ -50,13 +50,13 @@ const FadeSlides = () => {
         indicators={true}
       >
         {images.map((img, index) => (
-          <div key={index} className="w-full h-screen">
+          <div key={index} className="h-120  md:w-full md:h-screen">
             <img
               src={img}
               alt={`Mahak Studio Wedding ${index}`}
               loading={index === 0 ? "eager" : "lazy"}
               fetchpriority={index === 0 ? "high" : "auto"}
-              className="w-full h-screen object-cover"
+              className="h-120  md:w-full md:h-screen object-cover"
             />
           </div>
         ))}
@@ -69,11 +69,11 @@ const FadeSlides = () => {
 
 const HeroSlider = () => {
   return (
-    <section className="relative w-full h-screen overflow-hidden">
+    <section className="relative h-120  md:w-full md:h-screen overflow-hidden">
 
       <FadeSlides />
 
-     <div className="relative z-20 h-full flex flex-col items-center justify-center text-center px-4 top-35 md:top-48 lg:top-65 2xl:top-80 ">
+     <div className="relative z-20 h-full flex flex-col items-center justify-center text-center px-4 top-45 md:top-68 lg:top-65 2xl:top-80 ">
         <h3 className="text-red-600 font-love-light">
           <GradualSpacing
             text="breaking the traditional mold of"
