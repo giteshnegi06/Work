@@ -3,6 +3,8 @@ import ContactForm from "./ContactForm";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { RiDoubleQuotesR } from "react-icons/ri";
 import { Element } from "react-scroll";
+import { Link } from "react-router-dom";
+
 export default function ContactUs() {
   return (
     <Element name="section1">
@@ -20,26 +22,12 @@ export default function ContactUs() {
               <RiDoubleQuotesL className="absolute left-0 md:left-6 lg:-left-8 xl:left-12 -top-4 text-4xl text-gray-400" />
 
               <p>
-                <span className="text-[#0EA5D9]">Established in 2000, </span>
-                CandidShutters started as a
-                <span className="text-red-500">
-                  premium boutique wedding photography and films venture
-                </span>
-                aiming to tell folk tales of love of the modern-day new age couple.
-              </p>
-
-              <p>
-                We are a team of passionate creative individuals who love narrating,
-                capturing and epitomizing stories of love, laughter, and togetherness.
-              </p>
-
-              <p>
-                We have learned, experienced and grown over the last
-                <span className="text-red-500">twenty five years, </span>
-                having covered
-                <span className="text-[#0EA5D9]">
-                  over 1000 multi-cultural wedding celebrations across the globe.
-                </span>
+                Great wedding photography truly focuses on strong emotion.
+                We are <span className="text-[#0EA5D9]">Mahak Photography</span>. We never just take simple pictures.
+                Conversely, we feel honored capturing your real, authentic moments.
+                Your unique love story matters deeply to us. Furthermore, our job is carefully listening to your complete vision.
+                We transform your dream wedding into stunning memories. These special, cherished memories will last forever. 
+                We offer trusted service as expert <a href="/" className="text-red-500">wedding photographers in India</a>.
               </p>
 
               {/* Closing Quote */}
@@ -51,6 +39,7 @@ export default function ContactUs() {
             <ContactForm />
           </div>
         </div>
-      </div></Element>
+      </div>
+    </Element>
   );
 }

@@ -6,28 +6,28 @@ export default function Videosec() {
   // ✅ use embed URLs (IMPORTANT)
   const youtubeVideo = [
     {
-      src: "https://www.youtube.com/embed/DYv_nGW__Co",
+      src: "https://www.youtube.com/embed/aLbNMKRJgfM",
       title: "Wedding Highlight",
     },
     {
-      src: "https://www.youtube.com/embed/fpjWRVXhyPk",
+      src: "https://www.youtube.com/embed/redOaUVS858",
       title: "Pre Wedding",
     },
     {
-      src: "https://www.youtube.com/embed/aRLJcKm684s",
+      src: "https://www.youtube.com/embed/mDdb3M9kJ1A",
       title: "Destination Wedding",
     },
     {
-      src: "https://www.youtube.com/embed/0452CPZPyT8",
+      src: "https://www.youtube.com/embed/Hyi73r9YJo8",
       title: "Cinematic Film",
     },
     {
-      src: "https://www.youtube.com/embed/DYv_nGW__Co",
-      title: "Wedding Highlight",
+      src: "https://www.youtube.com/embed/6ozANCKN2L4",
+      title: "KIYANSH 1ST BIRTHDAY",
     },
     {
-      src: "https://www.youtube.com/embed/fpjWRVXhyPk",
-      title: "Pre Wedding",
+      src: "https://www.youtube.com/embed/7nogdBxr_XU",
+      title: "Sneha' 19th Birthday",
     },
   ];
 
@@ -66,7 +66,7 @@ export default function Videosec() {
               />
 
               {/* title */}
-              <p className="text-center mt-3 text-white font-medium">
+              <p className="text-center mt-3 text-white font-cormorant text-sm md:text-base lg:text-xl">
                 {v.title}
               </p>
             </div>
