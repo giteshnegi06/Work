@@ -165,7 +165,7 @@ export default function AboutUs() {
                   I’m Sandeep Khurana, and I started my journey in wedding photography in 2013
                   after completing my Bachelor’s in Commerce. Since then, I have been passionate
                   about capturing weddings through premium photography and cinematic films across
-                   Haryana, Punjab, and Delhi NCR.
+                  Haryana, Punjab, and Delhi NCR.
                 </p>
                 <p>
                   My focus is on creating high-quality images, elegant album presentations, and modern 

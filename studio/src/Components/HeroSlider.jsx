@@ -73,7 +73,7 @@ const HeroSlider = () => {
 
       <FadeSlides />
 
-     <div className="relative z-20 h-full flex flex-col items-center justify-center text-center px-4 top-35 md:top-48 lg:top-50 2xl:top-80 ">
+     <div className="relative z-20 h-full flex flex-col items-center justify-center text-center px-4 top-35 md:top-48 lg:top-65 2xl:top-80 ">
         <h3 className="text-red-600 font-love-light">
           <GradualSpacing
             text="breaking the traditional mold of"

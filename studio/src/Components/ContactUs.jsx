@@ -19,7 +19,7 @@ export default function ContactUs() {
             <div className="relative w-65 md:w-160 lg:w-200 xl:w-173 text-xl font-cormorant space-y-5 tracking-wider text-balance text-center">
 
               {/* Opening Quote */}
-              <RiDoubleQuotesL className="absolute -left-8 md:-left-5 lg:left-6  -top-4 text-4xl text-gray-400" />
+              <RiDoubleQuotesL className="absolute -left-8 md:-left-5 lg:left-6 xl:-left-6 -top-4 text-4xl text-gray-400" />
 
               <p>
                 Great wedding photography truly focuses on strong emotion.
@@ -37,7 +37,7 @@ export default function ContactUs() {
               </p>
 
               {/* Closing Quote */}
-              <RiDoubleQuotesR className="absolute right-8 md:right-2 lg:right-0 bottom-6 lg:bottom-7 xl:bottom-6 text-4xl text-gray-400" />
+              <RiDoubleQuotesR className="absolute right-8 md:right-2 lg:right-0 xl:right-9 bottom-6 lg:bottom-7 xl:bottom-6 text-4xl text-gray-400" />
             </div>
           </div>
 

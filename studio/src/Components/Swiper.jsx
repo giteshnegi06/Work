@@ -48,6 +48,27 @@ export default function Swiperimg() {
       label: "Night Seven",
       image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378529/10_mfzw64.jpg",
     },
+    {
+    id: 8,
+    color: "#0cdcf7",
+    label: "Night Eight",
+    image:
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772467635/042A0142.JPG_oo01b3.jpg",
+  },
+  {
+    id: 9,
+    color: "#0cdcf7",
+    label: "Night Nine",
+    image:
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377766/042A9054_wydkrl.jpg",
+  },
+  {
+    id:10,
+    color: "#0cdcf7",
+    label: "Night Ten",
+    image:
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378485/45_ckkuaf.jpg",
+  },
   ]
   const handleAnimationComplete = () => {
     console.log('Animation completed!');
@@ -71,14 +92,14 @@ export default function Swiperimg() {
           effect="cards"
           grabCursor={true}
           modules={[EffectCards]}
-          className="w-78 h-120 md:w-120 md:h-160 overflow-hidden rounded-2xl shadow-xl"
+          className="w-75 h-110 md:w-120 md:h-160 overflow-hidden rounded-2xl shadow-xl"
         >
           {swiper.map((v, i) => (
             <SwiperSlide key={i} className="flex items-center justify-center rounded-xl text-white text-xl font-bold overflow-hidden ">{v.image && (
               <img
                 src={v.image}
                 alt="logo"
-                className="h-auto w-auto p-0 "
+                className="h-full w-full p-0  "
               />
             )}
               <div className="item-content">

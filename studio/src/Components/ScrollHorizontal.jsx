@@ -64,7 +64,7 @@ const items = [
     color: "#0cdcf7",
     label: "Night Eight",
     image:
-      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772467645/042A0184.JPG_dmszvp.jpg",
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772467635/042A0142.JPG_oo01b3.jpg",
   },
   {
     id: 9,
@@ -78,7 +78,7 @@ const items = [
     color: "#0cdcf7",
     label: "Night Ten",
     image:
-      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378477/48_zbvvgx.jpg",
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378485/45_ckkuaf.jpg",
   },
 ];
 
@@ -159,7 +159,7 @@ export default function ScrollHorizontal() {
                 className="gallery-item h-500"
                 style={{
                   width: `${dimensions.itemWidth * 1.2}px`,
-                  height: `${dimensions.itemWidth * 1.6}px`, // Maintain aspect ratio
+                  height: `${dimensions.itemWidth * 1.5}px`, // Maintain aspect ratio
                   backgroundImage: `url(${item.image})`,
                   marginRight:
                     index < items.length - 1 ? `${dimensions.gap}px` : "0", // No gap after last item
