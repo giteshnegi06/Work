@@ -129,7 +129,7 @@ export default function AboutUs() {
             <img
               src="https://res.cloudinary.com/dbtlo70e5/image/upload/v1772443109/WhatsApp_Image_2026-02-26_at_8.22.48_PM_q5yqwq.jpg"
               alt="SATISH KHURANA MD OF MAHAK PHOTOGRAPHY"
-              className="w-60 rounded-2xl"
+              className="w-65 rounded-2xl"
             />
             <div className=" space-y-5 text-center md:text-start">
               <h1 className="text-2xl md:text-3xl font-cormorant">
@@ -137,25 +137,15 @@ export default function AboutUs() {
               </h1>
               <div className=" space-y-3 font-cormorant tracking-wide text-sm lg:text-lg">
                 <p>
-                  Satish Khurana, Managing Director of Mahak Studio, began his
-                  journey in wedding photography in 1995 after completing his
-                  matriculation. What started as a personal challenge soon
-                  became a lifelong passion for creating timeless wedding
-                  memories.
+                  I’m Satish Khurana, and I began my journey in wedding photography in 1995 after completing 
+                  my matriculation. I started from very small beginnings, learning the craft step by step and 
+                  working hard to build my skills and experience in this field.
                 </p>
                 <p>
-                  With decades of experience, he has remained committed to
-                  delivering excellence in image capturing, luxury presentation,
-                  and cinematic wedding storytelling. In an industry where many
-                  promise but few deliver, Mahak Studio focuses on what truly
-                  lasts — beautifully crafted wedding albums that preserve
-                  emotions forever.
-                </p>
-                <p>
-                  Under his leadership, Mahak Studio has grown into a trusted
-                  name for wedding photography in Haryana, Punjab, Delhi NCR,
-                  and across India, known for blending creativity, technology,
-                  and heartfelt storytelling.
+                  Over the years, with dedication and passion, I focused on perfecting image capturing, 
+                  luxury album presentation, and cinematic storytelling. What began as a small effort gradually 
+                  grew into a lifelong commitment to creating beautiful wedding memories. My goal has always been 
+                  to capture real emotions and preserve moments in a way that couples can cherish for a lifetime.
                 </p>
               </div>
             </div>
@@ -164,7 +154,7 @@ export default function AboutUs() {
             <img
               src="https://res.cloudinary.com/dbtlo70e5/image/upload/v1772443109/WhatsApp_Image_2026-02-26_at_8.22.48_PM_q5yqwq.jpg"
               alt="SATISH KHURANA MD OF MAHAK PHOTOGRAPHY"
-              className="w-60 rounded-2xl "
+              className="w-65 rounded-2xl "
             />
             <div className=" space-y-5 text-center md:text-right">
               <h1 className="text-2xl md:text-3xl font-cormorant">
@@ -172,20 +162,15 @@ export default function AboutUs() {
               </h1>
               <div className=" space-y-3 font-cormorant tracking-wide text-sm lg:text-lg">
                 <p>
-                  Sandeep Khurana, brother of Satish Khurana, joined Mahak
-                  Studio in 2013 after completing his Bachelor’s in Commerce.
-                  Since then, he has been dedicated to delivering premium
-                  wedding photography and cinematic wedding films in Haryana,
-                  Punjab, and Delhi NCR.
+                  I’m Sandeep Khurana, and I started my journey in wedding photography in 2013
+                  after completing my Bachelor’s in Commerce. Since then, I have been passionate
+                  about capturing weddings through premium photography and cinematic films across
+                   Haryana, Punjab, and Delhi NCR.
                 </p>
                 <p>
-                  Focused on high-quality image capturing, luxury album
-                  presentation, and modern cinematic storytelling, Sandeep
-                  ensures every wedding project reflects creativity and lasting
-                  emotional value. His commitment to quality continues to
-                  strengthen Mahak Studio’s reputation as a trusted wedding
-                  photography company in Karnal, Panipat, Kurukshetra, and
-                  across India.
+                  My focus is on creating high-quality images, elegant album presentations, and modern 
+                  cinematic wedding stories. Every wedding I capture is about preserving real emotions 
+                  and turning beautiful moments into timeless memories that couples can relive for years to come.
                 </p>
               </div>
             </div>
