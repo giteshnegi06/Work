@@ -21,6 +21,18 @@ const testimonials = [
     text: "Professional, creative, and super friendly. Highly recommended for any special occasion.",
     rating: 5,
   },
+  {
+    name: "Rohit khurana",
+    role: "Family Session",
+    text: "Professional, creative, and super friendly. Highly recommended for any special occasion.",
+    rating: 5,
+  },
+  {
+    name: "Sahil Verma",
+    role: "Ring Seromony",
+    text: "Professional, creative, and super friendly. Highly recommended for any special occasion.",
+    rating: 5,
+  },
 ];
 
 export default function TestimonialSlider() {

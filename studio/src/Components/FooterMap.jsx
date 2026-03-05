@@ -7,7 +7,7 @@ export default function FooterMap() {
     <>
       <div className="flex flex-col md:flex-row md:gap-x-2.5 lg:gap-x-10 items-center">
         <div className="w-75 md:w-100 h-50 text-center md:text-start">
-          <h1 className="text-4xl font-cormorant">Contact</h1>
+          <h1 className="text-5xl font-cormorant mb-3">Contact</h1>
           <ul className=" flex flex-col gap-2.5 mt-5">
             <p className="flex gap-2">
               <a href="tel:+919255195704" className="flex items-center gap-2">
