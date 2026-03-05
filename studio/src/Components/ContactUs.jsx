@@ -19,19 +19,25 @@ export default function ContactUs() {
             <div className="relative w-65 md:w-160 lg:w-200 xl:w-173 text-xl font-cormorant space-y-5 tracking-wider text-balance text-center">
 
               {/* Opening Quote */}
-              <RiDoubleQuotesL className="absolute left-0 md:left-6 lg:-left-8 xl:left-12 -top-4 text-4xl text-gray-400" />
+              <RiDoubleQuotesL className="absolute -left-8 md:-left-5 lg:left-6  -top-4 text-4xl text-gray-400" />
 
               <p>
                 Great wedding photography truly focuses on strong emotion.
                 We are <span className="text-[#0EA5D9]">Mahak Photography</span>. We never just take simple pictures.
                 Conversely, we feel honored capturing your real, authentic moments.
                 Your unique love story matters deeply to us. Furthermore, our job is carefully listening to your complete vision.
-                We transform your dream wedding into stunning memories. These special, cherished memories will last forever. 
+                We transform your dream wedding into stunning memories. These special, cherished memories will last forever.
                 We offer trusted service as expert <a href="/" className="text-red-500">wedding photographers in India</a>.
+              </p>
+              <h3 className="text-2xl lg:text-4xl font-cormorant text-[#0EA5D9] ">Delivering Pure Joy Through Our Work</h3>
+              <p>
+                At <span className="text-[#0EA5D9]">Mahak Studio</span>, our greatest reward is seeing your joy when you relive your special
+                day through our photographs. We capture beautiful, candid moments and real emotions, telling 
+                your love story through natural and timeless wedding photography.
               </p>
 
               {/* Closing Quote */}
-              <RiDoubleQuotesR className="absolute -right-8 md:right-18 lg:right-6 xl:-right-8 bottom-6 lg:bottom-7 xl:bottom-8 text-4xl text-gray-400" />
+              <RiDoubleQuotesR className="absolute right-8 md:right-2 lg:right-0 bottom-6 lg:bottom-7 xl:bottom-6 text-4xl text-gray-400" />
             </div>
           </div>
 

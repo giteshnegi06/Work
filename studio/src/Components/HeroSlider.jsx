@@ -18,8 +18,12 @@ const rawImages = [
 "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772467654/DSC02585.jpg_dfzdvk.jpg"
 ];
 
-const optimize = (url) =>
-  url.replace("/upload/", "/upload/f_auto,q_auto,w_1920/");
+const optimize = (url) => {
+  return url.replace(
+    "/upload/",
+    "/upload/f_auto,q_auto,w_1920,dpr_auto/"
+  );
+};;
 
 const FadeSlides = () => {
 
