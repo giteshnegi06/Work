@@ -7,51 +7,58 @@ import BlurText from "./BlurText";
 export default function Swiperimg() {
   const swiper = [
     {
-      id: 1,
-      color: "#ff0088",
-      label: "Night One",
-      image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377772/042A9227_xzc5ob.jpg",
-    },
-    {
-      id: 2,
-      color: "#dd00ee",
-      label: "Night Two",
-      image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772374699/042A3672.JPG_ojp1tn.jpg",
-    },
-    {
-      id: 3,
-      color: "#9911ff",
-      label: "Night Three",
-      image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772375061/042A7740.JPG_swbal4.jpg",
-    },
-    {
-      id: 4,
-      color: "#0d63f8",
-      label: "Night Four",
-      image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772375134/042A7979.jpg_hbhpkj.jpg",
-    },
-    {
-      id: 5,
-      color: "#0cdcf7",
-      label: "Night Five",
-      image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377744/042A6489_cp7dun.jpg",
-    },
-    {
-      id: 6,
-      color: "#0cdcf7",
-      label: "Night Six",
-      image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772375218/3G4A3223.JPG_cmkfd7.jpg",
-    },
-    {
-      id: 7,
-      color: "#0cdcf7",
-      label: "Night Seven",
-      image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378529/10_mfzw64.jpg",
-    },
-    {
+    id: 1,
+    color: "#ff0088",
+    label: "Akshay & Neha",
+    image:
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377772/042A9227_xzc5ob.jpg",
+  },
+  {
+    id: 2,
+    color: "#dd00ee",
+    label: "Yover & Srishti",
+    image:
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772374699/042A3672.JPG_ojp1tn.jpg",
+  },
+  {
+    id: 3,
+    color: "#9911ff",
+    label: "Jaskaran singh & Navsheen",
+    image:
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772375061/042A7740.JPG_swbal4.jpg",
+  },
+  {
+    id: 4,
+    color: "#0d63f8",
+    label: "Ankush & Ritika",
+    image:
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772375134/042A7979.jpg_hbhpkj.jpg",
+  },
+  {
+    id: 5,
+    color: "#0cdcf7",
+    label: "Taranveer Singh & Bhupinder Kaur",
+    image:
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377744/042A6489_cp7dun.jpg",
+  },
+  {
+    id: 6,
+    color: "#0cdcf7",
+    label: "Jashan & Komal",
+    image:
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772375218/3G4A3223.JPG_cmkfd7.jpg",
+  },
+  {
+    id: 7,
+    color: "#0cdcf7",
+    label: "Amit & Tanvi",
+    image:
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378529/10_mfzw64.jpg",
+  },
+  {
     id: 8,
     color: "#0cdcf7",
-    label: "Night Eight",
+    label: " Pardeep & Renu",
     image:
       "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772467635/042A0142.JPG_oo01b3.jpg",
   },
@@ -60,12 +67,12 @@ export default function Swiperimg() {
     color: "#0cdcf7",
     label: "Night Nine",
     image:
-      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377766/042A9054_wydkrl.jpg",
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772388604/6_firr0o.jpg",
   },
   {
     id:10,
     color: "#0cdcf7",
-    label: "Night Ten",
+    label: "Arpit & Vaishali",
     image:
       "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378485/45_ckkuaf.jpg",
   },

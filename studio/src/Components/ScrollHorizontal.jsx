@@ -13,56 +13,56 @@ const items = [
   {
     id: 1,
     color: "#ff0088",
-    label: "Night One",
+    label: "Akshay & Neha",
     image:
       "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377772/042A9227_xzc5ob.jpg",
   },
   {
     id: 2,
     color: "#dd00ee",
-    label: "Night Two",
+    label: "Yover & Srishti",
     image:
       "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772374699/042A3672.JPG_ojp1tn.jpg",
   },
   {
     id: 3,
     color: "#9911ff",
-    label: "Night Three",
+    label: "Jaskaran singh & Navsheen",
     image:
       "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772375061/042A7740.JPG_swbal4.jpg",
   },
   {
     id: 4,
     color: "#0d63f8",
-    label: "Night Four",
+    label: "Ankush & Ritika",
     image:
       "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772375134/042A7979.jpg_hbhpkj.jpg",
   },
   {
     id: 5,
     color: "#0cdcf7",
-    label: "Night Five",
+    label: "Taranveer Singh & Bhupinder Kaur",
     image:
       "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377744/042A6489_cp7dun.jpg",
   },
   {
     id: 6,
     color: "#0cdcf7",
-    label: "Night Six",
+    label: "Jashan & Komal",
     image:
       "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772375218/3G4A3223.JPG_cmkfd7.jpg",
   },
   {
     id: 7,
     color: "#0cdcf7",
-    label: "Night Seven",
+    label: "Amit & Tanvi",
     image:
       "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378529/10_mfzw64.jpg",
   },
   {
     id: 8,
     color: "#0cdcf7",
-    label: "Night Eight",
+    label: " Pardeep & Renu",
     image:
       "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772467635/042A0142.JPG_oo01b3.jpg",
   },
@@ -76,7 +76,7 @@ const items = [
   {
     id:10,
     color: "#0cdcf7",
-    label: "Night Ten",
+    label: "Arpit & Vaishali",
     image:
       "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378485/45_ckkuaf.jpg",
   },
@@ -169,8 +169,8 @@ export default function ScrollHorizontal() {
                   className="item-content"
                   style={{ "--item-color": item.color }}
                 >
-                  <span className="item-number">{item.id}</span>
-                  <h2>{item.label}</h2>
+                  {/* <span className="item-number">{item.id}</span> */}
+                  <h2 className="text-center font-dancing text-[42px]">{item.label}</h2>
                 </div>
               </div>
             ))}
@@ -274,7 +274,7 @@ function StyleSheet() {
 
       .item-content {
         position: absolute;
-        bottom: 20px;
+        bottom: 40px;
         left: 20px;
         right: 20px;
         z-index: 1;
@@ -291,7 +291,6 @@ function StyleSheet() {
       }
 
       .gallery-item h2 {
-        font-size: clamp(20px, 4vw, 28px);
         font-weight: 600;
         color: #f5f5f5;
         margin: 0;
