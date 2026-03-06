@@ -26,7 +26,7 @@ export default function Portfolio() {
 
       <div className='bg-black flex  justify-center py-5 md:py-20 '>
         <div className=' flex flex-col items-center   '>
-          <h1 className='text-white text-3xl md:text-4xl lg:text-5xl xl:text-7xl font-bold mb-10 font-cormorant uppercase'>Wedding</h1>
+          <h1 className='text-white text-4xl md:text-6xl xl:text-7xl font-bold mb-10 font-cormorant uppercase'>Wedding</h1>
           <div className="flex-wrap md:flex items-center justify-center gap-10 md:px-4 mt-10">
             {wedding.map((v, i) => (
               <a key={i} href="/">
@@ -41,11 +41,11 @@ export default function Portfolio() {
       </div>
       <div className='bg-[#060010] flex  justify-center py-5 md:py-20 '>
         <div className=' flex flex-col items-center  '>
-          <h1 className='text-white text-3xl md:text-4xl lg:text-5xl xl:text-7xl font-bold mb-10 font-cormorant uppercase'>Pre-Wedding</h1>
+          <h1 className='text-white text-4xl md:text-6xl xl:text-7xl font-bold mb-10 font-cormorant uppercase'>Pre-Wedding</h1>
           <div className=" flex-wrap md:flex  items-center justify-center gap-10 md:px-4 mt-10 ">
             {preWedding.map((v, i) => (
               <a key={i} href="/">
-                <div className="relative bg-amber-400 w-xs h-110 rounded-2xl overflow-hidden ">
+                <div className="relative bg-amber-400 w-xs h-110 rounded-2xl overflow-hidden mb-10 ">
                   <img src={v.image} alt={v.alt} className=' object-cover' />
                   <h2 className=' absolute bottom-10 left-0 right-0 text-white text-center py-2 text-4xl font-dancing '>{v.tittle}</h2>
                 </div>
