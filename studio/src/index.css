@@ -10,6 +10,7 @@
   --font-cookie: "Cookie", cursive;
   --font-dancing: "Dancing Script", cursive;
   --font-italianno: "Italianno", cursive;
+  --font-indie-flower: "Indie Flower", cursive;
 }
 @keyframes scrollDot {
   0% { transform: translateY(0); opacity: 0; }
