@@ -68,6 +68,7 @@ export default function Navbar() {
                 smooth={true}
                 duration={500}
                 className="pb-3 px-2 text-white font-cormorant md:text-lg lg:text-xl cursor-pointer transition hover:border-b-4 border-red-500"
+                
               >
                 Contact
               </ScrollLink>

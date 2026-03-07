@@ -7,11 +7,13 @@ import Footer from "./Components/Footer";
 import AboutUs from "./Components/AboutUs";
 import Portfolio from "./Components/Portfolio";
 import WeddingBlog from "./Components/WeddingBlog";
+import ScrollToTop from "./Components/ScrollToTop";
 export default function App() {
   return (
     <>
       <BrowserRouter>
         <Navbar />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Body/>}/>
           <Route path="/aboutUs" element={<AboutUs/>}/>
