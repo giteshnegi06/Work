@@ -28,7 +28,7 @@ export default function Portfolio() {
       <div className="bg-black flex justify-center py-5 md:py-20">
         <div className="flex flex-col items-center">
           <h1 className="text-white text-4xl md:text-6xl xl:text-7xl font-bold mb-10 font-dancing ">
-            Wedding
+            Wedding's
           </h1>
           <div className="flex flex-wrap items-center justify-center gap-10 md:px-4 mt-10">
             {wedding.map((v, i) => (
@@ -50,7 +50,7 @@ export default function Portfolio() {
       <div className="bg-[#060010] flex justify-center py-5 md:py-20">
         <div className="flex flex-col items-center">
           <h1 className="text-white text-4xl md:text-6xl xl:text-7xl font-bold mb-10 font-dancing ">
-            Pre-Wedding
+            Pre-Wedding's
           </h1>
           <div className="flex flex-wrap items-center justify-center gap-10 md:px-4 mt-10">
             {preWedding.map((v, i) => (
