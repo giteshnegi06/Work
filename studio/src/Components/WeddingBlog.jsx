@@ -21,7 +21,7 @@ export default function WeddingBlog() {
                     <div className='max-w-6xl px-4 mt-20 space-y-5'>
                         <h1 className='text-white text-4xl md:text-7xl font-dancing text-center'>{couple.title}</h1>
 
-                        <div className='text-white/80 font-handwriting text-balance tracking-wide leading-8 text-center text-xs md:text-lg'>
+                        <div className='text-white/80 font-cormorant text-balance tracking-wide leading-8 text-center text-xs md:text-lg'>
                             {Array.isArray(couple.story) ? (
                                 couple.story.map((text, index) => (
                                     <p key={index} className="mb-4">{text}</p>
