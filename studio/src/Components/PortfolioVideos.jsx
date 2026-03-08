@@ -11,35 +11,35 @@ export default function PortfolioVideos() {
     },
     {
       src: "https://www.youtube.com/embed/fpjWRVXhyPk",
-      title: "Pre Wedding",
+      title: "Aankush & Anshul Pre-Wedding",
     },
     {
       src: "https://www.youtube.com/embed/aRLJcKm684s",
-      title: "Destination Wedding",
+      title: "Rahul & Payal Pre-Wedding",
     },
     {
       src: "https://www.youtube.com/embed/0452CPZPyT8",
-      title: "Cinematic Film",
+      title: "Himanshu & Raveena",
     },
     {
       src: "https://www.youtube.com/embed/aJXj9tgO55I",
-      title: "Wedding Highlight",
+      title: "Switi & Yuvraj Wedding Highlight",
     },
     {
       src: "https://www.youtube.com/embed/Hpd4ocA5c9A",
-      title: "Pre Wedding",
+      title: "Gurkirat & Gurbaksh Ring Ceremony",
     },
     {
       src: "https://www.youtube.com/embed/S0WdbLuDGeA",
-      title: "Cinematic Film",
+      title: "Garima & Ashish",
     },
     {
       src: "https://www.youtube.com/embed/jE7RCnGcYMU",
-      title: "Wedding Highlight",
+      title: "Sahil & Kajal",
     },
     {
       src: "https://www.youtube.com/embed/ERsEV8V-O9Q",
-      title: "Pre Wedding",
+      title: "Nipun & Priya",
     },
   ];
 
@@ -56,8 +56,8 @@ export default function PortfolioVideos() {
       <section>
         {/* heading */}
         <section className="intro-section mb-10 lg:mb-20 items-center text-center ">
-          <h1 className="font-dancing text-lg md:text-2xl lg:text-6xl xl:text-7xl text-white">
-            <GradualSpacing text="Our Videos" />
+          <h1 className="font-dancing text-4xl lg:text-6xl xl:text-8xl text-white">
+            <GradualSpacing text="Our Work" />
           </h1>
         </section>
 
@@ -65,7 +65,7 @@ export default function PortfolioVideos() {
         <div className="w-screen 2xl:w-430 flex flex-wrap justify-center items-center gap-y-1 md:gap-x-10 lg:gap-x-20 xl:gap-x-20">
 
           {youtubeVideo.map((v, i) => (
-            <div key={i} className={`mb-8 md:mb-10 lg:mb-20 ${i > 4 ? "hidden md:block" : ""}`}>
+            <div key={i} className={`mb-8 md:mb-10 lg:mb-20 text-center ${i > 4 ? "hidden md:block" : ""}`}>
               
               {/* VIDEO PLAYER */}
               <iframe
@@ -78,7 +78,7 @@ export default function PortfolioVideos() {
               />
 
               {/* title */}
-              <p className="text-center mt-3 text-white font-medium">
+              <p className="text-center mt-3 text-white font-cormorant xl:text-2xl">
                 {v.title}
               </p>
             </div>

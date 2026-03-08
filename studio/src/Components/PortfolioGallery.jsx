@@ -123,7 +123,7 @@ const PortfolioGallery = () => {
                 {/* HEADER */}
                 <div className="text-center mb-14 flex flex-col items-center">
 
-                    <h1 className="text-white w-60 md:w-90 lg:w-110 xl:w-130 text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-wrap leading-tight font-italianno">
+                    <h1 className="text-white w-60 md:w-90 lg:w-110 xl:w-130 text-5xl xl:text-8xl text-wrap leading-tight font-italianno">
                         <BlurText
                             text="Our Gallery"
                             delay={100}
