@@ -65,9 +65,9 @@ export default function Swiperimg() {
   {
     id: 9,
     color: "#0cdcf7",
-    label: "Night Nine",
+    label: "Amandeep & Pooja",
     image:
-      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772388604/6_firr0o.jpg",
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772900625/0P0A9781.JPG_wma6no.jpg",
   },
   {
     id:10,

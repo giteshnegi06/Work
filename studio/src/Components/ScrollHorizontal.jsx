@@ -69,9 +69,9 @@ const items = [
   {
     id: 9,
     color: "#0cdcf7",
-    label: "Night Nine",
+    label: "Amandeep & Pooja",
     image:
-      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772388604/6_firr0o.jpg",
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772900625/0P0A9781.JPG_wma6no.jpg",
   },
   {
     id:10,
@@ -156,7 +156,7 @@ export default function ScrollHorizontal() {
             {items.map((item, index) => (
               <div
                 key={item.id}
-                className="gallery-item h-500"
+                className="gallery-item h-500 "
                 style={{
                   width: `${dimensions.itemWidth * 1.2}px`,
                   height: `${dimensions.itemWidth * 1.6}px`, // Maintain aspect ratio
