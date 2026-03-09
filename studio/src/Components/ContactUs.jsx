@@ -2,7 +2,6 @@ import React from "react";
 import ContactForm from "./ContactForm";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { RiDoubleQuotesR } from "react-icons/ri";
-import { Element } from "react-scroll";
 
 export default function ContactUs() {
   return (
@@ -40,9 +39,9 @@ export default function ContactUs() {
           </div>
         </div>
         <div>
-          <Element name="section1">
+
             <ContactForm />
-          </Element>
+
         </div>
       </div>
     </div>

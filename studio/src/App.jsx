@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar"
 import Footer from "./Components/Footer";
 import AboutUs from "./Components/AboutUs";
 import Portfolio from "./Components/Portfolio";
+import Contact from "./Components/Contact";
 import WeddingBlog from "./Components/WeddingBlog";
 import ScrollToTop from "./Components/ScrollToTop";
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/" element={<Body/>}/>
           <Route path="/aboutUs" element={<AboutUs/>}/>
           <Route path="/portfolio" element={<Portfolio/>}/>
+          <Route path="/contact" element={<Contact/>}/>
           <Route path="/wedding/:slug" element={<WeddingBlog/>}/>
         </Routes>
         <Footer />

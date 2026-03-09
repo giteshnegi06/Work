@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import { RxCross2 } from "react-icons/rx";
 import { Link as RouterLink } from "react-router-dom";
-import { Link as ScrollLink } from "react-scroll";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,6 +15,7 @@ export default function Navbar() {
     { href: "/", name: "Home" },
     { href: "/portfolio", name: "Portfolio" },
     { href: "/aboutUs", name: "About Us" },
+    { href: "/contact", name: "Contact" },
   ];
 
   return (
@@ -61,18 +61,6 @@ export default function Navbar() {
                 </RouterLink>
               </li>
             ))}
-
-            <li>
-              <ScrollLink
-                to="section1"
-                smooth={true}
-                duration={500}
-                className="pb-3 px-2 text-white font-cormorant md:text-lg lg:text-xl cursor-pointer transition hover:border-b-4 border-red-500"
-                
-              >
-                Contact
-              </ScrollLink>
-            </li>
           </ul>
 
           {/* Mobile Header */}
@@ -109,18 +97,6 @@ export default function Navbar() {
                   </RouterLink>
                 </li>
               ))}
-
-              <li>
-                <ScrollLink
-                  to="section1"
-                  smooth={true}
-                  duration={500}
-                  onClick={toggleMenu}
-                >
-                  Contact
-                </ScrollLink>
-              </li>
-
             </ul>
           </div>
 

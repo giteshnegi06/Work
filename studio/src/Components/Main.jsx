@@ -8,8 +8,8 @@ const handleAnimationComplete = () => {
 export default function main() {
   return (
     <>
-      <div className=" h-220 md:h-220 lg:h-280 xl:h-300 2xl:h-350 bg-[#060010] text-white py-10  lg:py-20  px-2.5 md:px-10 items-center ">
-        <div className="flex justify-center flex-col h-25 items-center">
+      <div className=" h-190 md:h-180 lg:h-200 xl:h-240 2xl:h-290 bg-[#060010] text-white  px-2.5 md:px-10 items-center top-0">
+        {/* <div className="flex justify-center flex-col h-25 items-center">
           <h3 className=" font-cormorant text-lg lg:text-3xl text-[#0EA5D9]">
             <BlurText
               text="specializing in"
@@ -29,19 +29,19 @@ export default function main() {
               className=" flex justify-center"
             />
           </h1>
-        </div>
+        </div> */}
         <div className=" lg:flex justify-center">
-          <div className="flex relative mx-2.5 md:mt-10 lg:mt-40 xl:mt-25 2xl:mt-35">
+          <div className="flex relative mx-2.5 ">
             <div className="bg-amber-500 h-50 md:h-60 lg:h-50 xl:h-60 2xl:h-70 lg:w-70 xl:w-90 2xl:w-100 absolute top-3 xl:top-15 lg:right-40 xl:right-60 2xl:right-90 z-30 lg:z-0">
               <img src={"https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378546/18_sjzg0s.jpg"} alt="1" className="w-full h-full" />
             </div>
-            <div className="bg-blue-600 h-50 md:h-70 xl:h-90 2xl:h-110 lg:w-120 xl:w-150 2xl:w-185 absolute top-56 md:top-50 xl:top-60 right-0 md:-right-2 lg:-left-50 xl:-left-50 2xl:-left-80 z-20">
+            <div className="bg-blue-600 h-50 md:h-70 xl:h-90 2xl:h-120 lg:w-120 xl:w-150 2xl:w-185 absolute top-56 md:top-50 xl:top-60 right-0 md:-right-2 lg:-left-50 xl:-left-50 2xl:-left-80 z-20">
               <img src={"https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377781/042A9203_qgnkjz.jpg"} alt="Wedding Image by Mahak Studio" className="w-full h-full" />
             </div>
             <div className="hidden lg:flex bg-lime-600 h-65 xl:h-75 2xl:h-85 w-95 xl:w-110 2xl:w-130 absolute right-5 -top-8 xl:-top-5 lg:left-30 xl:left-60 2xl:left-78 z-40">
               <img src={"https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377719/042A6049_hyhovu.jpg"} alt="Brid Image by Mahak Studio" className="w-full h-full" />
             </div>
-            <div className="  bg-orange-500 h-50 md:h-60 lg:h-50 xl:h-60 2xl:h-75 w-fit md:w-80 xl:w-100 2xl:w-120 absolute top-109 md:top-105 lg:top-125 xl:top-160 2xl:top-180 lg:left-30 xl:left-50 2xl:left-60 ">
+            <div className="  bg-orange-500 h-50 md:h-60 lg:h-50 xl:h-60 2xl:h-75 w-fit md:w-80 xl:w-100 2xl:w-120 absolute top-109 md:top-105 lg:top-125 xl:top-160 2xl:top-190 lg:left-30 xl:left-50 2xl:left-60 ">
               <img src={"https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377692/3D9A0287_q8vihe.jpg"} alt="1" className="w-full h-full" />
             </div>
             <div className="hidden lg:flex bg-fuchsia-400 h-60 xl:h-75 2xl:h-90 lg:w-95 xl:w-120 2xl:w-140 absolute top-105 xl:top-135 2xl:top-150 lg:right-25 xl:right-30 2xl:right-50">
