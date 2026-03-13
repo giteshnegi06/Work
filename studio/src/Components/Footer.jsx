@@ -2,8 +2,6 @@ import React from "react";
 import FooterMap from "./FooterMap";
 import FollowUs from "./FollowUs";
 import { Link as RouterLink } from "react-router-dom";
-import { Link as ScrollLink } from "react-scroll";
-
 export default function Footer() {
   const link = [
     { href: "/", name: "Home" },
