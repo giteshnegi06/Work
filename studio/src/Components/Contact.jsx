@@ -12,7 +12,7 @@ export default function Contact() {
                     <img src="https://res.cloudinary.com/dbtlo70e5/image/upload/v1772900613/0P0A9756.JPG_im87u7.jpg" alt=""
                         className=" h-90  md:h-screen w-screen md:m-5 lg:m-6 2xl:m-8 object-cover" />
                     <div className="absolute inset-0 bg-black/60 2xl:m-8 "></div>
-                    <div className=" absolute flex flex-col bottom-5 md:bottom-10 lg:bottom-12 text-balance text-center items-center lg:w-150 2xl:w-180 text-white">
+                    <div className=" absolute flex flex-col bottom-5 md:bottom-10 lg:bottom-15 text-balance text-center items-center lg:w-150 2xl:w-180 text-white">
                         <h3 className="text-red-600 font-cormorant lowercase md:text-2xl text-center tracking-wide">
                             LET’S DISCUSS HOW WE CAN
                         </h3>

@@ -9,6 +9,7 @@ export default function Footer() {
     { href: "/", name: "Home" },
     { href: "/portfolio", name: "Portfolio" },
     { href: "/aboutUs", name: "About Us" },
+    { href: "/contact", name: "Contact" },
   ];
   return (
     <div className="bg-black ">
@@ -23,12 +24,6 @@ export default function Footer() {
                   {v.name}
                 </RouterLink>
               ))}
-              <ScrollLink to="section1"
-                smooth={true}
-                duration={500}
-                className="hover:underline">
-                Contact
-              </ScrollLink>
             </ul>
           </div>
           <div className="flex items-center md:gap-5">
