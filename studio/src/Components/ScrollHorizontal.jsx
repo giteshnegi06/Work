@@ -15,70 +15,70 @@ const items = [
     color: "#ff0088",
     label: "Akshay & Neha",
     image:
-      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377772/042A9227_xzc5ob.jpg",
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772377772/042A9227_xzc5ob.jpg",
   },
   {
     id: 2,
     color: "#dd00ee",
     label: "Yover & Srishti",
     image:
-      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772374699/042A3672.JPG_ojp1tn.jpg",
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772374699/042A3672.JPG_ojp1tn.jpg",
   },
   {
     id: 3,
     color: "#9911ff",
     label: "Jaskaran singh & Navsheen",
     image:
-      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772375061/042A7740.JPG_swbal4.jpg",
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772375061/042A7740.JPG_swbal4.jpg",
   },
   {
     id: 4,
     color: "#0d63f8",
     label: "Ankush & Ritika",
     image:
-      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772375134/042A7979.jpg_hbhpkj.jpg",
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772375134/042A7979.jpg_hbhpkj.jpg",
   },
   {
     id: 5,
     color: "#0cdcf7",
     label: "Taranveer Singh & Bhupinder Kaur",
     image:
-      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377744/042A6489_cp7dun.jpg",
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772377744/042A6489_cp7dun.jpg",
   },
   {
     id: 6,
     color: "#0cdcf7",
     label: "Jashan & Komal",
     image:
-      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772375218/3G4A3223.JPG_cmkfd7.jpg",
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772375218/3G4A3223.JPG_cmkfd7.jpg",
   },
   {
     id: 7,
     color: "#0cdcf7",
     label: "Amit & Tanvi",
     image:
-      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378529/10_mfzw64.jpg",
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772378529/10_mfzw64.jpg",
   },
   {
     id: 8,
     color: "#0cdcf7",
     label: " Pardeep & Renu",
     image:
-      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772467635/042A0142.JPG_oo01b3.jpg",
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772467635/042A0142.JPG_oo01b3.jpg",
   },
   {
     id: 9,
     color: "#0cdcf7",
     label: "Amandeep & Pooja",
     image:
-      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772900625/0P0A9781.JPG_wma6no.jpg",
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772900625/0P0A9781.JPG_wma6no.jpg",
   },
   {
     id:10,
     color: "#0cdcf7",
     label: "Arpit & Vaishali",
     image:
-      "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378485/45_ckkuaf.jpg",
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772378485/45_ckkuaf.jpg",
   },
 ];
 
