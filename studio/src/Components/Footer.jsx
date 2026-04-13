@@ -30,7 +30,7 @@ export default function Footer() {
             <FooterMap />
           </div>
         </div>
-        <div className="mt-10 pt-1 mx-0 w-68 md:w-150 lg:w-210 xl:w-300 border-t flex flex-wrap justify-center md:justify-between ">
+        <div className="mt-10 pt-1 mx-0 w-68 md:w-150 lg:w-210 xl:w-300 border-t flex flex-wrap justify-center md:justify-between font-light text-sm">
           <h3 className="md:flex">
             &#x00A9; 2026 Mahak Studio
             <span className=" hidden md:flex">, All Rights Reserved.</span>{" "}
@@ -38,13 +38,13 @@ export default function Footer() {
           <span className="items-center">
             Made With &#x2764; by{" "}
             <a
-              href="https://wa.me/918894143680"
+              href="https://wa.me/918894143680?text=Hi%20I%20want%20to%20build%20a%20website"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Chat with Mahak Studio on WhatsApp"
+              aria-label="Chat with Web.Loomic on WhatsApp"
               className="font-semibold"
             >
-              web.loomic
+             <span className="text-base text-amber-600 font-cormorant">Web.loomic</span> 
             </a>
           </span>
         </div>

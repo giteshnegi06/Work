@@ -36,7 +36,7 @@ export default function Videosec() {
       
       {/* background */}
       <img
-        src={"https://res.cloudinary.com/dbtlo70e5/image/upload/v1772373825/042A6334.jpg_yem8ct.jpg"}
+        src={"https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772373825/042A6334.jpg_yem8ct.jpg"}
         alt="background img"
         className="absolute -z-50 top-0 w-full h-full object-cover"
       />

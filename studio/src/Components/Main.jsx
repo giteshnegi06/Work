@@ -9,27 +9,6 @@ export default function main() {
   return (
     <>
       <div className=" h-190 md:h-180 lg:h-200 xl:h-240 2xl:h-290 bg-[#060010] text-white  px-2.5 md:px-10 items-center top-0">
-        {/* <div className="flex justify-center flex-col h-25 items-center">
-          <h3 className=" font-cormorant text-lg lg:text-3xl text-[#0EA5D9]">
-            <BlurText
-              text="specializing in"
-              delay={500}
-              animateBy="words"
-              direction="top"
-              onAnimationComplete={handleAnimationComplete}
-            />
-          </h3>
-          <h1 className="w-60 md:w-90 lg:w-110 xl:w-130 text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-italianno text-wrap left-5 items-center tracking-wider">
-            <BlurText
-              text="South Asian, Fusion & Destination Weddings"
-              delay={100}
-              animateBy="words"
-              direction="top"
-              onAnimationComplete={handleAnimationComplete}
-              className=" flex justify-center"
-            />
-          </h1>
-        </div> */}
         <div className=" lg:flex justify-center">
           <div className="flex relative mx-2.5 ">
             <div className="bg-amber-500 h-50 md:h-60 lg:h-50 xl:h-60 2xl:h-70 lg:w-70 xl:w-90 2xl:w-100 absolute top-3 xl:top-15 lg:right-40 xl:right-60 2xl:right-90 z-30 lg:z-0">

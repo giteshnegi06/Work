@@ -48,7 +48,7 @@ export default function PortfolioVideos() {
       
       {/* background */}
       <img
-        src={"https://res.cloudinary.com/dbtlo70e5/image/upload/v1772388347/_DSC5025_utsuw6.jpg"}
+        src={"https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772388347/_DSC5025_utsuw6.jpg"}
         alt="background img"
         className="absolute -z-50 top-0 w-full h-full object-cover"
       />

@@ -33,7 +33,7 @@ export default function AboutUs() {
         <section className=" relative flex flex-col justify-center items-center md:mx-2 2xl:px-8 h-fit">
           <img
             src={
-              "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772388347/_DSC5025_utsuw6.jpg"
+              "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772388347/_DSC5025_utsuw6.jpg"
             }
             alt="Destination wedding photography by Mahak Studio, Karnal"
             loading="eager"
@@ -69,7 +69,7 @@ export default function AboutUs() {
         <div className=" absolute -right-8  md:left-0 top-72 md:top-44 ">
           <img
             src={
-              "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377749/042A6563_fzipdy.jpg"
+              "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772377749/042A6563_fzipdy.jpg"
             }
             alt="Candid wedding moment captured by Mahak Studio"
             loading="lazy"
@@ -95,7 +95,7 @@ export default function AboutUs() {
         <div className="absolute -left-3 md:left-auto md:right-0 top-[48%] md:top-32">
           <img
             src={
-              "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377733/042A6077_cgmise.jpg"
+              "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772377733/042A6077_cgmise.jpg"
             }
             alt="Wedding Photography by Mahak Studio"
             className="w-45 md:w-60 lg:w-70 xl:w-90 2xl:w-100 2xl:h-150"
@@ -107,7 +107,7 @@ export default function AboutUs() {
           <div className="absolute flex items-center text-center space-y-5 left-0 xl:left-40 2xl:left-90 top-10 md:top-20 xl:top-30 2xl:top-26 z-10">
             <img
               src={
-                "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378482/41_wc8nyy.jpg"
+                "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772378482/41_wc8nyy.jpg"
               }
               alt="Indian wedding celebration photographed by Mahak Studio Karnal"
               loading="lazy"
@@ -134,7 +134,7 @@ export default function AboutUs() {
           <div className="absolute -top-20 right-0 xl:right-40 2xl:right-85 ">
             <img
               src={
-                "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377783/042A9279_deit1k.jpg"
+                "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772377783/042A9279_deit1k.jpg"
               }
               alt=""
               className="w-60 md:w-92.5 lg:w-118 xl:w-140"
@@ -143,7 +143,7 @@ export default function AboutUs() {
           <div className="absolute -bottom-30 xl:-bottom-41 right-0 md:right-7 lg:right-28 xl:right-75 2xl:right-120">
             <img
               src={
-                "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378531/15_huwtd5.jpg"
+                "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772378531/15_huwtd5.jpg"
               }
               alt=""
               className=" w-60 md:w-85 lg:w-90 xl:w-105 xl:h-160"
@@ -155,7 +155,7 @@ export default function AboutUs() {
         <div className="w-7xl mx-auto h-420 md:h-230 lg:h-220 bg-black/30 flex flex-col justify-center gap-y-15">
           <div className=" mx-5 lg:mx-20 text-white flex flex-col md:flex-row items-center md:gap-x-5 lg:gap-x-10 gap-y-5">
             <img
-              src="https://res.cloudinary.com/dbtlo70e5/image/upload/v1772443109/WhatsApp_Image_2026-02-26_at_8.22.48_PM_q5yqwq.jpg"
+              src="https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772443109/WhatsApp_Image_2026-02-26_at_8.22.48_PM_q5yqwq.jpg"
               alt="Satish Khurana — Founder of Mahak Studio, Wedding Photographer Karnal"
               loading="lazy"
               decoding="async"
@@ -182,7 +182,7 @@ export default function AboutUs() {
           </div>
           <div className=" mx-5 lg:mx-20  flex flex-col   text-white md:flex-row-reverse items-center md:gap-x-5 lg:gap-x-10 gap-y-5">
             <img
-              src="https://res.cloudinary.com/dbtlo70e5/image/upload/v1772443109/WhatsApp_Image_2026-02-26_at_8.22.48_PM_q5yqwq.jpg"
+              src="https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772443109/WhatsApp_Image_2026-02-26_at_8.22.48_PM_q5yqwq.jpg"
               alt="Sandeep Khurana — Co-Founder of Mahak Studio, Wedding Photographer Haryana"
               loading="lazy"
               decoding="async"
