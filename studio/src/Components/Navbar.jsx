@@ -98,24 +98,29 @@ export default function Navbar() {
             <div className="mx-4 border-t border-white/20" />
 
             <ul className="flex flex-col items-center text-white px-4 pt-2 pb-4 gap-1">
-              {navItems.map((item, i) => (
-                <li key={i}>
-                  <RouterLink
-                    to={item.href}
-                    onClick={toggleMenu}
-                    className="flex items-center gap-3 py-2.5 px-3 rounded-lg text-lg font-cormorant tracking-wide
-                               transition-all duration-200
-                               hover:bg-white/10 hover:pl-5 hover:border-l-2 border-red-500
-                               active:bg-white/20"
-                  >
-                    <span>{item.name}</span>
-                  </RouterLink>
-                  {/* Divider between items, not after last */}
-                  {i < navItems.length - 1 && (
-                    <div className="border-t border-white/10 mx-2 " />
-                  )}
-                </li>
-              ))}
+              {navItems.map((item, i) => {
+                const isActive = location.pathname === item.href;
+                return (
+                  <li key={i}>
+                    <RouterLink
+                      to={item.href}
+                      onClick={toggleMenu}
+                      className={`flex items-center gap-3 py-2.5 px-3 rounded-lg text-base font-cormorant tracking-wide
+                                  transition-all duration-200
+                                  ${
+                                    isActive
+                                      ? "text-red-600 "
+                                      : "text-white"
+                                  }`}
+                    >
+                      <span>{item.name}</span>
+                    </RouterLink>
+                    {i < navItems.length - 1 && (
+                      <div className="border-t border-white/10 mx-2" />
+                    )}
+                  </li>
+                );
+              })}
             </ul>
           </div>
 
