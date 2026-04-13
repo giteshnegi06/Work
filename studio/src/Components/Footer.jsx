@@ -13,12 +13,12 @@ export default function Footer() {
   ];
   return (
     <div className="bg-black ">
-      <div className=" h-fit flex flex-col  items-center mx-2 py-3 md:py-10 md:px-5 lg:px-1 xl:px-10 lg:py-20 text-white ">
+      <div className=" h-fit flex flex-col items-center mx-2 py-3 md:py-10 md:px-5 lg:px-1 xl:px-10 lg:py-20 text-white ">
         <div className="flex flex-wrap justify-center lg:flex-row gap-x-40 gap-y-10 lg:gap-y-4 lg:gap-10 xl:gap-20 2xl:gap-40">
           <FollowUs />
           <div className="text-xl flex flex-col justify-center font-cormorant">
             <h1 className="text-5xl mb-3 font-cormorant">Links</h1>
-            <ul className="flex flex-col">
+            <ul className="flex flex-col items-center">
               {link.map((v, i) => (
                 <RouterLink key={i} to={v.href} className="hover:underline">
                   {v.name}
