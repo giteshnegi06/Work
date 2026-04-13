@@ -105,7 +105,7 @@ export default function Navbar() {
                     <RouterLink
                       to={item.href}
                       onClick={toggleMenu}
-                      className={`flex items-center gap-3 py-2.5 px-3 rounded-lg text-base font-cormorant tracking-wide
+                      className={`flex items-center gap-3 py-2.5 px-3 rounded-lg text-xl font-semibold font-cormorant tracking-wide
                                   transition-all duration-200
                                   ${
                                     isActive
