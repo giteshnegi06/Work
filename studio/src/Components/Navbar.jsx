@@ -21,11 +21,10 @@ export default function Navbar() {
   return (
     <div className="flex justify-center">
       <header className="absolute top-5 2xl:top-10 z-50">
-        <nav className="h-12 md:h-15 p-1 md:mx-2 lg:mx-8 xl:mx-12 2xl:mx-40 rounded-4xl bg-black/20 shadow-2xl shadow-black text-[18px] font-serif w-screen md:w-188 lg:w-240 xl:w-300">
+        <nav className="h-auto md:h-15 p-1 md:mx-2 lg:mx-8 xl:mx-12 2xl:mx-40 rounded-4xl bg-black/20 shadow-2xl shadow-black text-[18px] font-serif w-screen md:w-188 lg:w-240 xl:w-300 ">
 
-          {/* Desktop Menu */}
+          {/* Desktop Menu — unchanged */}
           <ul className="hidden md:flex justify-around items-center h-13 md:text-xl">
-
             {navItems.slice(0, 2).map((item, i) => (
               <li key={i}>
                 <RouterLink
@@ -36,8 +35,6 @@ export default function Navbar() {
                 </RouterLink>
               </li>
             ))}
-
-            {/* Logo */}
             <li>
               <RouterLink to="/">
                 <img
@@ -50,7 +47,6 @@ export default function Navbar() {
                 />
               </RouterLink>
             </li>
-
             {navItems.slice(2).map((item, i) => (
               <li key={i}>
                 <RouterLink
@@ -63,38 +59,61 @@ export default function Navbar() {
             ))}
           </ul>
 
-          {/* Mobile Header */}
-          <div className="md:hidden flex justify-between items-center mx-3 h-10">
+          {/* ── MOBILE ── */}
 
-            <img
-              src={logo}
-              alt="Mahak Studio Logo"
-              className="h-16 w-auto"
-              loading="eager"
-              fetchpriority="high"
-            />
+          {/* Mobile Header Row */}
+          <div className="md:hidden flex justify-between items-center px-4 py-2 h-12">
+            <RouterLink to="/" onClick={() => setIsOpen(false)}>
+              <img
+                src={logo}
+                alt="Mahak Studio Logo"
+                className="h-12 w-auto"
+                loading="eager"
+                fetchpriority="high"
+              />
+            </RouterLink>
 
             <button
-              className="text-white text-[26px]"
+              className="text-white text-2xl p-1 rounded-full transition-transform duration-300 active:scale-90"
               onClick={toggleMenu}
+              aria-label="Toggle menu"
             >
-              {isOpen ? <RxCross2 /> : <CiMenuBurger />}
+              <span
+                className={`block transition-all duration-300 ${
+                  isOpen ? "rotate-90 scale-110" : "rotate-0 scale-100"
+                }`}
+              >
+                {isOpen ? <RxCross2 /> : <CiMenuBurger />}
+              </span>
             </button>
           </div>
 
-          {/* Mobile Menu */}
+          {/* Mobile Dropdown Menu */}
           <div
-            className={`md:hidden overflow-hidden transition-all duration-300 ${
-              isOpen ? "max-h-60 opacity-100" : "max-h-0 opacity-0"
+            className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out backdrop-blur-xs ${
+              isOpen ? "max-h-72 opacity-100" : "max-h-0 opacity-0"
             }`}
           >
-            <ul className="flex flex-col text-white text-right gap-2 px-4 pb-3 mt-2">
+            {/* Thin top divider */}
+            <div className="mx-4 border-t border-white/20" />
 
+            <ul className="flex flex-col items-center text-white px-4 pt-2 pb-4 gap-1">
               {navItems.map((item, i) => (
                 <li key={i}>
-                  <RouterLink to={item.href} onClick={toggleMenu}>
-                    {item.name}
+                  <RouterLink
+                    to={item.href}
+                    onClick={toggleMenu}
+                    className="flex items-center gap-3 py-2.5 px-3 rounded-lg text-lg font-cormorant tracking-wide
+                               transition-all duration-200
+                               hover:bg-white/10 hover:pl-5 hover:border-l-2 border-red-500
+                               active:bg-white/20"
+                  >
+                    <span>{item.name}</span>
                   </RouterLink>
+                  {/* Divider between items, not after last */}
+                  {i < navItems.length - 1 && (
+                    <div className="border-t border-white/10 mx-2 " />
+                  )}
                 </li>
               ))}
             </ul>
