@@ -15,7 +15,7 @@ export default function Portfolio() {
     { slug: "sarthak-vanshika", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1776093856/042A2041.JPG_oec64z.jpg", alt: "Sarthak & Vanshika", title: "Sarthak & Vanshika" },
     { slug: "rahul-payal", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1776095696/5.jpg_ywhxdu.jpg", alt: "Rahul & Payal", title: "Rahul & Payal" },
   ];
- 
+
   // const preWedding = [
   //   { slug: "amit-tanvi", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378530/5_r0yfxo.jpg", alt: "Amit & Tanvi Pre-Wedding Shoot by Mahak Studio", title: "Amit & Tanvi" },
   // ];
@@ -50,7 +50,7 @@ export default function Portfolio() {
       <div className="bg-black flex justify-center py-5 md:py-20">
         <div className="flex flex-col items-center">
           <h1 className="text-white text-4xl md:text-6xl xl:text-7xl font-bold mb-10 font-dancing ">
-            Wedding's
+            Wedding's/ Pre-Wedding
           </h1>
           <div className="flex flex-wrap items-center justify-center gap-10 md:px-4 mt-10">
             {wedding.map((v, i) => (
@@ -58,7 +58,8 @@ export default function Portfolio() {
                 <div className="group relative w-70 h-105 rounded-2xl overflow-hidden cursor-pointer">
                   <img src={v.image} alt={v.alt} className=" object-cover transition-transform duration-500 group-hover:scale-110" />
                   <div className="absolute inset-0 group-hover:bg-black/50 transition duration-500"></div>
-                  <h2 className="absolute bottom-10 left-0 right-0 text-white text-center text-3xl md:text-4xl font-dancing z-10">
+                  <h2 className="absolute bottom-10 left-0 right-0 text-white text-center text-3xl md:text-4xl font-dancing z-10 
+                   opacity-0 group-hover:opacity-100 transition duration-500">
                     {v.title}
                   </h2>
                 </div>
