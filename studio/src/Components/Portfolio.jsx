@@ -57,9 +57,12 @@ export default function Portfolio() {
               <Link key={i} to={`/wedding/${v.slug}`}>
                 <div className="group relative w-70 h-105 rounded-2xl overflow-hidden cursor-pointer">
                   <img src={v.image} alt={v.alt} className=" object-cover transition-transform duration-500 group-hover:scale-110" />
-                  <div className="absolute inset-0 group-hover:bg-black/50 transition duration-500"></div>
-                  <h2 className="absolute bottom-10 left-0 right-0 text-white text-center text-3xl md:text-4xl font-dancing z-10 
-                   opacity-0 group-hover:opacity-100 transition duration-500">
+                  <div className="absolute inset-0 bg-black/40 lg:bg-black/0 lg:group-hover:bg-black/50 transition duration-500"></div>
+                  <h2 className="hidden absolute lg:flex bottom-10 left-0 right-0 text-white text-center text-3xl md:text-4xl font-dancing z-10 
+                    opacity-0 group-hover:opacity-100 transition duration-500">
+                    {v.title}
+                  </h2>
+                   <h2 className="lg:hidden absolute bottom-10 left-0 right-0 text-white text-center text-3xl md:text-4xl font-dancing z-10">
                     {v.title}
                   </h2>
                 </div>
