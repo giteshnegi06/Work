@@ -4,7 +4,7 @@ export default function Whatsaap() {
     return (
         <div className="fixed bottom-6 right-5 z-50">
             <a
-                href="https://wa.me/919255195704"
+                href="https://wa.me/919255195704?text=Hello%20Mahak%20Studio!%20I%20would%20like%20to%20inquire%20about%20your%20photography%20services."
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Chat with Mahak Studio on WhatsApp"

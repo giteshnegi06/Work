@@ -4,11 +4,31 @@ const ContactForm = () => {
   const [country, setCountry] = useState("US");
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    const data = Object.fromEntries(new FormData(e.target));
-    console.log("Form Data:", data);
-    alert("Form submitted! Check console.");
-  };
+  e.preventDefault();
+
+  const data = Object.fromEntries(new FormData(e.target));
+
+  const phoneNumber = "+919255195704"; 
+
+  const message = `
+New Inquiry 👇🏻
+
+Name: ${data.firstName} ${data.lastName}
+Email: ${data.email}
+Phone: ${data.phone}
+Service: ${data.service === "other" ? otherService : data.service}
+Event Date: ${data.eventDate}
+
+Message:
+${data.message}
+  `;
+
+  const encodedMessage = encodeURIComponent(message);
+
+  const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+  window.open(whatsappURL, "_blank");
+};
 
   const [service, setService] = useState("");
   const [otherService, setOtherService] = useState("");
