@@ -151,7 +151,7 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-      <div className="bg-[#060010] h-480 md:h-260 lg:h-270 flex justify-center items-center">
+      <div className="bg-[#060010] pt-32 md:pt-0 h-455 md:h-255 lg:h-270 flex justify-center items-center">
         <div className="w-7xl mx-auto h-420 md:h-230 lg:h-220 bg-black/30 flex flex-col justify-center gap-y-15">
           <div className=" mx-5 lg:mx-20 text-white flex flex-col md:flex-row items-center md:gap-x-5 lg:gap-x-10 gap-y-5">
             <img
