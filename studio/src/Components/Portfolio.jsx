@@ -12,10 +12,13 @@ export default function Portfolio() {
   const wedding = [
     { slug: "taranveer-bhupinder", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377745/042A6463_n4pbpv.jpg", alt: "Taranveer Singh & Bhupinder Kaur Wedding by Mahak Studio", title: "Taranveer Singh & Bhupinder Kaur" },
     { slug: "amandeep-pooja", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772900625/0P0A9781.JPG_wma6no.jpg", alt: "Amandeep & Pooja Wedding by Mahak Studio", title: "Amandeep & Pooja" },
+    { slug: "sarthak-vanshika", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1776093856/042A2041.JPG_oec64z.jpg", alt: "Sarthak & Vanshika", title: "Sarthak & Vanshika" },
+    { slug: "rahul-payal", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1776095696/5.jpg_ywhxdu.jpg", alt: "Rahul & Payal", title: "Rahul & Payal" },
   ];
-  const preWedding = [
-    { slug: "amit-tanvi", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378530/5_r0yfxo.jpg", alt: "Amit & Tanvi Pre-Wedding Shoot by Mahak Studio", title: "Amit & Tanvi" },
-  ];
+ 
+  // const preWedding = [
+  //   { slug: "amit-tanvi", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378530/5_r0yfxo.jpg", alt: "Amit & Tanvi Pre-Wedding Shoot by Mahak Studio", title: "Amit & Tanvi" },
+  // ];
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -66,14 +69,14 @@ export default function Portfolio() {
       </div>
 
       {/* Pre-Wedding Section */}
-      <div className="bg-[#060010] flex justify-center py-5 md:py-20">
+      {/* <div className="bg-[#060010] flex justify-center py-5 md:py-20">
         <div className="flex flex-col items-center">
           <h1 className="text-white text-4xl md:text-6xl xl:text-7xl font-bold mb-10 font-dancing ">
             Pre-Wedding's
           </h1>
           <div className="flex flex-wrap items-center justify-center gap-10 md:px-4 mt-10">
             {preWedding.map((v, i) => (
-              <Link key={i} to={`/wedding/${v.slug}`}> {/* Fixed: used v.slug instead of wedding.slug */}
+              <Link key={i} to={`/wedding/${v.slug}`}> 
                 <div className="group relative w-70 h-105 rounded-2xl overflow-hidden cursor-pointer">
                   <img src={v.image} alt={v.alt} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
                   <div className="absolute inset-0 group-hover:bg-black/50 transition duration-500"></div>
@@ -85,7 +88,7 @@ export default function Portfolio() {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
 
       <PortfolioVideos />
     </>

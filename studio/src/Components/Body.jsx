@@ -15,32 +15,32 @@ const cardsData = [
   {
     title: "Wedding Shoot",
     desc: "Your wedding day deserves nothing less than perfection. At Mehak Photography, we specialize in capturing every emotion — from intimate rituals to grand celebrations — with artistic precision and cinematic style.",
-    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377623/0N6A4728_l47b9u.jpg",
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772377623/0N6A4728_l47b9u.jpg",
   },
   {
     title: "Pre-Wedding Shoot",
     desc: "Tell your love story before the big day with our beautifully planned pre-wedding shoots. We create romantic, fun, and cinematic moments that reflect your unique chemistry.",
-    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378513/106_d4ywyt.jpg",
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772378513/106_d4ywyt.jpg",
   },
   {
     title: "Destination Wedding",
     desc: "Planning a wedding away from home? We travel with you to capture your destination wedding in the most breathtaking way. From beaches to palaces, we document every moment with a luxury cinematic touch.",
-    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772388347/_DSC5025_utsuw6.jpg",
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772388347/_DSC5025_utsuw6.jpg",
   },
   {
     title: "Maternity Photoshoot",
     desc: "Celebrate the beautiful journey of motherhood with our soft, emotional, and artistic maternity photoshoots. We create warm and graceful portraits you will cherish forever.",
-    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772467604/042A6063.JPG_xdsxqa.jpg",
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1776097002/042A1708.JPG_z32bnd.jpg",
   },
   {
     title: "Baby Photoshoot",
     desc: "Tiny toes, gentle smiles, and pure love — we specialize in baby photoshoots and newborn photography that beautifully capture your little one’s earliest moments. From dreamy newborn portraits to joyful milestone sessions, we create timeless images your family will cherish forever.",
-    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772467629/042A5928.JPG_gvajuv.jpg",
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772467629/042A5928.JPG_gvajuv.jpg",
   },
   {
     title: "Passport & Visa Photoshoot",
     desc: "We also provide professional passport and visa photos for USA, Canada, Australia, and other countries. Our photos follow official embassy guidelines with correct size and biometric standards, ensuring smooth and hassle-free approval.",
-    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772544886/Passport_Visa_h7f1db.png",
+    image: "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772544886/Passport_Visa_h7f1db.png",
   },
 ];
 

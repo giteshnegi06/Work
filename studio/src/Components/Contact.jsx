@@ -29,7 +29,7 @@ export default function Contact() {
             <Whatsaap />
             <div className="bg-black h-fit top-0 flex justify-center items-center">
                 <section className=" relative flex flex-col justify-center items-center md:mx-5 2xl:px-8 h-fit">
-                    <img src="https://res.cloudinary.com/dbtlo70e5/image/upload/v1772900613/0P0A9756.JPG_im87u7.jpg" alt=""
+                    <img src="https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772900613/0P0A9756.JPG_im87u7.jpg" alt=""
                         className=" h-90  md:h-150 lg:h-180 2xl:h-215 w-screen md:m-5 lg:m-6 2xl:m-8 object-cover" />
                     <div className="absolute inset-0 bg-black/60 2xl:m-8 "></div>
                     <div className=" absolute flex flex-col bottom-5 md:bottom-10 lg:bottom-10 text-balance text-center items-center lg:w-150 2xl:w-180 text-white">
