@@ -8,6 +8,8 @@ import Feedback from "./Feedback";
 import FadeSlids from "./HeroSlider";
 import ScrollHorizontal from "./ScrollHorizontal";
 import PhotoGallery from "./PhotoGallery";
+import PageSEO from "./PageSEO";
+import { PAGES, SITE } from "../lib/seo";
 
 const cardsData = [
   {
@@ -42,9 +44,33 @@ const cardsData = [
   },
 ];
 
+const homeSiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${SITE.url}/#website`,
+  "url": SITE.url,
+  "name": SITE.name,
+  "description": PAGES.home.description,
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": `${SITE.url}/?s={search_term_string}`
+    },
+    "query-input": "required name=search_term_string"
+  }
+};
+
 export default function Body() {
   return (
     <>
+      <PageSEO
+        title={PAGES.home.title}
+        description={PAGES.home.description}
+        canonical={PAGES.home.canonical}
+        ogImage={PAGES.home.ogImage}
+        structuredData={homeSiteSchema}
+      />
       <Whatsaap />
       <FadeSlids />
       <PhotoGallery />
@@ -68,7 +94,9 @@ export default function Body() {
             <div className="flex flex-col md:flex md:flex-row-reverse justify-between items-center gap-auto  xl:mx-5 overflow-hidden">
               <img
                 src={v.image}
-                alt="By Mahak Studio"
+                alt={`${v.title} by Mahak Studio`}
+                loading="lazy"
+                decoding="async"
                 className="w-full md:w-90 lg:w-120 xl:w-130 2xl:w-150 rounded-2xl"
               />
               <div className="xl:ml-10 text-center">

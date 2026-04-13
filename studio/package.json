@@ -27,6 +27,8 @@
     "react-router-dom": "^7.13.1",
     "react-scroll": "^1.9.3",
     "react-slideshow-image": "^4.4.0",
+    "smooth-scrollbar": "^8.8.4",
+    "smooth-scrollbar-react": "^2.4.1",
     "swiper": "^12.1.2",
     "tailwind-merge": "^3.5.0"
   },

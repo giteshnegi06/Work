@@ -4,23 +4,42 @@ import { Link } from "react-router-dom";
 import Whatsaap from "./Whatsaap";
 import PortfolioGallery from './PortfolioGallery';
 import PortfolioVideos from './PortfolioVideos';
+import PageSEO from "./PageSEO";
+import { PAGES, SITE } from "../lib/seo";
 
 export default function Portfolio() {
 
   const wedding = [
-    { slug: "taranveer-bhupinder", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377745/042A6463_n4pbpv.jpg", alt: "Taranveer Singh & Bhupinder Kaur", title: "Taranveer Singh & Bhupinder Kaur" },
-    { slug: "amandeep-pooja", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772900625/0P0A9781.JPG_wma6no.jpg", alt: "Amandeep & Pooja", title: "Amandeep & Pooja" },
+    { slug: "taranveer-bhupinder", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377745/042A6463_n4pbpv.jpg", alt: "Taranveer Singh & Bhupinder Kaur Wedding by Mahak Studio", title: "Taranveer Singh & Bhupinder Kaur" },
+    { slug: "amandeep-pooja", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772900625/0P0A9781.JPG_wma6no.jpg", alt: "Amandeep & Pooja Wedding by Mahak Studio", title: "Amandeep & Pooja" },
   ];
   const preWedding = [
-    { slug: "amit-tanvi", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378530/5_r0yfxo.jpg", alt: "Image 1", title: "Amit & Tanvi" },
+    { slug: "amit-tanvi", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378530/5_r0yfxo.jpg", alt: "Amit & Tanvi Pre-Wedding Shoot by Mahak Studio", title: "Amit & Tanvi" },
   ];
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE.url },
+      { "@type": "ListItem", "position": 2, "name": "Portfolio", "item": PAGES.portfolio.canonical },
+    ]
+  };
 
   return (
     <>
+      <PageSEO
+        title={PAGES.portfolio.title}
+        description={PAGES.portfolio.description}
+        canonical={PAGES.portfolio.canonical}
+        ogImage={PAGES.portfolio.ogImage}
+        structuredData={breadcrumbSchema}
+      />
       <Whatsaap />
       <div>
         <img src="https://res.cloudinary.com/dbtlo70e5/image/upload/v1772474708/753_bzn068.jpg"
-          alt="Pre-Wedding Shoot by Mahak Studio" className=' h-150  md:h-150 md:w-195 lg:h-160 lg:w-260 xl:h-189 xl:w-360 2xl:h-230 2xl:w-screen object-cover' />
+          alt="Pre-Wedding Shoot by Mahak Studio Karnal" loading="eager" fetchpriority="high"
+          className=' h-150  md:h-150 md:w-195 lg:h-160 lg:w-260 xl:h-189 xl:w-360 2xl:h-230 2xl:w-screen object-cover' />
       </div>
       <PortfolioGallery />
 

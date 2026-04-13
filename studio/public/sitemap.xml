@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://mahakstudio.in/</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dbtlo70e5/image/upload/v1772388347/_DSC5025_utsuw6.jpg</image:loc>
+      <image:title>Mahak Studio — Wedding Photography Karnal</image:title>
+    </image:image>
+  </url>
+
+  <!-- About Us -->
+  <url>
+    <loc>https://mahakstudio.in/aboutUs</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dbtlo70e5/image/upload/v1772443109/WhatsApp_Image_2026-02-26_at_8.22.48_PM_q5yqwq.jpg</image:loc>
+      <image:title>Satish Khurana — Founder of Mahak Studio</image:title>
+    </image:image>
+  </url>
+
+  <!-- Portfolio -->
+  <url>
+    <loc>https://mahakstudio.in/portfolio</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dbtlo70e5/image/upload/v1772474708/753_bzn068.jpg</image:loc>
+      <image:title>Pre-Wedding Shoot by Mahak Studio</image:title>
+    </image:image>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://mahakstudio.in/contact</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Wedding Blog: Amandeep & Pooja -->
+  <url>
+    <loc>https://mahakstudio.in/wedding/amandeep-pooja</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dbtlo70e5/image/upload/v1772900634/0P0A9378.JPG_sigxyh.jpg</image:loc>
+      <image:title>Amandeep &amp; Pooja Wedding by Mahak Studio</image:title>
+    </image:image>
+  </url>
+
+  <!-- Wedding Blog: Taranveer Singh & Bhupinder Kaur -->
+  <url>
+    <loc>https://mahakstudio.in/wedding/taranveer-bhupinder</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dbtlo70e5/image/upload/v1772900655/042A6099.JPG_sghxnt.jpg</image:loc>
+      <image:title>Taranveer Singh &amp; Bhupinder Kaur Wedding by Mahak Studio</image:title>
+    </image:image>
+  </url>
+
+  <!-- Wedding Blog: Amit & Tanvi Pre-Wedding -->
+  <url>
+    <loc>https://mahakstudio.in/wedding/amit-tanvi</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378530/5_r0yfxo.jpg</image:loc>
+      <image:title>Amit &amp; Tanvi Pre-Wedding Shoot by Mahak Studio</image:title>
+    </image:image>
+  </url>
+
+</urlset>

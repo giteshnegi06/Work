@@ -2,10 +2,32 @@ import React from "react";
 import ScrollIndicator from "./ScrollIndicator";
 import { GradualSpacing } from "./GradualSpacing";
 import Whatsaap from "./Whatsaap";
+import PageSEO from "./PageSEO";
+import { PAGES, SITE } from "../lib/seo";
+
+const aboutSchema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "@id": `${SITE.url}/aboutUs#webpage`,
+  "url": PAGES.about.canonical,
+  "name": PAGES.about.title,
+  "description": PAGES.about.description,
+  "isPartOf": { "@id": `${SITE.url}/#website` },
+  "about": {
+    "@id": `${SITE.url}/#organization`
+  }
+};
 
 export default function AboutUs() {
   return (
     <>
+      <PageSEO
+        title={PAGES.about.title}
+        description={PAGES.about.description}
+        canonical={PAGES.about.canonical}
+        ogImage={PAGES.about.ogImage}
+        structuredData={aboutSchema}
+      />
       <Whatsaap />
       <div className="bg-black h-fit top-0 flex justify-center items-center">
         <section className=" relative flex flex-col justify-center items-center md:mx-2 2xl:px-8 h-fit">
@@ -13,7 +35,9 @@ export default function AboutUs() {
             src={
               "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772388347/_DSC5025_utsuw6.jpg"
             }
-            alt=""
+            alt="Destination wedding photography by Mahak Studio, Karnal"
+            loading="eager"
+            fetchpriority="high"
             className=" h-90  md:h-150 md:w-182 lg:h-150 lg:w-245 xl:h-215 xl:w-350 2xl:h-215 2xl:w-screen md:my-5 lg:m-5 2xl:my-8 2xl:mx-0 object-cover"
           />
           <div className=" absolute flex flex-col bottom-5 lg:bottom-25 text-balance text-center items-center 2xl:w-250">
@@ -47,7 +71,9 @@ export default function AboutUs() {
             src={
               "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377749/042A6563_fzipdy.jpg"
             }
-            alt=""
+            alt="Candid wedding moment captured by Mahak Studio"
+            loading="lazy"
+            decoding="async"
             className=" w-80 md:w-100 lg:w-120 xl:w-150 2xl:h-110 2xl:w-160 top-130"
           />
         </div>
@@ -83,7 +109,9 @@ export default function AboutUs() {
               src={
                 "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772378482/41_wc8nyy.jpg"
               }
-              alt="by Mahak Studio"
+              alt="Indian wedding celebration photographed by Mahak Studio Karnal"
+              loading="lazy"
+              decoding="async"
               className="w-70 md:w-92.5 lg:w-132 xl:w-135 2xl:w-145"
             />
           </div>
@@ -128,7 +156,9 @@ export default function AboutUs() {
           <div className=" mx-5 lg:mx-20 text-white flex flex-col md:flex-row items-center md:gap-x-5 lg:gap-x-10 gap-y-5">
             <img
               src="https://res.cloudinary.com/dbtlo70e5/image/upload/v1772443109/WhatsApp_Image_2026-02-26_at_8.22.48_PM_q5yqwq.jpg"
-              alt="SATISH KHURANA MD OF MAHAK PHOTOGRAPHY"
+              alt="Satish Khurana — Founder of Mahak Studio, Wedding Photographer Karnal"
+              loading="lazy"
+              decoding="async"
               className="w-65 rounded-2xl"
             />
             <div className=" space-y-5 text-center md:text-start">
@@ -153,7 +183,9 @@ export default function AboutUs() {
           <div className=" mx-5 lg:mx-20  flex flex-col   text-white md:flex-row-reverse items-center md:gap-x-5 lg:gap-x-10 gap-y-5">
             <img
               src="https://res.cloudinary.com/dbtlo70e5/image/upload/v1772443109/WhatsApp_Image_2026-02-26_at_8.22.48_PM_q5yqwq.jpg"
-              alt="SATISH KHURANA MD OF MAHAK PHOTOGRAPHY"
+              alt="Sandeep Khurana — Co-Founder of Mahak Studio, Wedding Photographer Haryana"
+              loading="lazy"
+              decoding="async"
               className="w-65 rounded-2xl "
             />
             <div className=" space-y-5 text-center md:text-right">

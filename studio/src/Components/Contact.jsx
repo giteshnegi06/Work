@@ -3,9 +3,29 @@ import Whatsaap from './Whatsaap';
 import ContactForm from './ContactForm';
 import Main from './Main';
 import ScrollIndicator from './ScrollIndicator';
+import PageSEO from './PageSEO';
+import { PAGES, SITE } from '../lib/seo';
+const contactSchema = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "@id": `${SITE.url}/contact#webpage`,
+  "url": PAGES.contact.canonical,
+  "name": PAGES.contact.title,
+  "description": PAGES.contact.description,
+  "isPartOf": { "@id": `${SITE.url}/#website` },
+  "about": { "@id": `${SITE.url}/#organization` }
+};
+
 export default function Contact() {
     return (
         <>
+            <PageSEO
+              title={PAGES.contact.title}
+              description={PAGES.contact.description}
+              canonical={PAGES.contact.canonical}
+              ogImage={PAGES.contact.ogImage}
+              structuredData={contactSchema}
+            />
             <Whatsaap />
             <div className="bg-black h-fit top-0 flex justify-center items-center">
                 <section className=" relative flex flex-col justify-center items-center md:mx-5 2xl:px-8 h-fit">
