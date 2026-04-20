@@ -9,7 +9,7 @@ export default function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   const logo =
-    "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772374686/logo_d2is9d.png";
+    "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772374686/logo_d2is9d.png";
 
   const navItems = [
     { href: "/", name: "Home" },
@@ -67,7 +67,7 @@ export default function Navbar() {
               <img
                 src={logo}
                 alt="Mahak Studio Logo"
-                className="h-12 w-auto"
+                className="h-18 w-auto"
                 loading="eager"
                 fetchpriority="high"
               />

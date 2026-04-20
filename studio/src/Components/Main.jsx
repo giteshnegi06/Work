@@ -12,7 +12,7 @@ export default function main() {
         <div className=" lg:flex justify-center">
           <div className="flex relative mx-2.5 ">
             <div className="bg-amber-500 h-50 md:h-60 lg:h-50 xl:h-60 2xl:h-70 lg:w-70 xl:w-90 2xl:w-100 absolute top-3 xl:top-15 lg:right-40 xl:right-60 2xl:right-90 z-30 lg:z-0">
-              <img src={"https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772378546/18_sjzg0s.jpg"} alt="1" className="w-full h-full" />
+              <img src={"https://res.cloudinary.com/dbtlo70e5/image/uploadc/v1772378546/18_sjzg0s.jpg"} alt="1" className="w-full h-full" />
             </div>
             <div className="bg-blue-600 h-50 md:h-70 xl:h-90 2xl:h-120 lg:w-120 xl:w-150 2xl:w-185 absolute top-56 md:top-50 xl:top-60 right-0 md:-right-2 lg:-left-50 xl:-left-50 2xl:-left-80 z-20">
               <img src={"https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772377781/042A9203_qgnkjz.jpg"} alt="Wedding Image by Mahak Studio" className="w-full h-full" />

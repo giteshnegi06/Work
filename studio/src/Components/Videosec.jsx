@@ -6,7 +6,7 @@ export default function Videosec() {
   // ✅ use embed URLs (IMPORTANT)
   const youtubeVideo = [
     {
-      src: "https://www.youtube.com/embed/aLbNMKRJgfM",
+      src: "https://www.youtube.com/embed/WH_sJehBVVw",
       title: "Wedding Highlight",
     },
     {
