@@ -33,7 +33,7 @@ export default function AboutUs() {
         <section className=" relative flex flex-col justify-center items-center md:mx-2 2xl:px-8 h-fit">
           <img
             src={
-              "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772388347/_DSC5025_utsuw6.jpg"
+              "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1776873798/pre_9_pxpf1p.jpg"
             }
             alt="Destination wedding photography by Mahak Studio, Karnal"
             loading="eager"
