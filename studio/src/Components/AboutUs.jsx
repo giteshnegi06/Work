@@ -143,7 +143,7 @@ export default function AboutUs() {
           <div className="absolute -bottom-30 xl:-bottom-41 right-0 md:right-7 lg:right-28 xl:right-75 2xl:right-120">
             <img
               src={
-                "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772378531/15_huwtd5.jpg"
+                "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1776875238/172A8205_frz2hg.jpg"
               }
               alt=""
               className=" w-60 md:w-85 lg:w-90 xl:w-105 xl:h-160"
