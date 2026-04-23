@@ -35,15 +35,13 @@ const imageNames = [
     "10_h7qbjs.jpg",
     "5_uzcz0s.jpg",
     "7_anirmt.jpg",
-    "3D9A0138_y79eo3.jpg",
-    "042A2090_o6wj98.jpg",
-    "042A1254_g9dibs.jpg",
-    "3D9A0003_icmmqd.jpg",
-    "042A2363_dfmkjq.jpg",
-    "042A1310_n5mxjd.jpg",
-    "3D9A0018_gtajn0.jpg",
-    "042A2183_w0j8oh.jpg",
-    "042A2070_ulshyq.jpg",
+    "8.jpg_2_vlckpu.jpg",
+    "3.jpg_3_k2aw0g.jpg",
+    "5.jpg_2_qjxxiy.jpg",
+    "7.jpg_1_dvsena.jpg",
+    "6_1.jpg_yvjhmk.jpg",
+    "4.jpg_2_j5gag0.jpg",
+
 ];
 
 /* ------------------ GENERATE IMAGE URLS ------------------ */

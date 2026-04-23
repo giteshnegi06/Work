@@ -6,8 +6,8 @@ export default function PortfolioVideos() {
   // ✅ use embed URLs (IMPORTANT)
   const youtubeVideo = [
     {
-      src: "https://www.youtube.com/embed/DYv_nGW__Co",
-      title: "Wedding Highlight",
+      src: "https://www.youtube.com/embed/WH_sJehBVVw",
+      title: "Yuvrinder & Srishti",
     },
     {
       src: "https://www.youtube.com/embed/fpjWRVXhyPk",
@@ -38,8 +38,8 @@ export default function PortfolioVideos() {
       title: "Sahil & Kajal",
     },
     {
-      src: "https://www.youtube.com/embed/ERsEV8V-O9Q",
-      title: "Nipun & Priya",
+      src: "https://www.youtube.com/embed/ef4GmM5ZVUE",
+      title: "SARTHAK & VANSHIKA",
     },
   ];
 

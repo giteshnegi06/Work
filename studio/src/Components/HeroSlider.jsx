@@ -9,7 +9,7 @@ const rawImages = [
 "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1776871940/042A8196_alogmu.jpg",
 "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1776871384/042A2476_e0dk79.jpg",
 "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772374035/042A8072_tk04fr.jpg",
-"https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772377770/042A9135_owfjnv.jpg",
+"https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772900600/0P0A0513.JPG_rc4urt.jpg",
 "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772378549/17_eyehdm.jpg",
 "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772373825/042A6334.jpg_yem8ct.jpg",
 "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1776871390/042A6386_saqjrn.jpg",

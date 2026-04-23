@@ -10,8 +10,8 @@ import { PAGES, SITE } from "../lib/seo";
 export default function Portfolio() {
 
   const wedding = [
-    { slug: "taranveer-bhupinder", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772377745/042A6463_n4pbpv.jpg", alt: "Taranveer Singh & Bhupinder Kaur Wedding by Mahak Studio", title: "Taranveer Singh & Bhupinder Kaur" },
-    { slug: "amandeep-pooja", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/v1772900625/0P0A9781.JPG_wma6no.jpg", alt: "Amandeep & Pooja Wedding by Mahak Studio", title: "Amandeep & Pooja" },
+    { slug: "mohit-muskan", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1776947258/042A6232_sdi0m8.jpg", alt: "Mohit & Muskan Wedding by Mahak Studio", title: "Mohit & Muskan" },
+    { slug: "amandeep-pooja", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772900625/0P0A9781.JPG_wma6no.jpg", alt: "Amandeep & Pooja Wedding by Mahak Studio", title: "Amandeep & Pooja" },
     { slug: "sarthak-vanshika", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1776093856/042A2041.JPG_oec64z.jpg", alt: "Sarthak & Vanshika", title: "Sarthak & Vanshika" },
     { slug: "rahul-payal", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1776095696/5.jpg_ywhxdu.jpg", alt: "Rahul & Payal", title: "Rahul & Payal" },
   ];
@@ -40,7 +40,7 @@ export default function Portfolio() {
       />
       <Whatsaap />
       <div>
-        <img src="https://res.cloudinary.com/dbtlo70e5/image/upload/v1772474708/753_bzn068.jpg"
+        <img src="https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772474708/753_bzn068.jpg"
           alt="Pre-Wedding Shoot by Mahak Studio Karnal" loading="eager" fetchpriority="high"
           className=' h-150  md:h-150 md:w-195 lg:h-160 lg:w-260 xl:h-189 xl:w-360 2xl:h-230 2xl:w-screen object-cover' />
       </div>
