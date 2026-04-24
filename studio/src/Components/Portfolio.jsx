@@ -10,7 +10,7 @@ import { PAGES, SITE } from "../lib/seo";
 export default function Portfolio() {
 
   const wedding = [
-    { slug: "mohit-muskan", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1776947258/042A6232_sdi0m8.jpg", alt: "Mohit & Muskan Wedding by Mahak Studio", title: "Mohit & Muskan" },
+    { slug: "mohit-muskan", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1777013830/2.JPG_qt58tz.jpg", alt: "Mohit & Muskan Wedding by Mahak Studio", title: "Mohit & Muskan" },
     { slug: "amandeep-pooja", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772900625/0P0A9781.JPG_wma6no.jpg", alt: "Amandeep & Pooja Wedding by Mahak Studio", title: "Amandeep & Pooja" },
     { slug: "sarthak-vanshika", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1776093856/042A2041.JPG_oec64z.jpg", alt: "Sarthak & Vanshika", title: "Sarthak & Vanshika" },
     { slug: "rahul-payal", image: "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1776095696/5.jpg_ywhxdu.jpg", alt: "Rahul & Payal", title: "Rahul & Payal" },

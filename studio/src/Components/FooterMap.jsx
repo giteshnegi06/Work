@@ -10,12 +10,13 @@ export default function FooterMap() {
           <h1 className="text-5xl font-cormorant mb-3">Contact</h1>
           <ul className=" flex flex-col gap-2.5 mt-5">
             <p className="flex gap-2">
+              <a href="tel:+919996076362" className="flex items-center gap-2">
+              <FaPhoneAlt />
+                +91 99960 76362
+              </a>
               <a href="tel:+919255195704" className="flex items-center gap-2">
                 <FaPhoneAlt />
                 +91 92551 95704,
-              </a>
-              <a href="tel:+919996076362" className="flex items-center gap-2">
-                +91 99960 76362
               </a>
             </p>
             <a href="/" className="text-balance flex items-center gap-2">

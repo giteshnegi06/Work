@@ -72,9 +72,9 @@ export default function Swiperimg() {
   {
     id:10,
     color: "#0cdcf7",
-    label: "Arpit & Vaishali",
+    label: "Tarun & Priyanka",
     image:
-      "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1772378485/45_ckkuaf.jpg",
+      "https://res.cloudinary.com/dbtlo70e5/image/upload/q_auto/f_auto/v1777013034/0B9A1256.jpg_cou4ii.jpg",
   },
   ]
   const handleAnimationComplete = () => {
@@ -109,8 +109,8 @@ export default function Swiperimg() {
                 className="h-full w-full p-0  "
               />
             )}
-              <div className="item-content">
-                <span className="item-number">0{v.id}</span>
+              <div className="item-content font-dancing text-2xl">
+                {/* <span className="item-number">0{v.id}</span> */}
                 <h2>{v.label}</h2>
               </div>
             </SwiperSlide>
