@@ -66,25 +66,23 @@ export default function TestimonialSlider() {
               transition={{ duration: 0.5 }}
               className="bg-white/20 rounded-2xl shadow-xl p-5 sm:p-6 md:p-8 text-center mx-6 sm:mx-10 md:mx-0"
             >
-              {/* Stars */}
+
+              <p className="text-white text-base sm:text-lg leading-relaxed mb-5 sm:mb-6">
+                “{testimonials[index].text}”
+              </p>
+
               <div className="flex justify-center mb-3 sm:mb-4">
                 {Array.from({ length: testimonials[index].rating }).map(
                   (_, i) => (
                     <Star
                       key={i}
-                      className="w-4 h-4 sm:w-5 sm:h-5 fill-yellow-400 text-yellow-400"
+                      className="w-4 h-4  fill-yellow-400 text-yellow-400"
                     />
                   ),
                 )}
               </div>
 
-              {/* Text */}
-              <p className="text-white text-base sm:text-lg leading-relaxed mb-5 sm:mb-6">
-                “{testimonials[index].text}”
-              </p>
-
-              {/* Name */}
-              <h4 className="text-lg sm:text-xl font-semibold">
+              <h4 className="text-lg sm:text-xl font-semibold text-white">
                 {testimonials[index].name}
               </h4>
               <p className="text-xs sm:text-sm text-gray-500">
@@ -93,7 +91,6 @@ export default function TestimonialSlider() {
             </motion.div>
           </AnimatePresence>
 
-          {/* Controls */}
           <button
             onClick={prevSlide}
             className="absolute left-0 sm:-left-3 md:-left-6 top-1/2 -translate-y-1/2 bg-transparent shadow-lg rounded-full p-2 sm:p-3 hover:scale-110 transition"
