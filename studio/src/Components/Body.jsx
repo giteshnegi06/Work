@@ -6,7 +6,7 @@ import Videosec from "./Videosec";
 import ContactUs from "./ContactUs";
 import Feedback from "./Feedback";
 import FadeSlids from "./HeroSlider";
-import ScrollHorizontal from "./ScrollHorizontal";
+import ScrollHorizontal from "./HomeAbout";
 import PhotoGallery from "./PhotoGallery";
 import PageSEO from "./PageSEO";
 import { PAGES, SITE } from "../lib/seo";
@@ -79,9 +79,6 @@ export default function Body() {
         <ScrollHorizontal />
       </div>
 
-      <div className=" lg:hidden ">
-        <Swiper />
-      </div>
       <div>
         <Videosec />
       </div>

@@ -2,7 +2,7 @@
 
 @theme {
   --font-diplomata: "Diplomata", serif;
-   --font-cormorant: "Cormorant Garamond", serif;
+  --font-cormorant: "Cormorant Garamond", serif;
   --font-quintessential: "Quintessential", serif;
   --font-handwriting: "Nothing You Could Do", cursive;
   --font-love-light: "Love Light", cursive;
@@ -11,6 +11,12 @@
   --font-dancing: "Dancing Script", cursive;
   --font-italianno: "Italianno", cursive;
   --font-indie-flower: "Indie Flower", cursive;
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-script: "Dancing Script", cursive;
+  --font-italianno: "Italianno", cursive;
 }
 @keyframes scrollDot {
   0% { transform: translateY(0); opacity: 0; }

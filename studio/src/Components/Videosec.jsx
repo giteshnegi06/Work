@@ -44,7 +44,7 @@ export default function Videosec() {
       <section>
         {/* heading */}
         <section className="intro-section mb-10 lg:mb-20 items-center text-center ">
-          <h1 className="font-cormorant text-wrap text-lg md:text-2xl lg:text-4xl">
+          <h1 className="font-cormorant text-wrap text-lg md:text-2xl lg:text-4xl xl:text-6xl text-white ">
             <GradualSpacing text="Love • Emotion • Memories" />
           </h1>
         </section>
