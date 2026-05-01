@@ -42,7 +42,7 @@ export default function HomeAbout() {
                                 viewport={{ once: true }}
                                 className="space-y-4"
                             >
-                                <div className="text-[10px] font-bold uppercase tracking-[0.3em] text-white/50" id="established-label">Since 1994</div>
+                                <div className="text-[10px] font-bold uppercase tracking-[0.3em] text-white/50" id="established-label">Since 2000</div>
                                 <h2 className="text-4xl md:text-5xl font-serif italic text-white" id="journey-title">Our Story</h2>
                                 <div className="h-px w-20 bg-white/20" />
                             </motion.div>
@@ -98,7 +98,7 @@ export default function HomeAbout() {
                                         referrerPolicy="no-referrer"
                                     />
                                     <div className="absolute inset-0 bg-linear-to-t from-black/80 to-transparent flex items-end p-6">
-                                        <span className="text-[10px] uppercase tracking-widest opacity-50" id="vintage-label">Circa 1994</span>
+                                        <span className="text-[10px] uppercase tracking-widest opacity-50" id="vintage-label">Circa 2000</span>
                                     </div>
                                 </div>
                             </motion.div>
